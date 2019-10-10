@@ -19,8 +19,8 @@ public class CameraScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 mousePos2D = new Vector2(mousePos.x, mousePos.z);
 
             RaycastHit2D hit = Physics2D.Raycast(mousePos2D, mousePos2D);
             if (hit.collider != null)
