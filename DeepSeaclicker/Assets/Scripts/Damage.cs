@@ -17,16 +17,18 @@ public class Damage : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
-        {
+        {         
             StaticDamage += Damagedealt;
             //   gameObject.GetComponent<Healthscript>().TakeDamage(Damagedealt); //enemy health
             DamageDisplay.text = "Damage:" + StaticDamage;    //interact with damage text display
-                        
+          //  gameObject.SetActive(true); for when i want to have the text reapear and disapear
         }
+
         if (Input.GetKeyUp(KeyCode.Space))    // reset damage
         {
             StaticDamage = 0;
             DamageDisplay.text = "Damage:" + StaticDamage;
+         //   gameObject.SetActive(false);
         }
     }
 }
