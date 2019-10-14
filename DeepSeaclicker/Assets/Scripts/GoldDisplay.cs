@@ -5,7 +5,7 @@ using UnityEngine;
 public class GoldDisplay : MonoBehaviour
 {
     public UnityEngine.UI.Text goldDisplay;
-    public float Gold = 0;
+    public float Gold = 0f;
     public float GoldGain = 1;
     // Start is called before the first frame update
     void Start()
