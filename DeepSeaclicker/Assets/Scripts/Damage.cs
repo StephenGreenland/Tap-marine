@@ -21,17 +21,17 @@ public class Damage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Power = 1;
+        cost = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        iteminfo.text = itemName + "\nCost" + cost + "\nPower" + Power;
+        iteminfo.text = itemName  + cost  + Power;
 
 
-    }
-    public void attack() { 
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
             StaticDamage += Damagedealt;
