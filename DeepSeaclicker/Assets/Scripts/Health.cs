@@ -5,31 +5,17 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    
-    
     public event Action<float> OnChanged;
 
-    private float health;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float amount;
 
-    // Update is called once per frame
-    void Update()
+    public void Change(float incomingAmount)
     {
-        
-    }
-
-    public void Change(float incomeingAmount)
-    {
-        health += incomeingAmount;
+        amount += incomingAmount;
 
         if (OnChanged != null)
         {
-            OnChanged(incomeingAmount);
+            OnChanged(incomingAmount);
         }
     }
     
