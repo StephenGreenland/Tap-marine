@@ -27,7 +27,7 @@ public class Damage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        iteminfo.text = itemName + "\nCost" + cost + "\nPower" + Power;
+      //  iteminfo.text = itemName + "\nCost" + cost + "\nPower" + Power;
 
 
     }
