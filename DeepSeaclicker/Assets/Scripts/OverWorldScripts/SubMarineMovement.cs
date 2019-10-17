@@ -20,7 +20,7 @@ public class SubMarineMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-		targetPos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0));
+		targetPos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0f));
 
 		Debug.Log(targetPos);
 
@@ -30,7 +30,7 @@ public class SubMarineMovement : MonoBehaviour
 
 			transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
-			//this.transform.LookAt(targetPos);
+			this.transform.LookAt(targetPos);
 		}
     }
 }
