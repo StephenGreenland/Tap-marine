@@ -28,8 +28,12 @@ public class Damage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         iteminfo.text = itemName  + cost  + Power;
 
+=======
+      //  iteminfo.text = itemName + "\nCost" + cost + "\nPower" + Power;
+>>>>>>> master
 
 
         if (Input.GetKeyDown(KeyCode.Space))
