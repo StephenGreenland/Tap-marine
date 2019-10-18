@@ -275,9 +275,8 @@ MonoBehaviour:
   DamageDisplay: {fileID: 250424424}
   StaticDamage: 0
   Damagedealt: 1
-  Power: 0
-  goldscript: {fileID: 0}
-  iteminfo: {fileID: 0}
+  goldscript: {fileID: 354720699}
+  iteminfo: {fileID: 650189234}
   cost: 0
   counter: 0
   itemName: 
@@ -507,8 +506,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -3.1}
+  m_SizeDelta: {x: 0, y: 123.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &650189234
 MonoBehaviour:
@@ -845,6 +844,7 @@ GameObject:
   - component: {fileID: 1398518671}
   - component: {fileID: 1398518670}
   - component: {fileID: 1398518669}
+  - component: {fileID: 1398518673}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -869,7 +869,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -319, y: 350}
+  m_AnchoredPosition: {x: -319, y: 274}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1398518669
@@ -887,10 +887,9 @@ MonoBehaviour:
   DamageDisplay: {fileID: 250424424}
   StaticDamage: 0
   Damagedealt: 1
-  Power: 0
-  goldscript: {fileID: 0}
+  goldscript: {fileID: 1398518673}
   iteminfo: {fileID: 650189234}
-  cost: 0
+  cost: 1
   counter: 0
   itemName: first damage
 --- !u!114 &1398518670
@@ -987,6 +986,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398518667}
   m_CullTransparentMesh: 0
+--- !u!114 &1398518673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398518667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82c400535aedd748b54e8a841dbb094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldDisplay: {fileID: 1536075949}
+  Gold: 0
+  GoldGain: 1
 --- !u!1 &1536075947
 GameObject:
   m_ObjectHideFlags: 0

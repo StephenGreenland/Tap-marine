@@ -7,7 +7,7 @@ public class Damage : MonoBehaviour
     public UnityEngine.UI.Text DamageDisplay;
     public float StaticDamage = 0;
     public float Damagedealt = 1f;
-    public int Power;
+
     public GoldDisplay goldscript;
     public UnityEngine.UI.Text iteminfo;
     public float cost;
@@ -21,17 +21,16 @@ public class Damage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Power = 1;
-        cost = 1;
+       
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        iteminfo.text = itemName  + cost  + Power;
+      //  iteminfo.text = itemName  + cost;
 
-      //  iteminfo.text = itemName + "\nCost" + cost + "\nPower" + Power;
+       iteminfo.text = itemName + "\nCost" + cost + "\nStaticDamage" + StaticDamage;
 
 
 
@@ -57,9 +56,11 @@ public class Damage : MonoBehaviour
         {                         //need to make a function
             goldscript.Gold -= cost;
             counter += 1;
-            goldscript.GoldGain += Power;
+            goldscript.GoldGain += newCost;
             cost = Mathf.Round(cost * 1.3f);
             newCost = Mathf.Pow(cost, newCost = cost);
+          
+         
         }
 
     }
