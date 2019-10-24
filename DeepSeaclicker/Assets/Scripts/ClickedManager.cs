@@ -29,12 +29,14 @@ public class ClickedManager : MonoBehaviour
               {
                   if (hit.collider.gameObject.GetComponent<Crit>())
                   {
-                      hit.collider.gameObject.GetComponent<Crit>().Monster.GetComponent<Health>().Change(damage * hit.collider.gameObject.GetComponent<Crit>().critMultiplier);
-                      
+                      hit.collider.gameObject.GetComponent<Crit>().monster.GetComponent<Health>().Change(damage * hit.collider.gameObject.GetComponent<Crit>().critMultiplier);                          
+                          
+                      hit.collider.gameObject.GetComponent<Crit>().GotHit(hit.collider.gameObject.GetComponent<Crit>().ChoosePos());
                   }
-                 // hit.transform.position = new Vector2(Random.Range(-5,5),Random.Range(-5,5));
-                  
-                  hit.transform.gameObject.GetComponent<Health>().Change(damage);
+                  else
+                  {
+                      hit.transform.gameObject.GetComponent<Health>().Change(damage);
+                  }
               } 
         }
     }

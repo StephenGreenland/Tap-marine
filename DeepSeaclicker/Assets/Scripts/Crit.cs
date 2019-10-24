@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Crit : MonoBehaviour
 {
-    public GameObject Monster;
+    public GameObject monster;
     public float critMultiplier;
     public Vector2[] critPos;
     
@@ -27,6 +27,6 @@ public class Crit : MonoBehaviour
 
     public void GotHit(int NewPos)
     {
-        transform.position = new Vector3(critPos[NewPos].x,critPos[NewPos].y,-0.4f);
+        transform.position = new Vector3(monster.transform.position.x + critPos[NewPos].x,monster.transform.position.y + critPos[NewPos].y,-0.4f);
     }
 }

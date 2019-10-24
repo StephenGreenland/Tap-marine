@@ -409,7 +409,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 292402011}
-  - component: {fileID: 292402010}
   - component: {fileID: 292402012}
   m_Layer: 0
   m_Name: Damage
@@ -418,18 +417,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &292402010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292402009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fd6b7b4a3255f64ca01af89fc8c20d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &292402011
 Transform:
   m_ObjectHideFlags: 0
@@ -456,6 +443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5678302add95a16408ef741209f9b1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: -1
 --- !u!1 &367421487
 GameObject:
   m_ObjectHideFlags: 0
