@@ -5,8 +5,8 @@ using UnityEngine;
 public class Damage : MonoBehaviour
 {
     public UnityEngine.UI.Text DamageDisplay;
-    public float StaticDamage = 0;
-    public float Damagedealt = 1f;
+//    public float StaticDamage = 0;
+//    public float Damagedealt = 1f;
 
     public GoldDisplay goldscript;
     public UnityEngine.UI.Text iteminfo;
@@ -30,22 +30,22 @@ public class Damage : MonoBehaviour
 
       //  iteminfo.text = itemName  + cost;
 
-       iteminfo.text = itemName + "\nCost" + cost + "\nStaticDamage" + StaticDamage;
+    //   iteminfo.text = itemName + "\nCost" + cost + "\nStaticDamage" + StaticDamage;
 
 
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            StaticDamage += Damagedealt;
+   //        StaticDamage += Damagedealt;
             //   gameObject.GetComponent<Healthscript>().TakeDamage(Damagedealt); //enemy health
-            DamageDisplay.text = "Damage:" + StaticDamage;    //interact with damage text display
+     //       DamageDisplay.text = "Damage:" + StaticDamage;    //interact with damage text display
                                                               //  gameObject.SetActive(true); for when i want to have the text reapear and disapear
         }
 
         if (Input.GetKeyUp(KeyCode.Space))    // reset damage
         {
-            StaticDamage = 0;
-            DamageDisplay.text = "Damage:" + StaticDamage;
+      //      StaticDamage = 0;
+     //       DamageDisplay.text = "Damage:" + StaticDamage;
             //   gameObject.SetActive(false);
         }
     }

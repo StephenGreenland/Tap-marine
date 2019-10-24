@@ -26,8 +26,9 @@ public class ClickedManager : MonoBehaviour
            
              if (hit.collider != null)
               {
+                 // hit.transform.position = new Vector2(Random.Range(-5,5),Random.Range(-5,5));
                   
-                  hit.transform.position = new Vector2(Random.Range(-5,5),Random.Range(-5,5));
+                  hit.transform.gameObject.GetComponent<Health>().Change(-1);
               } 
         }
     }

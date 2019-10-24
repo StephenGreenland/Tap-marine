@@ -3,8 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StarFish : MonoBehaviour
+public class StarFish : MonsterBase
 {
+    
     public Health health;
     
     private void OnEnable()
@@ -20,9 +21,12 @@ public class StarFish : MonoBehaviour
 
     private void OnHealthChanged(float amount)
     {
-        if (amount < 0)
+        
+        if (health.amount <= 0)
         {
+            OnLeave();
             Destroy(gameObject);
+           
         }
     }
 }
