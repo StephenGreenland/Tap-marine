@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClickedManager : MonoBehaviour
 {
+    public float damage;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,14 @@ public class ClickedManager : MonoBehaviour
            
              if (hit.collider != null)
               {
+                  if (hit.collider.gameObject.GetComponent<Crit>())
+                  {
+                      hit.collider.gameObject.GetComponent<Crit>().Monster.GetComponent<Health>().Change(damage * hit.collider.gameObject.GetComponent<Crit>().critMultiplier);
+                      
+                  }
                  // hit.transform.position = new Vector2(Random.Range(-5,5),Random.Range(-5,5));
                   
-                  hit.transform.gameObject.GetComponent<Health>().Change(-1);
+                  hit.transform.gameObject.GetComponent<Health>().Change(damage);
               } 
         }
     }

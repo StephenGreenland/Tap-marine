@@ -6,7 +6,6 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public event Action<float> OnChanged;
-
     public float amount;
 
     public void Change(float incomingAmount)
