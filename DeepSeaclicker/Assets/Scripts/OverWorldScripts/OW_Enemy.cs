@@ -9,7 +9,7 @@ public class OW_Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("BattleScene");
         }
     }
 }
