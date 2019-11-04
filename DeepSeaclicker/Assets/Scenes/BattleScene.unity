@@ -762,7 +762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 860.00006}
+  m_AnchoredPosition: {x: -11, y: 321}
   m_SizeDelta: {x: 500, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1478691367
@@ -1126,6 +1126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monsters:
   - {fileID: 5484317955459992990, guid: bf50f698a98a80a4ea7b6b9a1b3509f1, type: 3}
+  - {fileID: 5385604319993521774, guid: ec75b06da9aa5b4449c7e7058b373282, type: 3}
+  - {fileID: 4799044961324303997, guid: 1391dbd8ce1e25941a7432a4c019ff3d, type: 3}
 --- !u!4 &1623529230
 Transform:
   m_ObjectHideFlags: 0
@@ -1176,7 +1178,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: -831}
+  m_AnchoredPosition: {x: -317, y: -480}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767444438
@@ -1477,7 +1479,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 321, y: -831}
+  m_AnchoredPosition: {x: 321, y: -480.00003}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117752156

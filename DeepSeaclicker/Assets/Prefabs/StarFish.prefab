@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678788302114566240}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.56, y: 1.04, z: -0.407}
+  m_LocalPosition: {x: -0.81, y: -0.17, z: -0.407}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 1333420204318411725}
@@ -113,10 +113,10 @@ MonoBehaviour:
   monster: {fileID: 5484317955459992990}
   critMultiplier: 2
   critPos:
-  - {x: 0.2, y: 0.2}
-  - {x: -0.2, y: 0.2}
-  - {x: -0.2, y: -0.2}
-  - {x: 0.2, y: -0.2}
+  - {x: 0.64, y: 1.08}
+  - {x: 1.89, y: -0.3}
+  - {x: 0.51, y: -1.28}
+  - {x: -0.81, y: -0.17}
 --- !u!1 &1124474994829464485
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,9 +384,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.43, y: -0.26}
   serializedVersion: 2
-  m_Radius: 1.08
+  m_Radius: 3.02
 --- !u!114 &1884494156438350485
 MonoBehaviour:
   m_ObjectHideFlags: 0
