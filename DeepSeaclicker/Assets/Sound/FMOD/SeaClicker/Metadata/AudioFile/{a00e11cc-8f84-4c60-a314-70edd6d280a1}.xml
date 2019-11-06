@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a00e11cc-8f84-4c60-a314-70edd6d280a1}">
+		<property name="assetPath">
+			<value>Animal Sounds/197751__wjoojoo__underwater-ambience-lake-lbj-08232013-1.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>186.50802721088436</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{11a994f8-d4b0-4c48-8c09-b5b2da44d9c3}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{3050d40c-2194-4e81-b65e-8b03b16cd3a0}">
+		<property name="assetPath">
+			<value>Ambience/183893__ryanconway__underwater-breathing.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.2097959183673472</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{11a994f8-d4b0-4c48-8c09-b5b2da44d9c3}</destination>
+		</relationship>
+	</object>
+</objects>
