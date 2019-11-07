@@ -11,4 +11,10 @@ public class MonsterBase : MonoBehaviour
     {
         Leave?.Invoke();
     }
+    
+    public virtual int CalcGold(int reward)
+    {
+        //return reward * monsterLevel;
+        return reward;
+    }
 }

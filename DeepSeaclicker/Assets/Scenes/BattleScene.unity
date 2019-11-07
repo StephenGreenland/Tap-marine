@@ -1125,9 +1125,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsters:
-  - {fileID: 5484317955459992990, guid: bf50f698a98a80a4ea7b6b9a1b3509f1, type: 3}
-  - {fileID: 5385604319993521774, guid: ec75b06da9aa5b4449c7e7058b373282, type: 3}
-  - {fileID: 4799044961324303997, guid: 1391dbd8ce1e25941a7432a4c019ff3d, type: 3}
+  - {fileID: 1884494156438350485, guid: bf50f698a98a80a4ea7b6b9a1b3509f1, type: 3}
+  - {fileID: 2075026691526258919, guid: 1391dbd8ce1e25941a7432a4c019ff3d, type: 3}
+  - {fileID: 8531060397993261162, guid: ec75b06da9aa5b4449c7e7058b373282, type: 3}
 --- !u!4 &1623529230
 Transform:
   m_ObjectHideFlags: 0
