@@ -43,6 +43,29 @@ MonoBehaviour:
   - Name: Desktop
     Value: 734
   Exists: 1
+--- !u!114 &-2582917143575559225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Ambience
+  guid: 0708a7628152734cada372ae2d1298cb
+  Banks:
+  - {fileID: -1997918591223488152}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 12707
 --- !u!114 &-2186368378698603618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,6 +86,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1666
   Exists: 1
+--- !u!114 &-1997918591223488152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/ktiwari3/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637087196570211983
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 460544
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76,14 +119,58 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -5733667119463293637}
-  - {fileID: -2186368378698603618}
+  - {fileID: 7782879730867280797}
+  - {fileID: -1997918591223488152}
   EditorEvents:
-  - {fileID: -6030048115175861821}
+  - {fileID: -2582917143575559225}
+  - {fileID: 4333713712739691728}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -2186368378698603618}
+  - {fileID: -1997918591223488152}
   StringsBanks:
-  - {fileID: -5733667119463293637}
-  stringsBankWriteTime: 637078571794165350
+  - {fileID: 7782879730867280797}
+  stringsBankWriteTime: 637087196570281840
   cacheVersion: 3
+--- !u!114 &4333713712739691728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Weapons/Harpoon
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Weapons/Harpoon
+  guid: 74d51914c4309440861bbaa81426bf4b
+  Banks:
+  - {fileID: -1997918591223488152}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1350
+--- !u!114 &7782879730867280797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/ktiwari3/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637087196570281840
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 810
+  Exists: 1
