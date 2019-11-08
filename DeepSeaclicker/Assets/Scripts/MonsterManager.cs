@@ -7,8 +7,9 @@ using Random = UnityEngine.Random;
 
 public class MonsterManager : MonoBehaviour
 {
+   
     public MonsterBase[] monsters;
-    private MonsterBase currentMonster;
+    public MonsterBase currentMonster;
     private int monsterCount;
 
     public static int monsterLevel;
