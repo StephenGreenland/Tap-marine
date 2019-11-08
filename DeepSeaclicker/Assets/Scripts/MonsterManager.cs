@@ -1,13 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
+using Random = UnityEngine.Random;
 
 public class MonsterManager : MonoBehaviour
 {
-    public GameObject[] monsters;
-    private GameObject currentMonster;
+   
+    public MonsterBase[] monsters;
+    public MonsterBase currentMonster;
     private int monsterCount;
+
+    public static int monsterLevel;
+    public event Action<MonsterBase> OnNew;
+    public event Action<MonsterBase> Onleave;
     
     
     // Start is called before the first frame update
@@ -19,9 +26,10 @@ public class MonsterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (monsterCount > 10)
+        if (monsterCount >= 10)
         {
-            Debug.Log("Do The Thing");
+            monsterCount = 0;
+            monsterLevel++;
         }
     }
 
@@ -32,9 +40,14 @@ public class MonsterManager : MonoBehaviour
 
     private void SpawnMonster()
     {
+        // cleaning up after myself
         if(currentMonster != null)currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
+        Onleave?.Invoke(currentMonster);
+        
+        //making the monster
         currentMonster = Instantiate(monsters[GetMonster()], new Vector3(0,4,9),Quaternion.identity);
         currentMonster.GetComponent<MonsterBase>().Leave += SpawnMonster;
+        OnNew?.Invoke(currentMonster);
         monsterCount++;
     }
 }
