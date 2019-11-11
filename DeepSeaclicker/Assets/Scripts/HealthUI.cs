@@ -21,7 +21,7 @@ public class HealthUI : MonoBehaviour
         {
             amountRef = enemyRef.GetComponent<Health>().amount;
             textRef.text = "Enemy Health: " + amountRef;
-            Debug.Log(textRef.text);
+
         }
     }
 }

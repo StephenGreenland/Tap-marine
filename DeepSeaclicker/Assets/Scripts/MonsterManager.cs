@@ -41,7 +41,11 @@ public class MonsterManager : MonoBehaviour
     private void SpawnMonster()
     {
         // cleaning up after myself
-        if(currentMonster != null)currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
+        if (currentMonster != null)
+        {
+            currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
+
+        }
         Onleave?.Invoke(currentMonster);
         
         //making the monster
