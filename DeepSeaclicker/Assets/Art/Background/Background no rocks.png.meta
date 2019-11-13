@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: c9c82f7dd27b4474ea8155ff5e04dd1f
+guid: 8bb3ea8c271d1a441bade51c99c2d8f4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2596318651832565437
-    second: Ocean Background 1.2_0
+      213: 8811175574077486069
+    second: Background no rocks_0
   - first:
-      213: 4741280178449280182
-    second: Ocean Background 1.2_1
+      213: -1923156707939553923
+    second: Background no rocks_1
   - first:
-      213: -1518349932600113828
-    second: Ocean Background 1.2_2
+      213: -496576662884314636
+    second: Background no rocks_2
   - first:
-      213: 3921426106160484130
-    second: Ocean Background 1.2_3
+      213: 7320873747839514331
+    second: Background no rocks_3
   - first:
-      213: -5577167371404698450
-    second: Ocean Background 1.2_4
+      213: -4189859244902440183
+    second: Background no rocks_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,7 +137,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ocean Background 1.2_0
+      name: Background no rocks_0
       rect:
         serializedVersion: 2
         x: 0
@@ -151,14 +151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22c0bf1d45fd45f45a9963e1f4bfd61f
-      internalID: -2596318651832565437
+      spriteID: 46c4afafa0581d940bab679f523bf567
+      internalID: 8811175574077486069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ocean Background 1.2_1
+      name: Background no rocks_1
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c7e5274471bfb84093c6f58521551c3
-      internalID: 4741280178449280182
+      spriteID: 9ff13bdd48b8f134794bdaa9cdda1cad
+      internalID: -1923156707939553923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ocean Background 1.2_2
+      name: Background no rocks_2
       rect:
         serializedVersion: 2
         x: 0
@@ -193,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61ac1399d5d3f848ab2eb38958de7d9
-      internalID: -1518349932600113828
+      spriteID: fcbab31c314ec4f4091991ad4d4b17b3
+      internalID: -496576662884314636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ocean Background 1.2_3
+      name: Background no rocks_3
       rect:
         serializedVersion: 2
         x: 0
@@ -214,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f5595c7da4cec145a0bf2e15a0b5f0e
-      internalID: 3921426106160484130
+      spriteID: fa1eabfe56f624e4098d643aebd47c7c
+      internalID: 7320873747839514331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ocean Background 1.2_4
+      name: Background no rocks_4
       rect:
         serializedVersion: 2
         x: 0
@@ -235,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c38a04c6631d4084990f3bfe9ca9692c
-      internalID: -5577167371404698450
+      spriteID: 0814de65b2f72184b982efe783cf2df5
+      internalID: -4189859244902440183
       vertices: []
       indices: 
       edges: []
