@@ -5,9 +5,11 @@ using UnityEngine;
 public class waterbear : MonsterBase
 {
     public Health health;
+    
 
     private void OnEnable()
     {
+        reward = 10;
         health.OnChanged += OnHealthChanged;
     }
 
@@ -26,4 +28,5 @@ public class waterbear : MonsterBase
 
         }
     }
+    
 }

@@ -6,7 +6,7 @@ using UnityEngine;
 public class MonsterBase : MonoBehaviour
 {
     public event Action Leave;
-   
+    public int reward;
 
     protected virtual void OnLeave()
     {
@@ -14,9 +14,9 @@ public class MonsterBase : MonoBehaviour
        
     }
     
-    public virtual int CalcGold(int reward)
+  /*  public virtual int CalcGold(int reward)
     {
         //return reward * monsterLevel;
         return reward;
-    }
+    } */
 }

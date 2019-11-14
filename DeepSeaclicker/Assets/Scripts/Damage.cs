@@ -36,7 +36,7 @@ public class Damage : MonoBehaviour
            
             goldscript.Gold -= cost;
             counter += 1;
-            goldscript.GoldGain += clickpower;
+            
             cost = Mathf.Round(cost * 1.3f);
             _newCost = Mathf.Pow(cost, _newCost = cost);
 
