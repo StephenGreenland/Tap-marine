@@ -56,6 +56,7 @@ public class skills : MonoBehaviour
 
     public void SetSkillonActive()
     {
+        
         if (isSkillonActive) return;
         skillon = true;
         multiplyer = 10f;
