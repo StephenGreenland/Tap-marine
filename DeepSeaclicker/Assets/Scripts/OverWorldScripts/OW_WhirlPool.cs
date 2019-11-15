@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class OW_WhirlPool: MonoBehaviour
 {
     public string sceneToLoad;
+    public GameObject Boss1;
     public void OnTriggerEnter2D(Collider2D collision)
     {
         
@@ -13,5 +14,6 @@ public class OW_WhirlPool: MonoBehaviour
         {
             SceneManager.LoadScene(sceneToLoad);
         }
+    
     }
 }
