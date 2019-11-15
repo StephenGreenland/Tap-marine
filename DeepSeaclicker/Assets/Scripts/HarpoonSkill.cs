@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HarpoonSkill : MonoBehaviour
 {
+    bool clickAfterSkill = false;
     bool skillActive = false;
     public float HarpoonDamage;
     public float cooldownTime;
@@ -11,11 +12,16 @@ public class HarpoonSkill : MonoBehaviour
 
     public void HarpoonActivated()
     {
+
         if (skillActive) return;
-        clickManagerRef.GetComponent<ClickedManager>().damage -= HarpoonDamage;
+        skillActive = true;
+        if (skillActive)
+        {
+            clickManagerRef.GetComponent<ClickedManager>().damage -= HarpoonDamage;
+        }
     }
     public void Update()
     {
-        Debug.Log(clickManagerRef.GetComponent <ClickedManager> ().damage);
+        //Debug.Log(clickManagerRef.GetComponent <ClickedManager> ().damage);
     }
 }
