@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Hydra : MonsterBase
 {
     public Health health;
-
+    public string sceneToLoad;
     private void OnEnable()
     {
         health.OnChanged += OnHealthChanged;
@@ -23,6 +24,7 @@ public class Hydra : MonsterBase
         {
             OnLeave();
             Destroy(gameObject);
+            SceneManager.LoadScene(sceneToLoad);
 
         }
     }
