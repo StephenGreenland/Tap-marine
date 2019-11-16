@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -260,6 +260,7 @@ MonoBehaviour:
   goldDisplay: {fileID: 1536075949}
   Gold: 0
   GoldGain: 1
+  yay: {fileID: 0}
 --- !u!114 &354720700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,14 +273,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538b3326e4a254e448df42223dec049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageDisplay: {fileID: 250424424}
-  StaticDamage: 0
-  Damagedealt: 1
-  goldscript: {fileID: 354720699}
   iteminfo: {fileID: 650189234}
   cost: 0
   counter: 0
+  clickpower: 0
   itemName: 
+  goldscript: {fileID: 354720699}
 --- !u!1 &455809948
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,14 +883,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538b3326e4a254e448df42223dec049f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DamageDisplay: {fileID: 250424424}
-  StaticDamage: 0
-  Damagedealt: 1
-  goldscript: {fileID: 1398518673}
   iteminfo: {fileID: 650189234}
   cost: 1
   counter: 0
+  clickpower: 0
   itemName: first damage
+  goldscript: {fileID: 1398518673}
 --- !u!114 &1398518670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1001,6 +998,7 @@ MonoBehaviour:
   goldDisplay: {fileID: 1536075949}
   Gold: 0
   GoldGain: 1
+  yay: {fileID: 0}
 --- !u!1 &1536075947
 GameObject:
   m_ObjectHideFlags: 0

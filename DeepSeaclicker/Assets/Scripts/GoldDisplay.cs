@@ -27,7 +27,7 @@ public class GoldDisplay : MonoBehaviour
     {
         goldDisplay.text = "Gold:" + Gold;
       //  GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
-        GoldGain = Mathf.Round(MonsterManager.monsterLevel * 1.004f+(GoldGain));
+        GoldGain = Mathf.Round(MonsterManager.monsterLevel * 1.8f+(2f));
         //project manager add sprite animation here
 
 
@@ -36,7 +36,7 @@ public class GoldDisplay : MonoBehaviour
 
     public void GG(MonsterBase m)
     {      
-      Gold += GoldGain;                
+      Gold += GoldGain;    
     }
 
 }

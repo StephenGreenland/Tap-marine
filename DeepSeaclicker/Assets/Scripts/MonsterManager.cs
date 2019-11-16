@@ -11,6 +11,7 @@ public class MonsterManager : MonoBehaviour
     public MonsterBase[] monsters;
     public MonsterBase currentMonster;
     private int monsterCount;
+    public GameObject boss1;
 
     public static int monsterLevel;
     public event Action<MonsterBase> OnNew;
@@ -30,6 +31,7 @@ public class MonsterManager : MonoBehaviour
         {
             monsterCount = 0;
             monsterLevel++;
+
         }
     }
 
@@ -41,17 +43,26 @@ public class MonsterManager : MonoBehaviour
     private void SpawnMonster()
     {
         // cleaning up after myself
-        if (currentMonster != null)
+        if (monsterLevel == 10)
+        {
+            currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
+            boss1.SetActive(true);
+
+        }
+        else if (currentMonster != null && monsterLevel != 10)
         {
             currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
 
         }
-        Onleave?.Invoke(currentMonster);
-        
-        //making the monster
-        currentMonster = Instantiate(monsters[GetMonster()], new Vector3(0,4,9),Quaternion.identity);
-        currentMonster.GetComponent<MonsterBase>().Leave += SpawnMonster;
-        OnNew?.Invoke(currentMonster);
-        monsterCount++;
+        if (monsterLevel != 10)
+        {
+            Onleave?.Invoke(currentMonster);
+
+            //making the monster
+            currentMonster = Instantiate(monsters[GetMonster()], new Vector3(0, 4, 9), Quaternion.identity);
+            currentMonster.GetComponent<MonsterBase>().Leave += SpawnMonster;
+            OnNew?.Invoke(currentMonster);
+            monsterCount++;
+        }
     }
 }

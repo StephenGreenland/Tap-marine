@@ -2123,12 +2123,12 @@ PrefabInstance:
     - target: {fileID: 468128198373163206, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 468128198373163206, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 468128198897569257, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
@@ -2138,12 +2138,17 @@ PrefabInstance:
     - target: {fileID: 468128198897569257, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 468128198897569257, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: WorldLava5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -7551,6 +7556,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: World2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -16328,6 +16338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: World3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -26551,6 +26566,16 @@ PrefabInstance:
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
+        type: 3}
+      propertyPath: sceneRef.m_Handle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: World1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
 --- !u!1 &2129586335
@@ -27038,6 +27063,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: World4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}

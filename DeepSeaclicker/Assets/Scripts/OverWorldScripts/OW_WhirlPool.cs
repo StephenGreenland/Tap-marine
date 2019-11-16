@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class OW_WhirlPool: MonoBehaviour
 {
+    public string sceneToLoad;
+    public GameObject Boss1;
     public void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("BattleScene");
+            SceneManager.LoadScene(sceneToLoad);
         }
+    
     }
 }
