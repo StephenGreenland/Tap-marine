@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{129d62f5-d6ea-4001-b3ae-09999e720f79}">
+		<property name="assetPath">
+			<value>Enemies/MonsterSound8.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.89244897959183678</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{11a994f8-d4b0-4c48-8c09-b5b2da44d9c3}</destination>
+		</relationship>
+	</object>
+</objects>
