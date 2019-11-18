@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class OverworldAudio : MonoBehaviour
 {
+    public OW_WhirlPool WhirlPoo;
     FMOD.Studio.EventInstance OVWTrack1;
     FMOD.Studio.EventInstance Movement;
     void Start()
     {
       
+        
         //SubMovement
         Movement = FMODUnity.RuntimeManager.CreateInstance("event:/Player/Movement/OverworldMovement");
         Movement.start();

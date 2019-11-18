@@ -26,7 +26,7 @@ public class BattleSceneAudio : MonoBehaviour
     //Monster Death Sound
     private void MonsterManager_Onleave(MonsterBase obj)
     {
-   
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/MonsterDeath", gameObject);
     }
 
     private void OnDestroy()

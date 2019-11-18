@@ -7562,6 +7562,18 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: World2
       objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 38.46524
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 65.81477
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
 --- !u!1 &769337558
@@ -8590,7 +8602,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829159381}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &829159383
 Camera:
   m_ObjectHideFlags: 0
@@ -16185,6 +16197,7 @@ GameObject:
   - component: {fileID: 1544076239}
   - component: {fileID: 1544076238}
   - component: {fileID: 1544076237}
+  - component: {fileID: 1544076240}
   m_Layer: 0
   m_Name: Submarine Object
   m_TagString: Untagged
@@ -16242,6 +16255,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1544076240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544076236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!1001 &1545022450
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27033,41 +27059,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 468128198373163206, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 468128198373163206, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 468128198373163206, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 468128198897569257, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 468128198897569257, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 468128198897569257, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
-        type: 3}
-      propertyPath: sceneToLoad
-      value: World4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
