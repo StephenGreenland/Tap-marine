@@ -12,21 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Overworld.unity
     guid: 529594d20cd33e34fa6e9b5e00b5eb22
   - enabled: 1
-    path: Assets/Scenes/World1.unity
-    guid: 6cf370caad97471488ef5e9489cd8afb
+    path: Assets/Scenes/BS1.unity
+    guid: cb2eb79a4f9d34d4387ccd91d3597372
   - enabled: 1
-    path: Assets/Scenes/World2.unity
-    guid: 8164707d701f09a44b21bce8e3a062a0
+    path: Assets/Scenes/BS2.unity
+    guid: 11070005082595e40afe42cc795039f4
   - enabled: 1
-    path: Assets/Scenes/World3.unity
-    guid: 11277edd7fe47ef4591d4ec7206d7222
-  - enabled: 1
-    path: Assets/Scenes/World4.unity
-    guid: 9c1f3d5e061fbf54a88b1c729eae08b2
-  - enabled: 1
-    path: Assets/Scenes/WorldLava5.unity
-    guid: 80e25c7f4c6be8047a919df6cf5fd91d
-  - enabled: 1
-    path: Assets/Scenes/BattleScene.unity
+    path: Assets/Scenes/BS3.unity
     guid: 67026beebef9a4c45868c0bba3b8b326
+  - enabled: 1
+    path: Assets/Scenes/BS4.unity
+    guid: b5340757efe9b5e40abf895fa0f2c836
+  - enabled: 1
+    path: Assets/Scenes/BSLava5.unity
+    guid: ef08b188a553f0c40b780111e1704078
   m_configObjects: {}
