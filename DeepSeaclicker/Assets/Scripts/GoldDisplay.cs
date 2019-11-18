@@ -37,7 +37,7 @@ public class GoldDisplay : MonoBehaviour
     public void GG(MonsterBase m)
     {
         Gold += GoldGain;
-        Instantiate(goldParticle, effectPos.transform.position, Quaternion.identity);
+        //Instantiate(goldParticle, effectPos.transform.position, Quaternion.identity);
         
     }
 

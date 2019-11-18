@@ -10,6 +10,7 @@ public class DirectionalArrows : MonoBehaviour
 	public List<GameObject> arrows;
 
 	public GameObject arrowPrefab;
+    //public List<Vector3> targetPos;
 
 	// Start is called before the first frame update
 	void Start()
@@ -21,7 +22,8 @@ public class DirectionalArrows : MonoBehaviour
 		{
 			var item = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
 			arrows.Add(item);
-
+            //Vector3 pos = new Vector3(wPool[i].transform.position.x, wPool[i].transform.position.y, this.transform.position.z);
+            //targetPos.Add(pos);
 			// Make child
 			item.transform.parent = transform;
 		}
@@ -30,15 +32,14 @@ public class DirectionalArrows : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
             for (var counter = 0; counter < wPool.Count; counter++)
             {
-                Vector2 posRef = new Vector2(wPool[counter].transform.position.x, wPool[counter].transform.position.y);
-                arrows[counter].transform.LookAt(posRef, Vector2.up);
+                arrows[counter].transform.LookAt(wPool[counter].transform.position,Vector2.up);
                 //            Material.alpha = 100 / Vector3.Distance(starFish.transform.position, transform.position)
             }
-        }
+       // }
 			
 	}
 }
