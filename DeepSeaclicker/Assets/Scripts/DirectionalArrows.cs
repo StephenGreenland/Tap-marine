@@ -30,11 +30,15 @@ public class DirectionalArrows : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		for (var counter = 0; counter < wPool.Count; counter++)
-		{
-			arrows[counter].transform.LookAt(wPool[counter].transform.position);
-			//            Material.alpha = 100 / Vector3.Distance(starFish.transform.position, transform.position)
-
-		}
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            for (var counter = 0; counter < wPool.Count; counter++)
+            {
+                Vector2 posRef = new Vector2(wPool[counter].transform.position.x, wPool[counter].transform.position.y);
+                arrows[counter].transform.LookAt(posRef, Vector2.up);
+                //            Material.alpha = 100 / Vector3.Distance(starFish.transform.position, transform.position)
+            }
+        }
+			
 	}
 }
