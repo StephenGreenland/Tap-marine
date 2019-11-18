@@ -15,11 +15,15 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [LOG] AsyncManager::init                       : manager 000002B99FF64258 isAsync 0 updatePeriod 0.02
 =======
 [LOG] AsyncManager::init                       : manager 000002A00EE89A58 isAsync 0 updatePeriod 0.02
 >>>>>>> Stashed changes
 >>>>>>> master
+=======
+[LOG] AsyncManager::init                       : manager 00000132B9356EB8 isAsync 0 updatePeriod 0.02
+>>>>>>> Stashed changes
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -202,6 +206,7 @@
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Harpoon Gun ver2', format=2, channels=2, frequency=48000, lengthbytes=20864, lengthpcm=167000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.902684.
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+<<<<<<< Updated upstream
 =======
 >>>>>>> master
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
@@ -246,3 +251,6 @@
 =======
 >>>>>>> master
 [LOG] SystemI::close                           : Closed.
+=======
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+>>>>>>> Stashed changes
