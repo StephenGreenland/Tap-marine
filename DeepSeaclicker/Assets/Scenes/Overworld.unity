@@ -2148,7 +2148,7 @@ PrefabInstance:
     - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: sceneToLoad
-      value: WorldLava5
+      value: BSLava5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -7596,7 +7596,7 @@ PrefabInstance:
     - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: sceneToLoad
-      value: World2
+      value: BS2
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideAttenuation
@@ -16464,7 +16464,7 @@ PrefabInstance:
     - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: sceneToLoad
-      value: World3
+      value: BS3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -26714,7 +26714,7 @@ PrefabInstance:
     - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: sceneToLoad
-      value: World1
+      value: BS1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -27177,7 +27177,7 @@ PrefabInstance:
     - target: {fileID: 278101257883425337, guid: 13051fd3ed43e2b46b1c6be2ce85b010,
         type: 3}
       propertyPath: sceneToLoad
-      value: World4
+      value: BS4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
