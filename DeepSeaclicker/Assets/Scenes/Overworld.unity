@@ -7604,11 +7604,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMinDistance
-      value: 38.46524
+      value: 23.474426
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMaxDistance
-      value: 65.81477
+      value: 49.286392
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -16272,7 +16272,6 @@ GameObject:
   - component: {fileID: 1544076241}
   - component: {fileID: 1544076237}
   - component: {fileID: 1544076240}
-  - component: {fileID: 1544076241}
   m_Layer: 0
   m_Name: Submarine Object
   m_TagString: Untagged
@@ -16465,6 +16464,18 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneToLoad
       value: BS3
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 45.780956
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -26716,6 +26727,18 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: BS1
       objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 24.22821
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 51.546616
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
 --- !u!1 &2129586335
@@ -27178,6 +27201,18 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneToLoad
       value: BS4
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideAttenuation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 21.92192
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 48.855896
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
