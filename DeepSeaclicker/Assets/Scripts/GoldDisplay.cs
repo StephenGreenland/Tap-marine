@@ -10,14 +10,15 @@ public class GoldDisplay : MonoBehaviour
     public float Gold = 0f;
     public float GoldGain;
     public MonsterManager yay;
+    public GameObject effectPos;
+    public ParticleSystem goldParticle;
    
 
     // private bool leavechanger;
 
     // Start is called before the first frame update
     void Start()
-    {
-      
+    { 
         GoldGain = 1; //yay = GetComponent<MonsterManager>();
         yay.Onleave += GG;
     }
@@ -26,17 +27,18 @@ public class GoldDisplay : MonoBehaviour
     void Update()
     {
         goldDisplay.text = "Gold:" + Gold;
-      //  GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
-        GoldGain = Mathf.Round(MonsterManager.monsterLevel * 1.004f+(GoldGain));
-        //project manager add sprite animation here
+        //GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
+        GoldGain = Mathf.Round(MonsterManager.monsterLevel * 1.8f+(2f));
 
 
    
     }
 
     public void GG(MonsterBase m)
-    {      
-      Gold += GoldGain;                
+    {
+        Gold += GoldGain;
+        //Instantiate(goldParticle, effectPos.transform.position, Quaternion.identity);
+        
     }
 
 }
