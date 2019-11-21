@@ -1,5 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-8730618781153542009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +36,9 @@ MonoBehaviour:
   Default: 0
   Exists: 1
 --- !u!114 &-8556445245280533583
+=======
+--- !u!114 &-4733477527511910094
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -49,7 +53,11 @@ MonoBehaviour:
   Path: event:/Environment/Ambience
   guid: 0708a7628152734cada372ae2d1298cb
   Banks:
+<<<<<<< Updated upstream
   - {fileID: 7867789026278128274}
+=======
+  - {fileID: 2365725897057667390}
+>>>>>>> Stashed changes
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -57,6 +65,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 12707
+<<<<<<< Updated upstream
 --- !u!114 &-8293507141785286202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,6 +221,9 @@ MonoBehaviour:
   Default: 0
   Exists: 1
 --- !u!114 &-1747515472352052979
+=======
+--- !u!114 &-4511558341058259969
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,13 +238,18 @@ MonoBehaviour:
   Path: event:/Player/Weapons/Harpoon
   guid: 74d51914c4309440861bbaa81426bf4b
   Banks:
+<<<<<<< Updated upstream
   - {fileID: 7867789026278128274}
+=======
+  - {fileID: 2365725897057667390}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+<<<<<<< Updated upstream
   Length: 2000
 --- !u!114 &-145280696856799398
 MonoBehaviour:
@@ -276,6 +293,9 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+=======
+  Length: 1350
+>>>>>>> Stashed changes
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,6 +309,7 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+<<<<<<< Updated upstream
   - {fileID: 4215304661127026252}
   - {fileID: 7867789026278128274}
   EditorEvents:
@@ -448,6 +469,21 @@ MonoBehaviour:
   Default: 0
   Exists: 1
 --- !u!114 &4215304661127026252
+=======
+  - {fileID: 9196974512055510710}
+  - {fileID: 2365725897057667390}
+  EditorEvents:
+  - {fileID: -4733477527511910094}
+  - {fileID: -4511558341058259969}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2365725897057667390}
+  StringsBanks:
+  - {fileID: 9196974512055510710}
+  stringsBankWriteTime: 637087196570281840
+  cacheVersion: 3
+--- !u!114 &2365725897057667390
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,6 +493,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< Updated upstream
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
   Path: A:/Game Projects/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
@@ -542,6 +579,19 @@ MonoBehaviour:
   Default: 0
   Exists: 0
 --- !u!114 &7867789026278128274
+=======
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/ktiwari3/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637087196570211983
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 460544
+  Exists: 1
+--- !u!114 &9196974512055510710
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,6 +601,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< Updated upstream
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
   Path: A:/Game Projects/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
@@ -601,3 +652,15 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 96000
+=======
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/ktiwari3/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637087196570281840
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 810
+  Exists: 1
+>>>>>>> Stashed changes
