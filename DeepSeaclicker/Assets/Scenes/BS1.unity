@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5678302add95a16408ef741209f9b1b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: -10
+  player: {fileID: 1112257131}
 --- !u!1 &359072907
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,7 +176,6 @@ GameObject:
   - component: {fileID: 359072912}
   - component: {fileID: 359072911}
   - component: {fileID: 359072910}
-  - component: {fileID: 359072909}
   m_Layer: 5
   m_Name: Upgrade
   m_TagString: Untagged
@@ -204,24 +203,6 @@ RectTransform:
   m_AnchoredPosition: {x: -345, y: 56.57}
   m_SizeDelta: {x: 160, y: 64.57}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &359072909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 359072907}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 538b3326e4a254e448df42223dec049f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iteminfo: {fileID: 1901172361}
-  cost: 10
-  counter: 0
-  clickpower: 1
-  itemName: Upgrade
-  goldscript: {fileID: 1902238462}
 --- !u!114 &359072910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,7 +989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91091ac325dce1448430a325ac198cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: -20
   cost: 10
   monsterManger: {fileID: 1623529229}
 --- !u!4 &1112257132

@@ -8,7 +8,7 @@ public class HarpoonSkill : MonoBehaviour
     bool skillActive = false;
     public float HarpoonDamage;
     public float cooldownTime;
-    public GameObject clickManagerRef;
+    public PlayerStats player;
 
     public void HarpoonActivated()
     {
@@ -18,12 +18,12 @@ public class HarpoonSkill : MonoBehaviour
         if (skillActive)
         {
             //adding 5 times the amount of base damage to base damage. This is so that Harpoon Damage scales with base damage
-            clickManagerRef.GetComponent<ClickedManager>().damage += 5* (clickManagerRef.GetComponent<ClickedManager>().damage);
+            player.damage += 5* (player.damage);
 
         }
     }
     public void Update()
     {
-        Debug.Log(clickManagerRef.GetComponent <ClickedManager> ().damage);
+        Debug.Log(player.damage);
     }
 }

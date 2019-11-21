@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class ClickedManager : MonoBehaviour
 {
-    public float damage;
+    public PlayerStats player;
+
+    private float damage;
     // Start is called before the first frame update
     void Start()
     {
-        
+        damage = player.damage;
+
     }
 
     // Update is called once per frame
@@ -19,6 +22,7 @@ public class ClickedManager : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            damage = player.damage;
             
             Vector3 mousePosWorld = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,10f));
            
