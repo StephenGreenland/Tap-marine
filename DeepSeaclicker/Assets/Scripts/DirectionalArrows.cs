@@ -36,7 +36,7 @@ public class DirectionalArrows : MonoBehaviour
         //{
             for (var counter = 0; counter < wPool.Count; counter++)
             {
-                arrows[counter].transform.LookAt(wPool[counter].transform.position,Vector2.up);
+                arrows[counter].transform.LookAt(wPool[counter].transform.position);
                 //            Material.alpha = 100 / Vector3.Distance(starFish.transform.position, transform.position)
             }
        // }
