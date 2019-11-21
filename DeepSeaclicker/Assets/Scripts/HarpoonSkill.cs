@@ -39,8 +39,9 @@ public class HarpoonSkill : MonoBehaviour
         currentMonster = obj;
         
     }
-    public void Update()
+
+    private void OnDestroy()
     {
-   
+        monsterManagerRef.OnNew -= MonsterIdentity;
     }
 }
