@@ -18,15 +18,17 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        monsterManger.Onleave += MonsterMangerOnOnleave; 
-        
+        monsterManger.Onleave += MonsterMangerOnOnleave;
+        goldMuiltiplayer = 1;
         DamageLevel = 1;
-        damage = 1f;
+        goldAmount = 100000;
+
     }
 
     private void MonsterMangerOnOnleave(MonsterBase obj)
     {
         goldAmount += CalcGold(obj.reward);
+        
     }
 
     // Update is called once per frame
@@ -37,14 +39,16 @@ public class PlayerStats : MonoBehaviour
 
     public void upgradestats()
     {
-        
+        Debug.Log(goldAmount);
         if (goldAmount >= cost)
         {
+            
             goldAmount -= cost;
-            damage = DamageLevel * 2.2f; 
+            damage = Mathf.Round(damage * 1.3f);
             cost = Mathf.Round(cost * 1.3f);
             cost = Mathf.Round(cost * 1.3f);
             _newCost = Mathf.Pow(cost, _newCost = cost);
+            Debug.Log(damage);
         }
    
     }
