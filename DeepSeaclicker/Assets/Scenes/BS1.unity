@@ -1454,6 +1454,12 @@ MonoBehaviour:
   - {fileID: 1884494156438350485, guid: bf50f698a98a80a4ea7b6b9a1b3509f1, type: 3}
   - {fileID: 2075026691526258919, guid: 1391dbd8ce1e25941a7432a4c019ff3d, type: 3}
   - {fileID: 8531060397993261162, guid: ec75b06da9aa5b4449c7e7058b373282, type: 3}
+  - {fileID: 3040477217878152356, guid: 3cec1675fe6596343b83e798994e01c0, type: 3}
+  - {fileID: 6844666376726190751, guid: a5dad53e370d6fd4fad14a6f883c7c1f, type: 3}
+  - {fileID: 6198514887625916544, guid: 9c06ee09d0cb7e74f8baebe08ae95bfe, type: 3}
+  - {fileID: 2809204888478926081, guid: 896b1a2040451b141a53db04e8e2e5fc, type: 3}
+  - {fileID: 6986330901388883002, guid: c96dd7010980e4344bfa53a003525d8d, type: 3}
+  - {fileID: 5187240553159462236, guid: 3bc29c91bc44f4a41b2186f0265d249b, type: 3}
   currentMonster: {fileID: 0}
   boss1: {fileID: 954041802}
 --- !u!4 &1623529230
