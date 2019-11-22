@@ -28,7 +28,7 @@ public class GoldDisplay : MonoBehaviour
     {
         goldDisplay.text = "Gold:" + Ggold.goldAmount;
         //GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
-        GoldGain = Mathf.Round(MonsterManager.monsterLevel * 1.8f+(2f));
+        GoldGain = Mathf.Round((MonsterManager.monsterLevel + (2f)) * 1.8f);
 
 
    

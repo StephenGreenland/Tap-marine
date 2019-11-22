@@ -6,7 +6,7 @@ public class Damage : MonoBehaviour
 {
     
     public UnityEngine.UI.Text iteminfo;
-    public float cost;
+    public PlayerStats yeet;
     public int counter = 0;
     public int clickpower;
     public string itemName;
@@ -25,7 +25,7 @@ public class Damage : MonoBehaviour
     void Update()
     {
 
-        iteminfo.text = itemName + "\nCost: " + cost + "\nPower: " + clickpower;
+    //    iteminfo.text = itemName + "\nCost: " + yeet.goldAmount + "\nPower: " + yeet.damage;
 
     }
 
