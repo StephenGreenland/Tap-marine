@@ -11,10 +11,13 @@ public class HarpoonSkill : MonoBehaviour
     public PlayerStats player;
     public MonsterManager monsterManagerRef;
     public MonsterBase currentMonster;
+    
 
     public void Awake()
     {
         monsterManagerRef.OnNew += MonsterIdentity;
+        currentMonster = monsterManagerRef.currentMonster;
+        
     }
     public void AutoCannonActivated()
     {
