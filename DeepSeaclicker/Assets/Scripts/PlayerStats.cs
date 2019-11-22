@@ -19,8 +19,8 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         monsterManger.Onleave += MonsterMangerOnOnleave;
-        goldMuiltiplayer = 1;
-        DamageLevel = 1;
+        goldMuiltiplayer = 10;
+        
         goldAmount = 100000;
 
     }
@@ -52,7 +52,7 @@ public class PlayerStats : MonoBehaviour
         }
    
     }
-
+    
     private int CalcGold(int reward)
     {
         return  goldMuiltiplayer * reward;

@@ -7,18 +7,9 @@ using System.IO;
 
 public class Stats : MonoBehaviour
 {
+    string paths = Application.persistentDataPath + ("/PlayerStats.txt");
 
-    public int currentScore;
-    public int multiplier;
-    public int notesInRow;
-
-    public int[] filescore;
-
-    public string[] score;
-
-    string paths = Application.persistentDataPath + ("/HighScores.txt");
-
-    public int currentLevel; //go into each level and set this
+   
     string storeText;
 
     public delegate void ReadComplete();
@@ -31,9 +22,9 @@ public class Stats : MonoBehaviour
         {
             File.WriteAllText(paths, "0,0,0,0");
         }
-        multiplier = 1;
+        
         Read();
-
+        
     }
 
     // Update is called once per frame
@@ -42,25 +33,19 @@ public class Stats : MonoBehaviour
 
 
     }
-    // compares the saved score agianst the currentscore
+    // compares the saved score against the currentScore
     public void GetHighScore()
     {
         Read();
-
-        if (currentScore > filescore[currentLevel])
-        {
+        
             Debug.Log("Write new high score");
             NewHeighScore();
-
-            filescore[currentLevel] = currentScore;
-        }
-
-
-
+            
     }
     // saves the current score into the text file
     public void NewHeighScore()
     {
+        /*
         StreamWriter sw = new StreamWriter(paths);
         storeText = "";
 
@@ -83,11 +68,11 @@ public class Stats : MonoBehaviour
             }
 
         }
-
-
+        
         sw.WriteLine(storeText);
 
         sw.Close();
+        */
     }
 
     void Read()
@@ -105,47 +90,17 @@ public class Stats : MonoBehaviour
 
 
         }
-
-
+        
         reader.Close();
 
         OnRead?.Invoke();
     }
 
     //Calculate score
-    public void CalScore()
-    {
-        currentScore = currentScore + (1 * multiplier);
-    }
-
-    //Multiplier code function
-    public void Notes()
-    {
-        notesInRow++;
-        if (notesInRow % 4 == 0) //After every 4 notes are collected
-        {
-
-            if (multiplier < 4) //Max Multiplier 4
-            {
-                multiplier++;
-            }
-
-        }
-
-    }
-    public void HitOb()
-    {
-        multiplier = 1;
-        notesInRow = 0;
-    }
+    
     public void Reset()
     {
-        for (int i = 0; i <= 3; i++)
-        {
-            filescore[i] = 0;
-            NewHeighScore();
-        }
-
+        NewHeighScore();
     }
 
 }
