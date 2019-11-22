@@ -3,49 +3,51 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HarpoonSkill : MonoBehaviour
+public class ACSkill : MonoBehaviour
 {
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
     public MonsterBase currentMonster;
 
+    
+    private Color initColor;
+
     public float cooldownTime;
     public bool coolingDown = false;
 
-    private Color initColor;
 
     public void Awake()
     {
         initColor = this.GetComponent<Image>().color;
         monsterManagerRef.OnNew += MonsterIdentity;
         currentMonster = monsterManagerRef.currentMonster;
-        
     }
-    public void HarpoonActivated()
+    public void ACSkillButton()
+    {
+        StartCoroutine(ACActivated());
+    }
+    IEnumerator ACActivated()
     {
         if (!coolingDown)
         {
             if (cooldownTime <= 0)
             {
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
-                coolingDown = true;
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
+                yield return new WaitForSeconds(2f);
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
+                yield return new WaitForSeconds(2f);
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
+                
+                yield return new WaitForSeconds(2f);
                 cooldownTime = 5f;
+                coolingDown = true;
             }
         }
-        /*if (skillActive) return;
-        skillActive = true;
-        if (skillActive)
-
-        {
-            //adding 5 times the amount of base damage to base damage. This is so that Harpoon Damage scales with base damage
-            player.damage += 5* (player.damage);
-
-        }*/
     }
+
     public void MonsterIdentity(MonsterBase obj)
     {
         currentMonster = obj;
-        
     }
 
     private void OnDestroy()
@@ -59,15 +61,15 @@ public class HarpoonSkill : MonoBehaviour
         {
             coolingDown = false;
         }
-
         if (coolingDown)
         {
             this.GetComponent<Image>().color = Color.gray;
-
+            
         }
         if (!coolingDown)
         {
             this.GetComponent<Image>().color = initColor;
         }
     }
+
 }
