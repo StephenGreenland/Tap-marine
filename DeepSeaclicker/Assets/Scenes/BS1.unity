@@ -989,6 +989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d91091ac325dce1448430a325ac198cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  goldAmount: 0
   damage: -20
   cost: 10
   monsterManger: {fileID: 1623529229}
@@ -1854,11 +1855,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goldDisplay: {fileID: 1871816485}
-  Gold: 0
   GoldGain: 0
-  yay: {fileID: 1623529229}
   effectPos: {fileID: 0}
   goldParticle: {fileID: 0}
+  Ggold: {fileID: 1112257131}
 --- !u!114 &1902238463
 MonoBehaviour:
   m_ObjectHideFlags: 0

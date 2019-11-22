@@ -7,12 +7,12 @@ public class GoldDisplay : MonoBehaviour
 
 {
     public UnityEngine.UI.Text goldDisplay;
-    public float Gold = 0f;
     public float GoldGain;
-    public MonsterManager yay;
     public GameObject effectPos;
     public ParticleSystem goldParticle;
-   
+    public PlayerStats Ggold;
+  
+
 
     // private bool leavechanger;
 
@@ -20,13 +20,13 @@ public class GoldDisplay : MonoBehaviour
     void Start()
     { 
         GoldGain = 1; //yay = GetComponent<MonsterManager>();
-        yay.Onleave += GG;
+    //    yay.Onleave += GG;
     }
 
     // Update is called once per frame
     void Update()
     {
-        goldDisplay.text = "Gold:" + Gold;
+        goldDisplay.text = "Gold:" + Ggold.goldAmount;
         //GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
         GoldGain = Mathf.Round(MonsterManager.monsterLevel * 1.8f+(2f));
 
@@ -36,7 +36,7 @@ public class GoldDisplay : MonoBehaviour
 
     public void GG(MonsterBase m)
     {
-        Gold += GoldGain;
+       // Gold += GoldGain;
         //Instantiate(goldParticle, effectPos.transform.position, Quaternion.identity);
         
     }

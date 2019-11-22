@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    private float goldAmount;
+    public float goldAmount;
     private float DamageLevel;
     public float damage;
     public float cost;
     private int goldMuiltiplayer;
-    
+    private float goldgain;
 
     private float _newCost;
     public MonsterManager monsterManger;
@@ -34,7 +34,7 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        goldgain = Mathf.Round(MonsterManager.monsterLevel * 2.8f + (9f));
     }
 
     public void upgradestats()

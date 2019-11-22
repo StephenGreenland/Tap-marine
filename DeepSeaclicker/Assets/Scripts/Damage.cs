@@ -29,7 +29,7 @@ public class Damage : MonoBehaviour
 
     }
 
-    public void PurchasedUpgrades()
+  /*  public void PurchasedUpgrades()
     {
         if (goldscript.Gold >= cost)
         {                         //need to make a function
@@ -43,7 +43,7 @@ public class Damage : MonoBehaviour
          
         }
 
-    }
+    }*/
 }
 
 
