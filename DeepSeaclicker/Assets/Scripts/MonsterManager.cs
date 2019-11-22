@@ -17,12 +17,15 @@ public class MonsterManager : MonoBehaviour
     public event Action<MonsterBase> OnNew;
     public event Action<MonsterBase> Onleave;
     public event Action onmonsterlevelup;
+
+    private float healthScaler;
    
 
     // Start is called before the first frame update
     void OnEnable()
     {
         SpawnMonster();
+        healthScaler = 1;
     }
 
     // Update is called once per frame
@@ -33,6 +36,7 @@ public class MonsterManager : MonoBehaviour
             monsterCount = 0;
             monsterLevel++;
             onmonsterlevelup.Invoke();
+            ScaleHealth();
 
         }
     }
@@ -65,6 +69,21 @@ public class MonsterManager : MonoBehaviour
             currentMonster.GetComponent<MonsterBase>().Leave += SpawnMonster;
             OnNew?.Invoke(currentMonster);
             monsterCount++;
+            currentMonster.GetComponent<Health>().amount +=  CalcHealth(healthScaler);
         }
     }
+
+    float CalcHealth(float health)
+    {
+         return health * healthScaler;
+
+    }
+
+    public void ScaleHealth()
+    {
+        healthScaler = Mathf.Round(healthScaler * 2f);
+        
+    }
+
+    
 }

@@ -7,6 +7,7 @@ using System.IO;
 
 public class Stats : MonoBehaviour
 {
+
     string paths = Application.persistentDataPath + ("/PlayerStats.txt");
 
    
@@ -77,6 +78,7 @@ public class Stats : MonoBehaviour
 
     void Read()
     {
+        /*
         String path = paths;
         StreamReader reader = new StreamReader(path);
         string loadScore = reader.ReadLine();
@@ -94,6 +96,7 @@ public class Stats : MonoBehaviour
         reader.Close();
 
         OnRead?.Invoke();
+        */
     }
 
     //Calculate score
