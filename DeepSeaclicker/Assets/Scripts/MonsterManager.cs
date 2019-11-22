@@ -16,8 +16,9 @@ public class MonsterManager : MonoBehaviour
     public static int monsterLevel;
     public event Action<MonsterBase> OnNew;
     public event Action<MonsterBase> Onleave;
-    
-    
+    public event Action onmonsterlevelup;
+   
+
     // Start is called before the first frame update
     void OnEnable()
     {
@@ -31,6 +32,7 @@ public class MonsterManager : MonoBehaviour
         {
             monsterCount = 0;
             monsterLevel++;
+            onmonsterlevelup.Invoke();
 
         }
     }

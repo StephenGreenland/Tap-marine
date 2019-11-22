@@ -10,6 +10,9 @@ public class skills : MonoBehaviour
     public float multiplyer = 1f;
     bool isSkillonActive = false;
     public GoldDisplay goldscript;
+    public PlayerStats yeet;
+    public UnityEngine.UI.Text iteminfo;
+    public string itemName;
 
     // Start is called before the first frame update
     void Start()
@@ -20,11 +23,13 @@ public class skills : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space))
+        iteminfo.text = itemName + "\nCost: " + yeet.cost + "\nPower: " + (yeet.damage * -1);
+
+        if (Input.GetKey(KeyCode.Space))
         {
             SetSkillonActive();
         }
- 
+       
     }
     public void GoldSkill()
     {

@@ -8,13 +8,14 @@ public class PlayerStats : MonoBehaviour
     private float DamageLevel;
     public float damage;
     public float cost;
-    private int goldMuiltiplayer;
+    private float goldMuiltiplayer;
     private float goldgain;
 
+ 
     private float _newCost;
     public MonsterManager monsterManger;
-    
-    
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class PlayerStats : MonoBehaviour
         goldMuiltiplayer = 1;
         DamageLevel = 1;
         goldAmount = 100000;
+        monsterManger.onmonsterlevelup += increasemulti;
 
     }
 
@@ -34,7 +36,7 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        goldgain = Mathf.Round(MonsterManager.monsterLevel * 2.8f + (9f));
+      
     }
 
     public void upgradestats()
@@ -44,19 +46,28 @@ public class PlayerStats : MonoBehaviour
         {
             
             goldAmount -= cost;
-            damage = Mathf.Round(damage * 1.3f);
-            cost = Mathf.Round(cost * 1.3f);
-            cost = Mathf.Round(cost * 1.3f);
+            damage = Mathf.Round(damage * 1.2f-(1));
+            cost = Mathf.Round(cost * 1.2f);
             _newCost = Mathf.Pow(cost, _newCost = cost);
             Debug.Log(damage);
         }
    
     }
 
-    private int CalcGold(int reward)
+    private float CalcGold(float reward)
     {
         return  goldMuiltiplayer * reward;
     }
+    void increasemulti()
+    {
 
+         goldMuiltiplayer = Mathf.Round(MonsterManager.monsterLevel * 2f + (3f));
+
+    }
+    private void OnDestroy()
+    {
+        monsterManger.onmonsterlevelup -= increasemulti;
+        monsterManger.Onleave += MonsterMangerOnOnleave;
+    }
 
 }
