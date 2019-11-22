@@ -6,7 +6,7 @@ public class Damage : MonoBehaviour
 {
     
     public UnityEngine.UI.Text iteminfo;
-    public float cost;
+    public PlayerStats yeet;
     public int counter = 0;
     public int clickpower;
     public string itemName;
@@ -25,11 +25,11 @@ public class Damage : MonoBehaviour
     void Update()
     {
 
-        iteminfo.text = itemName + "\nCost: " + cost + "\nPower: " + clickpower;
+    //    iteminfo.text = itemName + "\nCost: " + yeet.goldAmount + "\nPower: " + yeet.damage;
 
     }
 
-    public void PurchasedUpgrades()
+  /*  public void PurchasedUpgrades()
     {
         if (goldscript.Gold >= cost)
         {                         //need to make a function
@@ -43,7 +43,7 @@ public class Damage : MonoBehaviour
          
         }
 
-    }
+    }*/
 }
 
 
