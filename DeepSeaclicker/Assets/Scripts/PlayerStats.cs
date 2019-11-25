@@ -8,7 +8,7 @@ public class PlayerStats : MonoBehaviour
     private float DamageLevel;
     public float damage;
     public float cost;
-    private float goldMuiltiplayer;
+    public float goldMuiltiplayer;
     private float goldgain;
 
  
@@ -20,9 +20,9 @@ public class PlayerStats : MonoBehaviour
     void Start()
     {
         monsterManger.Onleave += MonsterMangerOnOnleave;
-        goldMuiltiplayer = 10;
+        goldMuiltiplayer = 1;
         
-        goldAmount = 100000;
+        goldAmount = 0;
         monsterManger.onmonsterlevelup += increasemulti;
 
     }
@@ -46,8 +46,8 @@ public class PlayerStats : MonoBehaviour
         {
             
             goldAmount -= cost;
-            damage = Mathf.Round(damage * 1.2f-(1));
-            cost = Mathf.Round(cost * 1.2f);
+            damage = Mathf.Round(damage * 1.19f-(1));
+            cost = Mathf.Round(cost * 1.20f);
             _newCost = Mathf.Pow(cost, _newCost = cost);
             Debug.Log(damage);
         }

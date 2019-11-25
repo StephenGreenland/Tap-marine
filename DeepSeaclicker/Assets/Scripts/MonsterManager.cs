@@ -81,7 +81,7 @@ public class MonsterManager : MonoBehaviour
 
     public void ScaleHealth()
     {
-        healthScaler = Mathf.Round(healthScaler * 2f);
+        healthScaler = Mathf.Round(healthScaler * 1.6f);
         
     }
 
