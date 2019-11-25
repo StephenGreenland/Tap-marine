@@ -67,7 +67,7 @@ public class skills : MonoBehaviour
         multiplyer = 10f;
         if (multiplyer == 10)
         {
-            goldscript.GoldGain = Mathf.Round(goldscript.GoldGain) * multiplyer;
+            yeet.goldMuiltiplayer = Mathf.Round(goldscript.GoldGain) * multiplyer;
         }
         StartCoroutine(SkillonTimeOut());
 
