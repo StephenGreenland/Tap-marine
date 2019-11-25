@@ -107,7 +107,7 @@
 			<value>-3.5</value>
 		</property>
 		<property name="name">
-			<value>Audio 1</value>
+			<value>Waterfall</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{0c0b6bd7-fb6b-4d28-854a-49594f0d7849}</destination>
@@ -136,6 +136,7 @@
 	<object class="MixerBusEffectChain" id="{f6d59e66-bc0e-4fbb-83d3-843f9d678d1d}">
 		<relationship name="effects">
 			<destination>{bb9cd1b5-24b3-4ade-b844-4d8b0fe32c1c}</destination>
+			<destination>{814dd539-34da-4c04-9f15-ba06b87d500c}</destination>
 			<destination>{82b1ef58-4ab2-4712-b1b9-2a564e70ece0}</destination>
 		</relationship>
 	</object>
@@ -158,11 +159,32 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{0c0b6bd7-fb6b-4d28-854a-49594f0d7849}">
 		<relationship name="effects">
+			<destination>{df76df68-2d9b-4bf3-96ff-dc664b3db322}</destination>
 			<destination>{6b1924fc-4cd5-4ff1-8c60-5a57450dbccb}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{61259750-f830-446a-b49e-a6e4408a9404}" />
 	<object class="MixerBusFader" id="{bb9cd1b5-24b3-4ade-b844-4d8b0fe32c1c}" />
+	<object class="MultibandEqEffect" id="{814dd539-34da-4c04-9f15-ba06b87d500c}">
+		<property name="filterTypeA">
+			<value>10</value>
+		</property>
+		<property name="filterTypeB">
+			<value>10</value>
+		</property>
+		<property name="frequencyA">
+			<value>90.7609024</value>
+		</property>
+		<property name="frequencyB">
+			<value>705.863708</value>
+		</property>
+		<property name="qualityA">
+			<value>0.100000001</value>
+		</property>
+		<property name="qualityB">
+			<value>0.100000001</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{82b1ef58-4ab2-4712-b1b9-2a564e70ece0}">
 		<property name="minimumDistance">
 			<value>9.60000038</value>
@@ -197,6 +219,29 @@
 		</property>
 		<property name="value">
 			<value>1</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{df76df68-2d9b-4bf3-96ff-dc664b3db322}">
+		<property name="filterTypeA">
+			<value>8</value>
+		</property>
+		<property name="filterTypeB">
+			<value>7</value>
+		</property>
+		<property name="frequencyA">
+			<value>1113.47717</value>
+		</property>
+		<property name="frequencyB">
+			<value>75.320816</value>
+		</property>
+		<property name="qualityA">
+			<value>0.7961725</value>
+		</property>
+		<property name="gainA">
+			<value>-12.4137917</value>
+		</property>
+		<property name="gainB">
+			<value>-8.79310417</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{6b1924fc-4cd5-4ff1-8c60-5a57450dbccb}" />

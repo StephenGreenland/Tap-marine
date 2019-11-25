@@ -2180,6 +2180,18 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 12.215612
       objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 9.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
+      propertyPath: Event
+      value: event:/Environment/WhirlPoolLava
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
 --- !u!1 &199067382
@@ -7630,15 +7642,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideAttenuation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMinDistance
-      value: 23.474426
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMaxDistance
-      value: 49.286392
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -16292,15 +16304,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideAttenuation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMinDistance
-      value: 20
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMaxDistance
-      value: 45.780956
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -21801,15 +21813,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideAttenuation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMinDistance
-      value: 24.22821
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMaxDistance
-      value: 51.546616
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
@@ -22276,15 +22288,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideAttenuation
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMinDistance
-      value: 21.92192
+      value: 9.6
       objectReference: {fileID: 0}
     - target: {fileID: 136631416, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}
       propertyPath: OverrideMaxDistance
-      value: 48.855896
+      value: 65
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13051fd3ed43e2b46b1c6be2ce85b010, type: 3}

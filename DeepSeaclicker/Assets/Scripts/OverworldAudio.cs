@@ -26,6 +26,10 @@ public class OverworldAudio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Movement/Sonar", gameObject);
+        }
 
        
         //SubMovement

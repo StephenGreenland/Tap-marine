@@ -96,7 +96,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{d92ddf34-b07c-48b2-9497-48be0ae45dcb}">
 		<property name="volume">
-			<value>4.5</value>
+			<value>10</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5a2645e6-ac40-4c6b-86b1-0f61f6a025d3}</destination>
@@ -130,6 +130,9 @@
 		</property>
 		<property name="timelockedOffset">
 			<value>16.039999999999999</value>
+		</property>
+		<property name="volume">
+			<value>6</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{d57661dc-81b4-4a64-8d80-c47bc91a9197}</destination>
@@ -187,6 +190,7 @@
 		<relationship name="effects">
 			<destination>{fd7ec40f-1225-4b04-afad-0c14fff0647b}</destination>
 			<destination>{1e1cf98e-7496-4465-a7b2-4ad2d8b4bb40}</destination>
+			<destination>{ca02ae7e-1150-43ed-9308-84a870d34536}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cf8fc280-32cd-4ac6-aa6f-9f92e76ad296}" />
@@ -213,6 +217,26 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{1e1cf98e-7496-4465-a7b2-4ad2d8b4bb40}" />
+	<object class="MultibandEqEffect" id="{ca02ae7e-1150-43ed-9308-84a870d34536}">
+		<property name="filterTypeA">
+			<value>10</value>
+		</property>
+		<property name="filterTypeB">
+			<value>10</value>
+		</property>
+		<property name="frequencyA">
+			<value>1616.77271</value>
+		</property>
+		<property name="frequencyB">
+			<value>403.431122</value>
+		</property>
+		<property name="qualityA">
+			<value>0.539551735</value>
+		</property>
+		<property name="qualityB">
+			<value>0.602344871</value>
+		</property>
+	</object>
 	<object class="Automator" id="{253c4c60-bf97-41a2-806b-18f8f1daa3aa}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>pitch</value>

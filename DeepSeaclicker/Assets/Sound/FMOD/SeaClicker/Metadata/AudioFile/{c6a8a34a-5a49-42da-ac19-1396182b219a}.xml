@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{c6a8a34a-5a49-42da-ac19-1396182b219a}">
+		<property name="assetPath">
+			<value>.unsaved/Ambience/AT_Fire_Crackle_Pop_Light_Firewatch.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>127.31119791666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{11a994f8-d4b0-4c48-8c09-b5b2da44d9c3}</destination>
+		</relationship>
+	</object>
+</objects>
