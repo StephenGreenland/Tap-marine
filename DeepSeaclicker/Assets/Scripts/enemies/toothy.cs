@@ -14,7 +14,7 @@ public class toothy : MonsterBase
 
     private void OnDisable()
     {
-        Debug.Log("DIE!");
+
         health.OnChanged -= OnHealthChanged;
     }
 
