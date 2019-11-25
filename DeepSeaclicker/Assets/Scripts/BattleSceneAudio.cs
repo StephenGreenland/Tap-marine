@@ -26,13 +26,15 @@ public class BattleSceneAudio : MonoBehaviour
     //Monster Death Sound
     private void MonsterManager_Onleave(MonsterBase obj)
     {
+        
         FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/MonsterDeath", gameObject);
     }
 
     private void OnDestroy()
     {
         MonsterManager.Onleave -= MonsterManager_Onleave; 
-        MonsterManager.OnNew -= MonsterManager_OnNew; 
+        MonsterManager.OnNew -= MonsterManager_OnNew;
+        BattleTrack1.release();
     }
     void Update()
     {
@@ -40,18 +42,6 @@ public class BattleSceneAudio : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Cannon", gameObject);
-        }
-
-        //Harpoon TEST
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Harpoon", gameObject);
-        }
-        
-        //Torpedo TEST
-        if (Input.GetKeyDown(KeyCode.L))
-        {
-            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
         }
     }
 }

@@ -5,12 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Sassyshark : MonsterBase
 {
+    FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
     private void OnEnable()
     {
         health.OnChanged += OnHealthChanged;
-        
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/BossSharky", gameObject);
+        MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
 
     private void OnDisable()
@@ -26,7 +28,7 @@ public class Sassyshark : MonsterBase
             OnLeave();
             Destroy(gameObject);
             SceneManager.LoadScene(sceneToLoad);
-
+            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
     }
 }

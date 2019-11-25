@@ -61,6 +61,9 @@
 		<property name="maxVoices">
 			<value>1</value>
 		</property>
+		<property name="triggerCooldown">
+			<value>5000</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{aac93762-a3aa-4b3c-9889-a28edfad2150}" />
 	<object class="GroupTrack" id="{45d24203-bcf6-4228-a11f-102dba8545fb}">
@@ -87,7 +90,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{2ef0c5ee-50a5-4ea9-be20-b383965b80fc}">
 		<property name="volume">
-			<value>-80</value>
+			<value>-3.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{213aa188-12dd-4838-9af8-fbe217f7ef83}</destination>
@@ -145,7 +148,6 @@
 			<destination>{87c34380-dff0-4361-a472-1f21cf060796}</destination>
 		</relationship>
 		<relationship name="sounds">
-			<destination>{01a62e96-959f-4821-bda9-3556940119d0}</destination>
 			<destination>{7bd99e49-4973-4eac-bbff-d8292aa21989}</destination>
 			<destination>{df4ef49d-ad56-44bc-a15e-671428c4b9b2}</destination>
 			<destination>{a967db54-2ba9-45f6-b808-530cb0afbc92}</destination>
@@ -202,22 +204,23 @@
 			<value>6.25</value>
 		</property>
 	</object>
-	<object class="SingleSound" id="{01a62e96-959f-4821-bda9-3556940119d0}">
-		<relationship name="audioFile">
-			<destination>{250d2824-5ef8-4133-8f2d-2b13a1675961}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{7bd99e49-4973-4eac-bbff-d8292aa21989}">
 		<relationship name="audioFile">
 			<destination>{cc81ed67-d00a-4c2f-9a38-547018f45b0d}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{df4ef49d-ad56-44bc-a15e-671428c4b9b2}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{129d62f5-d6ea-4001-b3ae-09999e720f79}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{a967db54-2ba9-45f6-b808-530cb0afbc92}">
+		<property name="volume">
+			<value>5.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{a36e84ba-efc7-4ab0-8265-69d8b2695f82}</destination>
 		</relationship>

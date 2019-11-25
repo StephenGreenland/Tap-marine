@@ -5,11 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class lochscript : MonsterBase
 {
+    FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
     private void OnEnable()
     {
         health.OnChanged += OnHealthChanged;
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/Lockness", gameObject);
+        MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
     }
 
     private void OnDisable()
@@ -25,7 +28,7 @@ public class lochscript : MonsterBase
             OnLeave();
             Destroy(gameObject);
             SceneManager.LoadScene(sceneToLoad);
-
+            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
         }
     }
 }

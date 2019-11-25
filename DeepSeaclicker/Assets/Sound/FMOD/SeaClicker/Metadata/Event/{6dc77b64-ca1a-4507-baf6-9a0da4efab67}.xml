@@ -134,7 +134,10 @@
 	</object>
 	<object class="SingleSound" id="{949b1b94-4340-46f4-97d3-d85de5c4251f}">
 		<property name="length">
-			<value>22</value>
+			<value>22.228571428571428</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>7</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{c879ccac-a6b2-424d-8aa0-52bf23f4ba0d}</destination>
@@ -144,6 +147,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{014f2673-be6a-46ac-9133-1804440224fc}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<property name="name">
 			<value>Boiling Water</value>
 		</property>

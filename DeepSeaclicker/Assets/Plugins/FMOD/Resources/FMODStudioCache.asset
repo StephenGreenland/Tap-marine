@@ -1,154 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
-<<<<<<< HEAD
---- !u!114 &-8892860214369130649
-=======
---- !u!114 &-9100575468044226767
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &-6766382342591333625
-=======
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/MonsterDeath
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/MonsterDeath
-  guid: 1f329c8f5ef65147a7ad602a540b0231
-  Banks:
-  - {fileID: 1063547640757356368}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1588
---- !u!114 &-8104580169381635750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: C:/Users/ktiwari3/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
-  SubDir: 
-  lastModified: 637102678612578166
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1376
-  Exists: 1
---- !u!114 &-7279508723140334203
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-<<<<<<< HEAD
-  Exists: 0
-=======
-  Exists: 1
---- !u!114 &-6873447427499151299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/Overworld
-  m_EditorClassIdentifier: 
-  Path: event:/Music/Overworld
-  guid: 83dd80709b605544b9466c98e0d06d68
-  Banks:
-  - {fileID: 1063547640757356368}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 112000
->>>>>>> master
---- !u!114 &-6048384199170753927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Weapons/Cannon
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Weapons/Cannon
-  guid: e5f8028eb5aedd40bd3da1ba1af15010
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1312
-<<<<<<< HEAD
---- !u!114 &-5973386672610547584
-=======
---- !u!114 &-5089158324979098240
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &-5200226325456180939
+--- !u!114 &-9058502448547557342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,7 +17,7 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
---- !u!114 &-4981350758426754465
+--- !u!114 &-8617817014752259261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -174,178 +26,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
-=======
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Weapons/Torpedo
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Weapons/Torpedo
-  guid: 6a5c59383f3a30408e71a16f4c67b0f6
-  Banks:
-  - {fileID: 1063547640757356368}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2559
->>>>>>> master
---- !u!114 &-4768777560334554296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Weapons/Harpoon
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Weapons/Harpoon
-  guid: 74d51914c4309440861bbaa81426bf4b
-  Banks:
-<<<<<<< HEAD
-  - {fileID: 1115012588348336307}
-=======
-  - {fileID: 1063547640757356368}
->>>>>>> master
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2000
---- !u!114 &-4717526707794518648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &-3959412165209373642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &-3878492014362319896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &-3686406749791898115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &-3359844765514839212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/MonsterDeath
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/MonsterDeath
-  guid: 1f329c8f5ef65147a7ad602a540b0231
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1588
-<<<<<<< HEAD
---- !u!114 &-3024981789196334866
-=======
---- !u!114 &-3351518702952985681
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
-=======
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Music/BattleMusic
   m_EditorClassIdentifier: 
   Path: event:/Music/BattleMusic
   guid: 47bd077e13f21f4b95d4b464d29c93d9
   Banks:
-  - {fileID: 1063547640757356368}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -353,31 +40,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 96000
->>>>>>> master
---- !u!114 &-2998586160901141161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Weapons/Torpedo
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Weapons/Torpedo
-  guid: 6a5c59383f3a30408e71a16f4c67b0f6
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2559
---- !u!114 &-2833104730351668955
+--- !u!114 &-8372869714051408011
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,324 +57,7 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
---- !u!114 &-2804193349226230802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &-2635436137159541055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: C:/Users/sgreenland/Downloads/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637100097409887827
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 4950784
-  Exists: 1
---- !u!114 &-2488709005908140403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Sonar
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Sonar
-  guid: 8fb8abf68831964980b02fab6a2876a0
-  Banks: []
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 3187
---- !u!114 &-2228588513016552306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &-1954891068286137259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &-1703331259438183679
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 1
---- !u!114 &-1127275710434486303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &-872070030367309840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Movement/OverworldMovement
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Movement/OverworldMovement
-  guid: f77cb22f88b71f41a85a89a93d03c99b
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 6399781843765779201}
-  - {fileID: 3288686408839437209}
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 41960
---- !u!114 &-325361661304260120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &-279058447763626587
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Ambience
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/Ambience
-  guid: 0708a7628152734cada372ae2d1298cb
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 12707
---- !u!114 &-30803225515150987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 2644370824682253262}
-  - {fileID: 1115012588348336307}
-  EditorEvents:
-  - {fileID: -279058447763626587}
-  - {fileID: -3359844765514839212}
-  - {fileID: 6766142954701232821}
-  - {fileID: 1294861852920035378}
-  - {fileID: 759883180415954964}
-  - {fileID: -2998586160901141161}
-  - {fileID: -4768777560334554296}
-  - {fileID: 9004009779342184773}
-  - {fileID: -6048384199170753927}
-  - {fileID: 8396340326448350502}
-  - {fileID: -872070030367309840}
-  - {fileID: 3973739756279963088}
-  - {fileID: 8481421649158605634}
-  - {fileID: 4085627090452077788}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 1115012588348336307}
-  StringsBanks:
-  - {fileID: 2644370824682253262}
-  stringsBankWriteTime: 637101348368049909
-  cacheVersion: 3
---- !u!114 &759883180415954964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/WhirlPool
-  m_EditorClassIdentifier: 
-  Path: event:/Environment/WhirlPool
-  guid: 5ba2bbc94d16354f9220233ffff3bab5
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 9.6
-  MaxDistance: 65
-  Length: 24000
---- !u!114 &776205522487034236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 1
---- !u!114 &1026351214568433956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 0
---- !u!114 &1115012588348336307
-=======
-  Path: event:/Player/Weapons/Torpedo
-  guid: 6a5c59383f3a30408e71a16f4c67b0f6
-  Banks:
-  - {fileID: -2635436137159541055}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2559
---- !u!114 &-2763167675779034062
+--- !u!114 &-8288660379473639689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -726,7 +72,7 @@ MonoBehaviour:
   Path: event:/Environment/Submarine Engine
   guid: 3c0ec8a725be5c4bbcc41a804e7bbcbd
   Banks:
-  - {fileID: 1063547640757356368}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -734,31 +80,7 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 17500
---- !u!114 &-2635436137159541055
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: A:/Game Projects/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637101348368010018
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 5441920
-  Exists: 1
-<<<<<<< HEAD
---- !u!114 &1294861852920035378
-=======
---- !u!114 &-1480361029923533026
+--- !u!114 &-7838341466573164778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,14 +90,124 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
+  m_Name: parameter:/OverworldMovement/Volume
   m_EditorClassIdentifier: 
-  Name: PitchShift
+  Name: Volume
   Min: 0
-  Max: 4
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7771679065109972313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 1
---- !u!114 &-1312041709989708586
+--- !u!114 &-7753928559293969940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7687646032862656708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7598858761407661992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Movement/OverworldMovement
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Movement/OverworldMovement
+  guid: f77cb22f88b71f41a85a89a93d03c99b
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6348197352711436494}
+  - {fileID: -7771679065109972313}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 41960
+--- !u!114 &-7384175627439642817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7027490509487710744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6583891455733493106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -790,7 +222,7 @@ MonoBehaviour:
   Path: event:/Player/Weapons/Cannon
   guid: e5f8028eb5aedd40bd3da1ba1af15010
   Banks:
-  - {fileID: 1063547640757356368}
+  - {fileID: 7898154397985525204}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -798,8 +230,41 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1312
---- !u!114 &-872070030367309840
->>>>>>> master
+--- !u!114 &-6581507848902501973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6536054356654705800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6484563908951237020
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -809,20 +274,83 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/BattleMusic
+  m_Name: event:/Music/MenuMusic
   m_EditorClassIdentifier: 
-  Path: event:/Music/BattleMusic
-  guid: 47bd077e13f21f4b95d4b464d29c93d9
+  Path: event:/Music/MenuMusic
+  guid: b65a17580c97ec4ebd11f0f832a785e4
   Banks:
-  - {fileID: 1115012588348336307}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 96000
---- !u!114 &2644370824682253262
+  Length: 20000
+--- !u!114 &-6313351892273647795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6302486448819545706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ui/PlayButton
+  m_EditorClassIdentifier: 
+  Path: event:/Ui/PlayButton
+  guid: 41de3003ee18864aa1aa4c9cac2987da
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3187
+--- !u!114 &-6276571993853504937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/BossJelly
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/BossJelly
+  guid: e684313ad7988843aee7582dff81b19d
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2937
+--- !u!114 &-6148240422342149623
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -834,30 +362,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   Path: A:/Game Projects/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637101348368049909
+  lastModified: 637103116716229013
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1516
+    Value: 1730
   Exists: 1
---- !u!114 &3288686408839437209
-=======
-  Path: event:/Environment/Ambience
-  guid: 0708a7628152734cada372ae2d1298cb
-  Banks:
-  - {fileID: 1063547640757356368}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 12707
---- !u!114 &11400000
->>>>>>> master
+--- !u!114 &-5680194560219067988
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -866,50 +379,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/Volume
-  m_EditorClassIdentifier: 
-<<<<<<< HEAD
-  Name: Volume
-  Min: 0
-  Max: 1
-  Default: 0
-  Exists: 1
---- !u!114 &3691126948095577764
-=======
-  EditorBanks:
-  - {fileID: -8104580169381635750}
-  - {fileID: 1063547640757356368}
-  EditorEvents:
-  - {fileID: -279058447763626587}
-  - {fileID: -4768777560334554296}
-  - {fileID: -9100575468044226767}
-  - {fileID: -2763167675779034062}
-  - {fileID: -3351518702952985681}
-  - {fileID: 5003007483257415813}
-  - {fileID: -5089158324979098240}
-  - {fileID: -6873447427499151299}
-  - {fileID: -1312041709989708586}
-  - {fileID: 6493085378581258064}
-  - {fileID: 538971588333738607}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 1063547640757356368}
-  StringsBanks:
-  - {fileID: -8104580169381635750}
-  stringsBankWriteTime: 637102678612578166
-  cacheVersion: 3
---- !u!114 &538971588333738607
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/OverworldMovement/Volume
   m_EditorClassIdentifier: 
@@ -918,26 +387,30 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
---- !u!114 &3973739756279963088
-=======
+--- !u!114 &-5673395284071736593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Movement/OverworldMovement
+  m_Name: event:/Enemies/BossHydra
   m_EditorClassIdentifier: 
-  Path: event:/Player/Movement/OverworldMovement
-  guid: f77cb22f88b71f41a85a89a93d03c99b
+  Path: event:/Enemies/BossHydra
+  guid: 7957bdc2130f4d42b24d22bb3af8a74e
   Banks:
-  - {fileID: 1063547640757356368}
-  IsStream: 1
+  - {fileID: 7898154397985525204}
+  IsStream: 0
   Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1480361029923533026}
-  - {fileID: -7279508723140334203}
+  IsOneShot: 1
+  Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 41960
---- !u!114 &759883180415954964
->>>>>>> master
+  Length: 2856
+--- !u!114 &-5631567528123814322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -952,7 +425,7 @@ MonoBehaviour:
   Path: event:/Environment/WhirlPoolLava
   guid: 647bc76d1aca0745baf69a0da4efab67
   Banks:
-  - {fileID: 1115012588348336307}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -960,54 +433,7 @@ MonoBehaviour:
   MinDistance: 9.6
   MaxDistance: 65
   Length: 24000
-<<<<<<< HEAD
---- !u!114 &4085627090452077788
-=======
---- !u!114 &1063547640757356368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: C:/Users/ktiwari3/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637102678612518589
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 4950784
-  Exists: 1
---- !u!114 &1294861852920035378
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Player/Movement/Sonar
-  m_EditorClassIdentifier: 
-  Path: event:/Player/Movement/Sonar
-  guid: 8fb8abf68831964980b02fab6a2876a0
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 3187
---- !u!114 &4606242974411834857
+--- !u!114 &-4125584065394899685
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1023,30 +449,59 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &-3866768878319235126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-3421346894359958974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-3407614769761068671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
   Exists: 1
-<<<<<<< HEAD
---- !u!114 &4672261616124489315
-=======
---- !u!114 &5003007483257415813
->>>>>>> master
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &5276743073705538397
+--- !u!114 &-3185102566453039836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1062,15 +517,114 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
+  Exists: 1
+--- !u!114 &-2746066012174862311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
   Exists: 0
-=======
+--- !u!114 &-2279501799889301030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1681758013749073970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-1487382104702437430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-760843132783229865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/MonsterDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/MonsterDeath
+  guid: 1f329c8f5ef65147a7ad602a540b0231
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1588
+--- !u!114 &-4374403612800587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/Environment/WhirlPool
   m_EditorClassIdentifier: 
   Path: event:/Environment/WhirlPool
   guid: 5ba2bbc94d16354f9220233ffff3bab5
   Banks:
-  - {fileID: 1063547640757356368}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1078,8 +632,7 @@ MonoBehaviour:
   MinDistance: 9.6
   MaxDistance: 65
   Length: 24000
->>>>>>> master
---- !u!114 &6200301798582568206
+--- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1088,22 +641,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  Path: C:/Users/sgreenland/Downloads/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
-  SubDir: 
-  lastModified: 637100097409986511
-  LoadResult: 0
-  FileSizes:
-  - Name: Desktop
-    Value: 1376
-  Exists: 1
-<<<<<<< HEAD
---- !u!114 &6399781843765779201
-=======
---- !u!114 &6493085378581258064
->>>>>>> master
+  EditorBanks:
+  - {fileID: -6148240422342149623}
+  - {fileID: 7898154397985525204}
+  EditorEvents:
+  - {fileID: 1197697992621304671}
+  - {fileID: -760843132783229865}
+  - {fileID: -8288660379473639689}
+  - {fileID: -8617817014752259261}
+  - {fileID: -4374403612800587}
+  - {fileID: -5631567528123814322}
+  - {fileID: 202414073866053921}
+  - {fileID: 5489970427714136904}
+  - {fileID: 2223159269783255394}
+  - {fileID: 8787715890743118837}
+  - {fileID: -6583891455733493106}
+  - {fileID: 6981698618937997250}
+  - {fileID: -7598858761407661992}
+  - {fileID: -6484563908951237020}
+  - {fileID: -6302486448819545706}
+  - {fileID: -5673395284071736593}
+  - {fileID: -6276571993853504937}
+  - {fileID: 5942237023637925504}
+  - {fileID: 4532853186695967096}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7898154397985525204}
+  StringsBanks:
+  - {fileID: -6148240422342149623}
+  stringsBankWriteTime: 637103116716229013
+  cacheVersion: 3
+--- !u!114 &202414073866053921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1112,49 +683,38 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-<<<<<<< HEAD
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 1
---- !u!114 &6428514795115933233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
-=======
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/MonsterSpawn
+  m_Name: event:/Player/Weapons/Torpedo
   m_EditorClassIdentifier: 
-  Path: event:/Enemies/MonsterSpawn
-  guid: f57d33bbb018824aa8d7f437965a6aa5
+  Path: event:/Player/Weapons/Torpedo
+  guid: 6a5c59383f3a30408e71a16f4c67b0f6
   Banks:
-  - {fileID: 1063547640757356368}
+  - {fileID: 7898154397985525204}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1600
->>>>>>> master
---- !u!114 &6766142954701232821
+  Length: 2559
+--- !u!114 &1170329104708031131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &1197697992621304671
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1164,100 +724,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Environment/Submarine Engine
+  m_Name: event:/Environment/Ambience
   m_EditorClassIdentifier: 
-  Path: event:/Environment/Submarine Engine
-  guid: 3c0ec8a725be5c4bbcc41a804e7bbcbd
+  Path: event:/Environment/Ambience
+  guid: 0708a7628152734cada372ae2d1298cb
   Banks:
-  - {fileID: 1115012588348336307}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 17500
---- !u!114 &7228169782414527772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 1
---- !u!114 &7393969455803961315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
-  Exists: 0
---- !u!114 &8396340326448350502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/MonsterSpawn
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/MonsterSpawn
-  guid: f57d33bbb018824aa8d7f437965a6aa5
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 1600
---- !u!114 &8481421649158605634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Enemies/Boss
-  m_EditorClassIdentifier: 
-  Path: event:/Enemies/Boss
-  guid: 7957bdc2130f4d42b24d22bb3af8a74e
-  Banks:
-  - {fileID: 1115012588348336307}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 0
-  Length: 2856
---- !u!114 &8497841138562151304
+  Length: 12707
+--- !u!114 &2017563446163456205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1273,25 +753,8 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 0
---- !u!114 &8560325748921937903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/OverworldMovement/PitchShift
-  m_EditorClassIdentifier: 
-  Name: PitchShift
-  Min: 0
-  Max: 4
-  Default: 0
   Exists: 1
---- !u!114 &9004009779342184773
+--- !u!114 &2223159269783255394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1306,7 +769,7 @@ MonoBehaviour:
   Path: event:/Music/Overworld
   guid: 83dd80709b605544b9466c98e0d06d68
   Banks:
-  - {fileID: 1115012588348336307}
+  - {fileID: 7898154397985525204}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1314,7 +777,41 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 112000
---- !u!114 &9156336842314620534
+--- !u!114 &2523904681272313935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &2788570712198119319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &3071323453810346494
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1331,3 +828,432 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3880130569032298165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &3914373730931757569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &4131439568971885548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &4490396163042789465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &4532853186695967096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Lockness
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Lockness
+  guid: f354084497e1df44a1d2e98ed0846b8e
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &4845926604023482610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &5203338228688438285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &5489970427714136904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Weapons/Harpoon
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Weapons/Harpoon
+  guid: 74d51914c4309440861bbaa81426bf4b
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
+--- !u!114 &5942237023637925504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/BossSharky
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/BossSharky
+  guid: c35c71d16fbaea45b0f43192dcd8a062
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2125
+--- !u!114 &6348197352711436494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &6725804213554442846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &6875702115183718369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &6981698618937997250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/MonsterSpawn
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/MonsterSpawn
+  guid: f57d33bbb018824aa8d7f437965a6aa5
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
+--- !u!114 &7025085293875938031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &7271435445389018727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7898154397985525204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: A:/Game Projects/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637103116716199096
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 5670208
+  Exists: 1
+--- !u!114 &7914342101246093673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &8022255978755330754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8152974901849516311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8179212329394118627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &8787715890743118837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Movement/Sonar
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Movement/Sonar
+  guid: 8fb8abf68831964980b02fab6a2876a0
+  Banks:
+  - {fileID: 7898154397985525204}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3187
+--- !u!114 &8897917903348434355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &9122203913400282448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Boss
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Boss
+  guid: 7957bdc2130f4d42b24d22bb3af8a74e
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2856

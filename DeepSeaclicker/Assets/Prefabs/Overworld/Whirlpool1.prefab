@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85e6168f55fb0ae418299816dd353069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 
+  sceneToLoad: BS3
   Boss1: {fileID: 0}
 --- !u!114 &136631416
 MonoBehaviour:
@@ -296,5 +296,5 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 3.4
-  OverrideMaxDistance: 25
+  OverrideMinDistance: 9.6
+  OverrideMaxDistance: 65

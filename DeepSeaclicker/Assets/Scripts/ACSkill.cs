@@ -37,6 +37,7 @@ public class ACSkill : MonoBehaviour
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
                 yield return new WaitForSeconds(0.2f);
                 effect.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
                 yield return new WaitForSeconds(2f);
 
@@ -44,11 +45,13 @@ public class ACSkill : MonoBehaviour
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
                 yield return new WaitForSeconds(0.2f);
                 effect.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
                 yield return new WaitForSeconds(2f);
                 effect.SetActive(true);
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
                yield return new WaitForSeconds(0.2f);
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
                 effect.SetActive(false);
                 coolingDown = true;
