@@ -8,6 +8,8 @@ public class HarpoonSkill : MonoBehaviour
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
     public MonsterBase currentMonster;
+    public GameObject effect;
+    public GameObject harpoon;
 
     public float cooldownTime;
     public bool coolingDown = false;
@@ -21,14 +23,23 @@ public class HarpoonSkill : MonoBehaviour
         currentMonster = monsterManagerRef.currentMonster;
         
     }
-    public void HarpoonActivated()
+    public void HarpoonSkillButton()
+    {
+        StartCoroutine(HarpoonActivated());
+    }
+    IEnumerator HarpoonActivated()
     {
         if (!coolingDown)
         {
             if (cooldownTime <= 0)
             {
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
+                
+                harpoon.SetActive(false);
                 coolingDown = true;
+                effect.SetActive(true);
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
+                yield return new WaitForSeconds(0.3f);
+                effect.SetActive(false);
                 cooldownTime = 5f;
             }
         }
@@ -62,12 +73,13 @@ public class HarpoonSkill : MonoBehaviour
 
         if (coolingDown)
         {
+            harpoon.SetActive(false);
             this.GetComponent<Image>().color = Color.gray;
-
         }
         if (!coolingDown)
         {
             this.GetComponent<Image>().color = initColor;
+            harpoon.SetActive(true);
         }
     }
 }

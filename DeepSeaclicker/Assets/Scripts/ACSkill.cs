@@ -8,6 +8,7 @@ public class ACSkill : MonoBehaviour
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
     public MonsterBase currentMonster;
+    public GameObject effect;
 
     
     private Color initColor;
@@ -32,15 +33,26 @@ public class ACSkill : MonoBehaviour
         {
             if (cooldownTime <= 0)
             {
+                effect.SetActive(true);
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
+                yield return new WaitForSeconds(0.2f);
+                effect.SetActive(false);
+
                 yield return new WaitForSeconds(2f);
+
+                effect.SetActive(true);
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
+                yield return new WaitForSeconds(0.2f);
+                effect.SetActive(false);
+
                 yield return new WaitForSeconds(2f);
+                effect.SetActive(true);
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
-                
-                yield return new WaitForSeconds(2f);
-                cooldownTime = 5f;
+               yield return new WaitForSeconds(0.2f);
+
+                effect.SetActive(false);
                 coolingDown = true;
+                cooldownTime = 5f;
             }
         }
     }
