@@ -149,7 +149,8 @@ MonoBehaviour:
   playerRef: {fileID: 0}
   monsterManagerRef: {fileID: 0}
   currentMonster: {fileID: 0}
-  cooldownTime: 2
+  effect: {fileID: 0}
+  cooldownTime: 5
   coolingDown: 0
 --- !u!1 &700036087940282533
 GameObject:

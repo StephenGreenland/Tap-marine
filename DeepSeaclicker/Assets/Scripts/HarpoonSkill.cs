@@ -8,11 +8,10 @@ public class HarpoonSkill : MonoBehaviour
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
     public MonsterBase currentMonster;
-    public GameObject effect;
     public GameObject harpoon;
 
     public float cooldownTime;
-    public bool coolingDown = false;
+    public bool coolingDown = true;
 
     private Color initColor;
 
@@ -21,25 +20,17 @@ public class HarpoonSkill : MonoBehaviour
         initColor = this.GetComponent<Image>().color;
         monsterManagerRef.OnNew += MonsterIdentity;
         currentMonster = monsterManagerRef.currentMonster;
-        
+
     }
-    public void HarpoonSkillButton()
-    {
-        StartCoroutine(HarpoonActivated());
-    }
-    IEnumerator HarpoonActivated()
+    public void HarpoonActivated()
     {
         if (!coolingDown)
         {
             if (cooldownTime <= 0)
             {
-                
                 harpoon.SetActive(false);
                 coolingDown = true;
-                effect.SetActive(true);
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
-                yield return new WaitForSeconds(0.3f);
-                effect.SetActive(false);
                 cooldownTime = 5f;
             }
         }
@@ -56,7 +47,6 @@ public class HarpoonSkill : MonoBehaviour
     public void MonsterIdentity(MonsterBase obj)
     {
         currentMonster = obj;
-        
     }
 
     private void OnDestroy()
@@ -66,20 +56,19 @@ public class HarpoonSkill : MonoBehaviour
     public void Update()
     {
         cooldownTime -= Time.deltaTime;
+        if (cooldownTime >= 0)
+        {
+            coolingDown = true;
+            this.GetComponent<Image>().color = Color.gray;
+            harpoon.SetActive(false);
+        }
         if (cooldownTime <= 0)
         {
             coolingDown = false;
-        }
-
-        if (coolingDown)
-        {
-            harpoon.SetActive(false);
-            this.GetComponent<Image>().color = Color.gray;
-        }
-        if (!coolingDown)
-        {
             this.GetComponent<Image>().color = initColor;
             harpoon.SetActive(true);
         }
     }
 }
+    
+

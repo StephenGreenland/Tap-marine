@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DirectionalArrows : MonoBehaviour
 {
-	public List<WhirlPool> wPool;
+	public List<GameObject> wPool;
 
 	public List<GameObject> arrows;
 
@@ -16,7 +16,7 @@ public class DirectionalArrows : MonoBehaviour
 	void Start()
 	{
 		// Just find them once. If they change during play, move to Update
-		wPool = FindObjectsOfType<WhirlPool>().ToList();
+		wPool = GameObject.FindGameObjectsWithTag("Whirlpool").ToList();
 
 		for (int i = 0; i < wPool.Count; i++)
 		{

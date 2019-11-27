@@ -33,29 +33,31 @@ public class ACSkill : MonoBehaviour
         {
             if (cooldownTime <= 0)
             {
-                effect.SetActive(true);
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
-                yield return new WaitForSeconds(0.2f);
-                effect.SetActive(false);
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
-
-                yield return new WaitForSeconds(2f);
-
-                effect.SetActive(true);
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
-                yield return new WaitForSeconds(0.2f);
-                effect.SetActive(false);
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
-
-                yield return new WaitForSeconds(2f);
-                effect.SetActive(true);
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 3);
-               yield return new WaitForSeconds(0.2f);
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
-
-                effect.SetActive(false);
                 coolingDown = true;
-                cooldownTime = 5f;
+                cooldownTime = 10f;
+                effect.SetActive(true);
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
+                yield return new WaitForSeconds(0.2f);
+                effect.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+
+                yield return new WaitForSeconds(2f);
+
+                effect.SetActive(true);
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
+                yield return new WaitForSeconds(0.2f);
+                effect.SetActive(false);
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+
+                yield return new WaitForSeconds(2f);
+                effect.SetActive(true);
+                currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
+                yield return new WaitForSeconds(0.2f);
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+
+                effect.SetActive(false);
+                
+                
             }
         }
     }
@@ -72,17 +74,14 @@ public class ACSkill : MonoBehaviour
     public void Update()
     {
         cooldownTime -= Time.deltaTime;
+        if (cooldownTime >= 0)
+        {
+            coolingDown = true;
+            this.GetComponent<Image>().color = Color.gray;
+        }
         if (cooldownTime <= 0)
         {
             coolingDown = false;
-        }
-        if (coolingDown)
-        {
-            this.GetComponent<Image>().color = Color.gray;
-            
-        }
-        if (!coolingDown)
-        {
             this.GetComponent<Image>().color = initColor;
         }
     }

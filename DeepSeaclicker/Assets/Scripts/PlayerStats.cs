@@ -11,6 +11,8 @@ public class PlayerStats : MonoBehaviour
     public float goldMuiltiplayer;
     private float goldgain;
 
+    public GameObject goldEffect;
+
  
     private float _newCost;
     public MonsterManager monsterManger;
@@ -30,7 +32,7 @@ public class PlayerStats : MonoBehaviour
     private void MonsterMangerOnOnleave(MonsterBase obj)
     {
         goldAmount += CalcGold(obj.reward);
-        
+        Instantiate(goldEffect);
     }
 
     // Update is called once per frame
@@ -41,7 +43,6 @@ public class PlayerStats : MonoBehaviour
 
     public void upgradestats()
     {
-        Debug.Log(goldAmount);
         if (goldAmount >= cost)
         {
             
@@ -49,7 +50,7 @@ public class PlayerStats : MonoBehaviour
             damage = Mathf.Round(damage * 1.19f-(1));
             cost = Mathf.Round(cost * 1.20f);
             _newCost = Mathf.Pow(cost, _newCost = cost);
-            Debug.Log(damage);
+           // Debug.Log(damage);
         }
    
     }
