@@ -100,6 +100,31 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 17500
+--- !u!114 &-8192031996588640663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Movement/OverworldMovement
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Movement/OverworldMovement
+  guid: f77cb22f88b71f41a85a89a93d03c99b
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4751471298323101458}
+  - {fileID: 5257989917439448409}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 41960
 --- !u!114 &-7838341466573164778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,6 +235,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-7357782922775152261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Submarine Engine
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Submarine Engine
+  guid: 3c0ec8a725be5c4bbcc41a804e7bbcbd
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 17500
 --- !u!114 &-7027490509487710744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,6 +275,52 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-6976595601170699466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/BossJelly
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/BossJelly
+  guid: e684313ad7988843aee7582dff81b19d
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2937
+--- !u!114 &-6715360554115819997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Weapons/Torpedo
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Weapons/Torpedo
+  guid: 6a5c59383f3a30408e71a16f4c67b0f6
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2559
 --- !u!114 &-6583891455733493106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +547,23 @@ MonoBehaviour:
   MinDistance: 9.6
   MaxDistance: 65
   Length: 24000
+--- !u!114 &-4751471298323101458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
 --- !u!114 &-4125584065394899685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -538,6 +649,52 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 1
+--- !u!114 &-3161194544327029932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Overworld
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Overworld
+  guid: 83dd80709b605544b9466c98e0d06d68
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 112000
+--- !u!114 &-3004591272043536218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/BossHydra
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/BossHydra
+  guid: 7957bdc2130f4d42b24d22bb3af8a74e
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2856
 --- !u!114 &-2746066012174862311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +729,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-2255007487993094617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/BossSharky
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/BossSharky
+  guid: c35c71d16fbaea45b0f43192dcd8a062
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2125
 --- !u!114 &-1681758013749073970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -629,6 +809,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1588
+--- !u!114 &-88104752302512452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Weapons/Harpoon
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Weapons/Harpoon
+  guid: 74d51914c4309440861bbaa81426bf4b
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-4374403612800587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,26 +868,34 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8603399013439383513}
-  - {fileID: 943771531423924544}
+  - {fileID: 1169546697269023615}
+  - {fileID: 8702176197390399781}
   EditorEvents:
-  - {fileID: 1197697992621304671}
-  - {fileID: -760843132783229865}
-  - {fileID: -8288660379473639689}
-  - {fileID: -8617817014752259261}
-  - {fileID: -4374403612800587}
-  - {fileID: 202414073866053921}
-  - {fileID: 5489970427714136904}
-  - {fileID: 2223159269783255394}
-  - {fileID: -6583891455733493106}
-  - {fileID: 6981698618937997250}
-  - {fileID: -7598858761407661992}
+  - {fileID: 1318189365221162670}
+  - {fileID: 3656154534298236140}
+  - {fileID: -7357782922775152261}
+  - {fileID: 8077955971129919496}
+  - {fileID: 8021948017578392519}
+  - {fileID: 8352364492348034915}
+  - {fileID: 6427847337530309493}
+  - {fileID: -6715360554115819997}
+  - {fileID: -88104752302512452}
+  - {fileID: -3004591272043536218}
+  - {fileID: -3161194544327029932}
+  - {fileID: 2983463020890470638}
+  - {fileID: 4122227049078916531}
+  - {fileID: -2255007487993094617}
+  - {fileID: 3560744955184233847}
+  - {fileID: -6976595601170699466}
+  - {fileID: 6865399298453310517}
+  - {fileID: 5200992518548357212}
+  - {fileID: -8192031996588640663}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 943771531423924544}
+  - {fileID: 8702176197390399781}
   StringsBanks:
-  - {fileID: -8603399013439383513}
-  stringsBankWriteTime: 637097097111979792
+  - {fileID: 1169546697269023615}
+  stringsBankWriteTime: 637105535953166397
   cacheVersion: 3
 --- !u!114 &202414073866053921
 MonoBehaviour:
@@ -729,6 +940,26 @@ MonoBehaviour:
   - Name: Desktop
     Value: 4914720
   Exists: 1
+--- !u!114 &1169546697269023615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/berickson2/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637105535953166397
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1730
+  Exists: 1
 --- !u!114 &1170329104708031131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,6 +993,29 @@ MonoBehaviour:
   guid: 0708a7628152734cada372ae2d1298cb
   Banks:
   - {fileID: 943771531423924544}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 12707
+--- !u!114 &1318189365221162670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Ambience
+  guid: 0708a7628152734cada372ae2d1298cb
+  Banks:
+  - {fileID: 8702176197390399781}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -860,6 +1114,29 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 1
+--- !u!114 &2983463020890470638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Movement/Sonar
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Movement/Sonar
+  guid: 8fb8abf68831964980b02fab6a2876a0
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3187
 --- !u!114 &3071323453810346494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -877,6 +1154,52 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &3560744955184233847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Weapons/Cannon
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Weapons/Cannon
+  guid: e5f8028eb5aedd40bd3da1ba1af15010
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1312
+--- !u!114 &3656154534298236140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/MonsterDeath
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/MonsterDeath
+  guid: 1f329c8f5ef65147a7ad602a540b0231
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1588
 --- !u!114 &3880130569032298165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -911,6 +1234,29 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
+--- !u!114 &4122227049078916531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MenuMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MenuMusic
+  guid: b65a17580c97ec4ebd11f0f832a785e4
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 20000
 --- !u!114 &4131439568971885548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -985,7 +1331,47 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &5200992518548357212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/MonsterSpawn
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/MonsterSpawn
+  guid: f57d33bbb018824aa8d7f437965a6aa5
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1600
 --- !u!114 &5203338228688438285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &5257989917439448409
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1082,6 +1468,29 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 1
+--- !u!114 &6427847337530309493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/WhirlPoolLava
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/WhirlPoolLava
+  guid: 647bc76d1aca0745baf69a0da4efab67
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 9.6
+  MaxDistance: 65
+  Length: 24000
 --- !u!114 &6725804213554442846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1099,6 +1508,29 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
+--- !u!114 &6865399298453310517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemies/Lockness
+  m_EditorClassIdentifier: 
+  Path: event:/Enemies/Lockness
+  guid: f354084497e1df44a1d2e98ed0846b8e
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
 --- !u!114 &6875702115183718369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1210,6 +1642,29 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
+--- !u!114 &8021948017578392519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BattleMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BattleMusic
+  guid: 47bd077e13f21f4b95d4b464d29c93d9
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 96000
 --- !u!114 &8022255978755330754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,6 +1682,29 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &8077955971129919496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ui/PlayButton
+  m_EditorClassIdentifier: 
+  Path: event:/Ui/PlayButton
+  guid: 41de3003ee18864aa1aa4c9cac2987da
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3187
 --- !u!114 &8152974901849516311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1260,6 +1738,49 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 1
+--- !u!114 &8352364492348034915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/WhirlPool
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/WhirlPool
+  guid: 5ba2bbc94d16354f9220233ffff3bab5
+  Banks:
+  - {fileID: 8702176197390399781}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 9.6
+  MaxDistance: 65
+  Length: 24000
+--- !u!114 &8702176197390399781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/berickson2/Desktop/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637105535953096590
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 5670208
   Exists: 1
 --- !u!114 &8787715890743118837
 MonoBehaviour:

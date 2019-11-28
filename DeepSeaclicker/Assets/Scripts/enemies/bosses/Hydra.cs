@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Hydra : MonsterBase
 {
+    public MonsterManager fixenemy;
     FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
@@ -27,10 +28,12 @@ public class Hydra : MonsterBase
 
         if (health.amount <= 0)
         {
-            OnLeave();
             Destroy(gameObject);
+
+            OnLeave();
             SceneManager.LoadScene(sceneToLoad);
-           // MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
+            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            fixenemy.monsterLevel = 0;
             
 
         }

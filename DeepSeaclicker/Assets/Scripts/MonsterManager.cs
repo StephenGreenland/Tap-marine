@@ -13,7 +13,7 @@ public class MonsterManager : MonoBehaviour
     private int monsterCount;
     public GameObject boss1;
 
-    public static int monsterLevel;
+    public  int monsterLevel;
     public event Action<MonsterBase> OnNew;
     public event Action<MonsterBase> Onleave;
     public event Action onmonsterlevelup;
@@ -24,6 +24,7 @@ public class MonsterManager : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
+        Debug.Log(monsterLevel);
         SpawnMonster();
         healthScaler = 1;
     }
