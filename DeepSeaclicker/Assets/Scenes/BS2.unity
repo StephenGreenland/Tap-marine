@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goldAmount: 0
-  damage: -5
+  damage: -2
   cost: 10
   goldMuiltiplayer: 0
   goldEffect: {fileID: 8905562313943260160, guid: 0c2961a06ec6d064abffbce55c389830,
@@ -1332,9 +1332,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsters:
-  - {fileID: 1884494156438350485, guid: bf50f698a98a80a4ea7b6b9a1b3509f1, type: 3}
-  - {fileID: 2075026691526258919, guid: 1391dbd8ce1e25941a7432a4c019ff3d, type: 3}
-  - {fileID: 8531060397993261162, guid: ec75b06da9aa5b4449c7e7058b373282, type: 3}
+  - {fileID: 7043636863642123556, guid: aa85da89fe0154b4aa615eb7dc800784, type: 3}
+  - {fileID: 2615555060312019825, guid: cca57295291d7534592e33bfc4074f69, type: 3}
+  - {fileID: 3787512880946215711, guid: 730581e6e0bd1ce418d5e0f28f71240c, type: 3}
+  - {fileID: 602839516739969952, guid: 44e0df4346741354785c0d81d41c9c79, type: 3}
+  - {fileID: 159719030419202630, guid: 7c75bd0273271814b9085eab418da9c0, type: 3}
+  - {fileID: 472838250264293292, guid: 6e46cdd58739fce49b19ebf06a535156, type: 3}
+  - {fileID: 4747390704959950385, guid: 7199eb8af018800449bb29818fd3db69, type: 3}
   currentMonster: {fileID: 0}
   boss1: {fileID: 1874177838}
 --- !u!4 &1623529230
@@ -2052,6 +2056,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannons (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4175206778153390895, guid: d99615eb7055cef4b99e74348ce16db9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2106,11 +2115,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4175206778151958618, guid: d99615eb7055cef4b99e74348ce16db9,
         type: 3}

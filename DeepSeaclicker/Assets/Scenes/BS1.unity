@@ -678,6 +678,16 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: Overworld
       objectReference: {fileID: 0}
+    - target: {fileID: 1233896826123763584, guid: 1248a7eacaa761f41b4c8f7b41a1f97e,
+        type: 3}
+      propertyPath: reward
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233896826123763584, guid: 1248a7eacaa761f41b4c8f7b41a1f97e,
+        type: 3}
+      propertyPath: fixenemy
+      value: 
+      objectReference: {fileID: 1623529229}
     - target: {fileID: 4414700914589204284, guid: 1248a7eacaa761f41b4c8f7b41a1f97e,
         type: 3}
       propertyPath: amount
@@ -812,6 +822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MonsterManager: {fileID: 1623529229}
+  clickedManager: {fileID: 292402012}
 --- !u!4 &1365209664
 Transform:
   m_ObjectHideFlags: 0
@@ -1172,6 +1183,7 @@ MonoBehaviour:
   currentMonster: {fileID: 3863945085362975857, guid: 3bc29c91bc44f4a41b2186f0265d249b,
     type: 3}
   boss1: {fileID: 954041802}
+  monsterLevel: 0
 --- !u!4 &1623529230
 Transform:
   m_ObjectHideFlags: 0
@@ -1682,7 +1694,7 @@ PrefabInstance:
     - target: {fileID: 1059983425494501107, guid: 900359aaab1cbc94fb4606e99bb2462b,
         type: 3}
       propertyPath: damage
-      value: -5
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 1059983425494501107, guid: 900359aaab1cbc94fb4606e99bb2462b,
         type: 3}
@@ -2196,5 +2208,10 @@ PrefabInstance:
       propertyPath: goldParticle
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5630866784701134232, guid: 8768deb5379cecb41b04f34efa35203e,
+        type: 3}
+      propertyPath: monstermanager
+      value: 
+      objectReference: {fileID: 1623529229}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8768deb5379cecb41b04f34efa35203e, type: 3}

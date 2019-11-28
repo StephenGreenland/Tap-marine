@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,8 @@ public class ClickedManager : MonoBehaviour
     public PlayerStats player;
 
     private float damage;
+
+    public event Action OnAutoAttack;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,10 +39,13 @@ public class ClickedManager : MonoBehaviour
                       hit.collider.gameObject.GetComponent<Crit>().monster.GetComponent<Health>().Change(damage * hit.collider.gameObject.GetComponent<Crit>().critMultiplier);                          
                           
                       hit.collider.gameObject.GetComponent<Crit>().GotHit(hit.collider.gameObject.GetComponent<Crit>().ChoosePos());
+                      
+                      OnAutoAttack.Invoke();
                   }
                   else
                   {
                       hit.transform.gameObject.GetComponent<Health>().Change(damage);
+                      OnAutoAttack.Invoke();
                   }
               } 
         }

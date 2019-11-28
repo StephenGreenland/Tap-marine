@@ -62,13 +62,13 @@ public class PlayerStats : MonoBehaviour
     void increasemulti()
     {
 
-         goldMuiltiplayer = Mathf.Round(MonsterManager.monsterLevel * 2f + (3f));
+         goldMuiltiplayer = Mathf.Round(monsterManger.monsterLevel * 2f + (3f));
 
     }
     private void OnDestroy()
     {
         monsterManger.onmonsterlevelup -= increasemulti;
-        monsterManger.Onleave += MonsterMangerOnOnleave;
+        monsterManger.Onleave -= MonsterMangerOnOnleave;
     }
 
 }
