@@ -11,6 +11,7 @@ public class GoldDisplay : MonoBehaviour
     public GameObject effectPos;
     public ParticleSystem goldParticle;
     public PlayerStats Ggold;
+    public MonsterManager monstermanager;
   
 
 
@@ -28,7 +29,7 @@ public class GoldDisplay : MonoBehaviour
     {
         goldDisplay.text = "Gold:" + Ggold.goldAmount;
         //GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
-        GoldGain = Mathf.Round((MonsterManager.monsterLevel + (2f)) * 1.8f);
+        GoldGain = Mathf.Round((monstermanager.monsterLevel + (2f)) * 1.8f);
 
 
    
