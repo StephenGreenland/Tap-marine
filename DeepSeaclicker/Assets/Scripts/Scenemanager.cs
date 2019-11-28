@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class Scenemanager : MonoBehaviour
 {
     FMOD.Studio.Bus MasterBus;
+
+    public PlayerStats playerStats;
     // Start is called before the first frame update
     private void Start()
     {
@@ -23,4 +25,9 @@ public class Scenemanager : MonoBehaviour
         Application.Quit();
     }
 
+    public void SaveGame()
+    {
+        playerStats.SaveStats();
+        SceneManager.LoadScene("Overworld");
+    }  
 }

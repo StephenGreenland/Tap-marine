@@ -9,6 +9,7 @@ public class Hydra : MonsterBase
     FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
+    public Scenemanager scenemanager;
    
     
     private void OnEnable()
@@ -31,7 +32,7 @@ public class Hydra : MonsterBase
             Destroy(gameObject);
 
             OnLeave();
-            SceneManager.LoadScene(sceneToLoad);
+            scenemanager.SaveGame();
             MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             fixenemy.monsterLevel = 0;
             

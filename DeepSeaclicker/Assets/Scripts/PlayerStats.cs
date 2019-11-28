@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class PlayerStats : MonoBehaviour
 {
@@ -10,6 +11,12 @@ public class PlayerStats : MonoBehaviour
     public float cost;
     public float goldMuiltiplayer;
     private float goldgain;
+    
+    //string paths = Application.persistentDataPath + ("/PlayerStats.txt");
+    private string paths;
+    
+    string storeText;
+    private string[] savefile;
 
     public GameObject goldEffect;
 
@@ -21,11 +28,22 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+        
+        if(Application.isEditor)
+        {
+            paths = Application.persistentDataPath  + ("/SaveFile.txt");
+        }
+        else
+        {
+            paths = Application.persistentDataPath + ("/SaveFile.txt");
+        }
         monsterManger.Onleave += MonsterMangerOnOnleave;
         goldMuiltiplayer = 1;
-        
         goldAmount = 0;
         monsterManger.onmonsterlevelup += increasemulti;
+        
+        LoadStats();
 
     }
 
@@ -71,4 +89,23 @@ public class PlayerStats : MonoBehaviour
         monsterManger.Onleave -= MonsterMangerOnOnleave;
     }
 
+    public void SaveStats()
+    {
+        
+        StreamWriter sw = new StreamWriter(paths);
+        storeText = cost + ","+ goldAmount + "," + damage;
+        
+        sw.WriteLine(storeText);
+        sw.Close();
+    }
+    private void LoadStats()
+    {
+        StreamReader reader = new StreamReader(paths);
+        string loadScore = reader.ReadLine();
+        savefile = loadScore.Split(',');
+        cost = float.Parse(savefile[0]);
+        goldAmount = float.Parse(savefile[1]);
+        damage = float.Parse(savefile[2]);
+
+    }
 }

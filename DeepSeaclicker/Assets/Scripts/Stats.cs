@@ -9,8 +9,6 @@ public class Stats : MonoBehaviour
 {
 
     string paths = Application.persistentDataPath + ("/PlayerStats.txt");
-
-   
     string storeText;
 
     public delegate void ReadComplete();
