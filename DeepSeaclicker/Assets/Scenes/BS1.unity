@@ -812,6 +812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MonsterManager: {fileID: 1623529229}
+  clickedManager: {fileID: 292402012}
 --- !u!4 &1365209664
 Transform:
   m_ObjectHideFlags: 0

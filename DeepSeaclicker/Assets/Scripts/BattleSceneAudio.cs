@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,10 +7,13 @@ public class BattleSceneAudio : MonoBehaviour
 {
     public MonsterManager MonsterManager;
     FMOD.Studio.EventInstance BattleTrack1;
+    public ClickedManager clickedManager;
     private void Start()
     {    
         MonsterManager.Onleave += MonsterManager_Onleave;
         MonsterManager.OnNew += MonsterManager_OnNew;
+
+        clickedManager.OnAutoAttack += PlaySoundCannon;
 
         BattleTrack1 = FMODUnity.RuntimeManager.CreateInstance("event:/Music/BattleMusic");
         BattleTrack1.start();
@@ -19,7 +23,7 @@ public class BattleSceneAudio : MonoBehaviour
     private void MonsterManager_OnNew(MonsterBase obj)
     {
 
-        //obj.GetComponent<Health>().OnChanged += BattleSceneAudio_OnChanged
+        //obj.GetComponent<Health>().OnChanged += playsound();
         FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/MonsterSpawn", gameObject);
     }
 
@@ -38,10 +42,14 @@ public class BattleSceneAudio : MonoBehaviour
     }
     void Update()
     {
-        //Main Cannon
-        if (Input.GetMouseButtonDown(0))
-        {
-            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Cannon", gameObject);
-        }
+  
     }
+
+   private void PlaySoundCannon()
+    {
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Cannon", gameObject);
+        
+    }
+
+
 }
