@@ -30,7 +30,7 @@ public class Hydra : MonsterBase
             OnLeave();
             Destroy(gameObject);
             SceneManager.LoadScene(sceneToLoad);
-            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
+           // MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
             
 
         }
