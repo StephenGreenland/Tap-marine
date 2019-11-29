@@ -19,7 +19,10 @@ public class Scenemanager : MonoBehaviour
         MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         SceneManager.LoadScene("Overworld");
     }
-
+    public void Credits()
+    {
+        SceneManager.LoadScene("Credits");
+    }
     public void QuitGame()
     {
         Application.Quit();

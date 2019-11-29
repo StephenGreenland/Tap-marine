@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BSLava5.unity
     guid: ef08b188a553f0c40b780111e1704078
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 110deef667a3bd34a8ef1ac58885813b
   m_configObjects: {}
