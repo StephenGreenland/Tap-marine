@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy2 - Shark Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3040477217878152356, guid: 3cec1675fe6596343b83e798994e01c0,
+        type: 3}
+      propertyPath: reward
+      value: 36
+      objectReference: {fileID: 0}
     - target: {fileID: 6476893111804638980, guid: 3cec1675fe6596343b83e798994e01c0,
         type: 3}
       propertyPath: amount

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7708815115293693722}
   - component: {fileID: 7708815115293693717}
   - component: {fileID: 7708815115293693716}
+  - component: {fileID: 7496658480297011388}
   m_Layer: 0
   m_Name: lava monster 03 1
   m_TagString: Enemy
@@ -127,6 +128,21 @@ CircleCollider2D:
   m_Offset: {x: -0.24, y: -2.72}
   serializedVersion: 2
   m_Radius: 4
+--- !u!114 &7496658480297011388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7708815115293693713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 7708815115293693717}
+  clickManager: {fileID: 0}
+  rend: {fileID: 7708815115293693718}
 --- !u!1001 &333769245778392174
 PrefabInstance:
   m_ObjectHideFlags: 0

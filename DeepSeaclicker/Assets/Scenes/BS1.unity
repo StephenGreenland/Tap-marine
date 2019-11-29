@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 292402012}
   m_Layer: 0
   m_Name: Damage
-  m_TagString: Untagged
+  m_TagString: ClickManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -681,7 +681,7 @@ PrefabInstance:
     - target: {fileID: 1233896826123763584, guid: 1248a7eacaa761f41b4c8f7b41a1f97e,
         type: 3}
       propertyPath: reward
-      value: 500
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 1233896826123763584, guid: 1248a7eacaa761f41b4c8f7b41a1f97e,
         type: 3}
@@ -1715,6 +1715,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8905562313943260160, guid: 0c2961a06ec6d064abffbce55c389830,
         type: 3}
+    - target: {fileID: 1059983425494501107, guid: 900359aaab1cbc94fb4606e99bb2462b,
+        type: 3}
+      propertyPath: cost
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 1059983425494501108, guid: 900359aaab1cbc94fb4606e99bb2462b,
         type: 3}
       propertyPath: m_LocalPosition.x

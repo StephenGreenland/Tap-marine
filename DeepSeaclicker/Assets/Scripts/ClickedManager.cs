@@ -10,6 +10,9 @@ public class ClickedManager : MonoBehaviour
     private float damage;
 
     public event Action OnAutoAttack;
+
+	public event Action onCrit;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +44,8 @@ public class ClickedManager : MonoBehaviour
                       hit.collider.gameObject.GetComponent<Crit>().GotHit(hit.collider.gameObject.GetComponent<Crit>().ChoosePos());
                       
                       OnAutoAttack.Invoke();
+						onCrit.Invoke();
+					
                   }
                   else
                   {
