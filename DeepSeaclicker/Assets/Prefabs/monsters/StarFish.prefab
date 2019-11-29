@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 1936274233}
   - component: {fileID: 1884494156438350485}
   - component: {fileID: 7479053944904901366}
+  - component: {fileID: 1066125645546423163}
   m_Layer: 0
   m_Name: StarFish
   m_TagString: Enemy
@@ -297,6 +298,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   amount: 10
+--- !u!114 &1066125645546423163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5484317955459992990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 7479053944904901366}
+  clickManager: {fileID: 0}
+  rend: {fileID: 3353951966640425588}
 --- !u!1 &6262214787476214291
 GameObject:
   m_ObjectHideFlags: 0
