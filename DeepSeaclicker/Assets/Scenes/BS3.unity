@@ -1130,6 +1130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MonsterManager: {fileID: 1623529229}
+  clickedManager: {fileID: 0}
 --- !u!4 &1365209664
 Transform:
   m_ObjectHideFlags: 0
@@ -1466,11 +1467,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsters:
-  - {fileID: 1884494156438350485, guid: bf50f698a98a80a4ea7b6b9a1b3509f1, type: 3}
-  - {fileID: 2075026691526258919, guid: 1391dbd8ce1e25941a7432a4c019ff3d, type: 3}
-  - {fileID: 8531060397993261162, guid: ec75b06da9aa5b4449c7e7058b373282, type: 3}
+  - {fileID: 8150999251494384491, guid: bf04a29302ffb514da75985660addff7, type: 3}
+  - {fileID: 4438604356589376830, guid: 3b06d9b2eb91c8542b3100251ceda756, type: 3}
+  - {fileID: 3393739808175471657, guid: 48697a570bdca1147b81d47a55b8f66b, type: 3}
+  - {fileID: 1234666932666512025, guid: 6bce2ce306f28de49b6fb6d5b5951839, type: 3}
+  - {fileID: 1696213328539371787, guid: 1f91929cf7140ef4f83c3d0898f9dc81, type: 3}
+  - {fileID: 8982955000746193429, guid: 2359121144d5b2c42a96da38bb3d14ad, type: 3}
+  - {fileID: 4550505744969300832, guid: 595d6a80cb786fd4a98c367358d25283, type: 3}
   currentMonster: {fileID: 0}
   boss1: {fileID: 1072520000}
+  monsterLevel: 0
 --- !u!4 &1623529230
 Transform:
   m_ObjectHideFlags: 0
@@ -1669,6 +1675,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452950276781073970, guid: 061d130e2c67b6d4fa0492165dff2466,
+        type: 3}
+      propertyPath: amount
+      value: 150000
       objectReference: {fileID: 0}
     - target: {fileID: 8452950276781073972, guid: 061d130e2c67b6d4fa0492165dff2466,
         type: 3}

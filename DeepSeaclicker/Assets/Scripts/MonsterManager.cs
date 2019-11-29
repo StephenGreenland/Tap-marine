@@ -24,7 +24,6 @@ public class MonsterManager : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-        Debug.Log(monsterLevel);
         SpawnMonster();
         healthScaler = 1;
     }
@@ -52,9 +51,10 @@ public class MonsterManager : MonoBehaviour
         // cleaning up after myself
         if (monsterLevel == 10)
         {
+        
             currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
             boss1.SetActive(true);
-
+            Debug.Log("boss1");
         }
         else if (currentMonster != null && monsterLevel != 10)
         {
