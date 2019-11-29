@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy4 - WaterBear Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2075026691526258919, guid: 1391dbd8ce1e25941a7432a4c019ff3d,
+        type: 3}
+      propertyPath: reward
+      value: 66
+      objectReference: {fileID: 0}
     - target: {fileID: 6886038922605617118, guid: 1391dbd8ce1e25941a7432a4c019ff3d,
         type: 3}
       propertyPath: amount
