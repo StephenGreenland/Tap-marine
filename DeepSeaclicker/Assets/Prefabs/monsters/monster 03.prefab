@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8632136898053781148}
   - component: {fileID: 472229468707286810}
   - component: {fileID: 986997189145755338}
+  - component: {fileID: 6614307030563683579}
   m_Layer: 0
   m_Name: monster 03
   m_TagString: Enemy
@@ -127,6 +128,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 5
+--- !u!114 &6614307030563683579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7858126573895021290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 472229468707286810}
+  clickManager: {fileID: 0}
+  rend: {fileID: 5249905923774698700}
 --- !u!1001 &168171143984033289
 PrefabInstance:
   m_ObjectHideFlags: 0

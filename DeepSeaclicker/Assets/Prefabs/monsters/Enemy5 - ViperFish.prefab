@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8531060397993261162}
   - component: {fileID: 3401832525362483703}
   - component: {fileID: 8467186876373165301}
+  - component: {fileID: 4330051596595955608}
   m_Layer: 0
   m_Name: Enemy5 - ViperFish
   m_TagString: Enemy
@@ -127,6 +128,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.3
+--- !u!114 &4330051596595955608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5385604319993521774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 3401832525362483703}
+  clickManager: {fileID: 0}
+  rend: {fileID: 9181264300331358249}
 --- !u!1001 &6594892707870700929
 PrefabInstance:
   m_ObjectHideFlags: 0

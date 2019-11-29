@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7323294487831271180}
   - component: {fileID: 2805620267435876946}
   - component: {fileID: 6837028172292048385}
+  - component: {fileID: 306632200600414421}
   m_Layer: 0
   m_Name: GhostShipMON
   m_TagString: Enemy
@@ -127,6 +128,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 2.2
+--- !u!114 &306632200600414421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645540969616781886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 2805620267435876946}
+  clickManager: {fileID: 0}
+  rend: {fileID: 3046967519625283173}
 --- !u!1001 &8918327069262638708
 PrefabInstance:
   m_ObjectHideFlags: 0
