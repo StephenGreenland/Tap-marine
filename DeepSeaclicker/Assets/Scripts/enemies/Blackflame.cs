@@ -14,7 +14,7 @@ public class Blackflame : MonsterBase
 
     private void OnDisable()
     {
-        Debug.Log("DIE!");
+   
         health.OnChanged -= OnHealthChanged;
     }
 

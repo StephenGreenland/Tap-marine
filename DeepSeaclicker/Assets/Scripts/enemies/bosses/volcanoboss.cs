@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class volcanoboss : MonsterBase
 {
+    FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
     private void OnEnable()
     {
+
         health.OnChanged += OnHealthChanged;
+        MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/BossJelly", gameObject);
     }
 
     private void OnDisable()
@@ -25,7 +29,7 @@ public class volcanoboss : MonsterBase
             OnLeave();
             Destroy(gameObject);
             SceneManager.LoadScene(sceneToLoad);
-
+            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
     }
 }

@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14ff6fedc11856c46a730eacda04a065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amount: 120
+  amount: 80000
 --- !u!114 &518993536254734737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a12b572f8ca08604c8d30413abe49214, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reward: 0
+  reward: 2000
   health: {fileID: 0}
   sceneToLoad: 
 --- !u!61 &8533035240896510867

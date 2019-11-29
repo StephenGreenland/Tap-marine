@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class bugscript : MonsterBase
 {
     public Health health;
-    public string sceneToLoad;
+  
     private void OnEnable()
     {
         health.OnChanged += OnHealthChanged;
@@ -24,7 +24,7 @@ public class bugscript : MonsterBase
         {
             OnLeave();
             Destroy(gameObject);
-            SceneManager.LoadScene(sceneToLoad);
+
 
         }
     }
