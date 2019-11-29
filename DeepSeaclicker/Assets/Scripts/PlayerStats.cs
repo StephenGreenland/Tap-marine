@@ -66,7 +66,7 @@ public class PlayerStats : MonoBehaviour
             
             goldAmount -= cost;
             damage = Mathf.Round(damage * 1.19f-(1));
-            cost = Mathf.Round(cost * 1.20f);
+            cost = Mathf.Round(cost * 1.16f);
             _newCost = Mathf.Pow(cost, _newCost = cost);
            // Debug.Log(damage);
         }

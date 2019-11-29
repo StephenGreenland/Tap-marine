@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: monster 06 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3863945085362975857, guid: 3bc29c91bc44f4a41b2186f0265d249b,
+        type: 3}
+      propertyPath: reward
+      value: 36
+      objectReference: {fileID: 0}
     - target: {fileID: 1561944489429107312, guid: 3bc29c91bc44f4a41b2186f0265d249b,
         type: 3}
       propertyPath: amount
