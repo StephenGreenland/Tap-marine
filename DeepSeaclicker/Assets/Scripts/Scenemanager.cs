@@ -16,7 +16,7 @@ public class Scenemanager : MonoBehaviour
 
     public void PlayGame()
     {
-        MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+    
         SceneManager.LoadScene("Overworld");
     }
     public void Credits()
@@ -32,5 +32,6 @@ public class Scenemanager : MonoBehaviour
     {
         playerStats.SaveStats();
         SceneManager.LoadScene("Overworld");
+        MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
     }  
 }

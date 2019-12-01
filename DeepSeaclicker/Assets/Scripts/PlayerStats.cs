@@ -63,7 +63,7 @@ public class PlayerStats : MonoBehaviour
     {
         if (goldAmount >= cost)
         {
-            
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Ui/Upgrade", gameObject);
             goldAmount -= cost;
             damage = Mathf.Round(damage * 1.19f-(1));
             cost = Mathf.Round(cost * 1.16f);

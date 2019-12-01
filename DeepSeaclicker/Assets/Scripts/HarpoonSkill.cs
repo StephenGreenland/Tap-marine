@@ -20,7 +20,7 @@ public class HarpoonSkill : MonoBehaviour
         initColor = this.GetComponent<Image>().color;
         monsterManagerRef.OnNew += MonsterIdentity;
         currentMonster = monsterManagerRef.currentMonster;
-
+        
     }
     public void HarpoonActivated()
     {
@@ -28,6 +28,7 @@ public class HarpoonSkill : MonoBehaviour
         {
             if (cooldownTime <= 0)
             {
+                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Harpoon", gameObject);
                 harpoon.SetActive(false);
                 coolingDown = true;
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
@@ -58,6 +59,7 @@ public class HarpoonSkill : MonoBehaviour
         cooldownTime -= Time.deltaTime;
         if (cooldownTime >= 0)
         {
+         
             coolingDown = true;
             this.GetComponent<Image>().color = Color.gray;
             harpoon.SetActive(false);
