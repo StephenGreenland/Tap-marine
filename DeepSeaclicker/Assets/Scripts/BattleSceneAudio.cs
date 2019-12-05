@@ -40,10 +40,6 @@ public class BattleSceneAudio : MonoBehaviour
         MonsterManager.OnNew -= MonsterManager_OnNew;
         BattleTrack1.release();
     }
-    void Update()
-    {
-  
-    }
 
    private void PlaySoundCannon()
     {
