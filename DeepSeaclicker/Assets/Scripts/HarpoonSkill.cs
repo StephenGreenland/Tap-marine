@@ -32,14 +32,29 @@ public class HarpoonSkill : MonoBehaviour
         {
             if (cooldownTime <= 0)
             {
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Harpoon", gameObject);
-                harpoon.SetActive(false);
-                coolingDown = true;
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
-                cooldownTime = 5f;
-                
-                OnActivate?.Invoke();
-                // ActivateEvent();
+                if (currentMonster != null)
+                {
+                    FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Harpoon", gameObject);
+                    harpoon.SetActive(false);
+                    coolingDown = true;
+                    currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
+                    cooldownTime = 5f;
+
+                    OnActivate?.Invoke();
+                    // ActivateEvent();
+                }
+                else if (currentMonster == null)
+                {
+                    currentMonster = FindObjectOfType<MonsterBase>();
+                    FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Harpoon", gameObject);
+                    harpoon.SetActive(false);
+                    coolingDown = true;
+                    currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
+                    cooldownTime = 5f;
+
+                    OnActivate?.Invoke();
+                    // ActivateEvent();
+                }
             }
         }
         /*if (skillActive) return;

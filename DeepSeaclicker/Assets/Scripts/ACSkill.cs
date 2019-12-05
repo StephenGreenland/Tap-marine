@@ -11,6 +11,7 @@ public class ACSkill : SkillBase
     public MonsterManager monsterManagerRef;
     public MonsterBase currentMonster;
     public GameObject effect;
+    public MonsterBase Boss;
 
     
     private Color initColor;
@@ -38,21 +39,39 @@ public class ACSkill : SkillBase
             {
                 coolingDown = true;
                 cooldownTime = 10f;
-
-                for (int i = 0; i < 3; i++)
+                if (currentMonster != null)
                 {
-                    effect.SetActive(true);
-                    currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
-                    yield return new WaitForSeconds(0.2f);
-                    effect.SetActive(false);
-                    RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+                    for (int i = 0; i < 3; i++)
+                    {
+                        effect.SetActive(true);
+                        currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
+                        yield return new WaitForSeconds(0.2f);
+                        effect.SetActive(false);
+                        RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
-                    OnActivate?.Invoke();
-                    yield return new WaitForSeconds(2f);
+                        OnActivate?.Invoke();
+                        yield return new WaitForSeconds(2f);
+                    }
+                    effect.SetActive(false);
+                }
+                else if(currentMonster == null)
+                {
+                    currentMonster = FindObjectOfType<MonsterBase>();
+                    for (int i = 0; i < 3; i++)
+                    {
+                        effect.SetActive(true);
+                        currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
+                        yield return new WaitForSeconds(0.2f);
+                        effect.SetActive(false);
+                        RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+
+                        OnActivate?.Invoke();
+                        yield return new WaitForSeconds(2f);
+                    }
+                    effect.SetActive(false);
                 }
 
-
-                effect.SetActive(false);
+                
                 
             }
         }

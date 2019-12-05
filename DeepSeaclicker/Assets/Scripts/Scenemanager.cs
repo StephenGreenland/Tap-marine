@@ -23,7 +23,6 @@ public class Scenemanager : MonoBehaviour
 
         if (resetStats.paths == null)
         {
-
             resetStats.Reset();
         }
     }
