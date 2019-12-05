@@ -1,9 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HarpoonSkill : SkillBase
+public class HarpoonSkill : MonoBehaviour
 {
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
@@ -15,6 +16,9 @@ public class HarpoonSkill : SkillBase
 
     private Color initColor;
 
+    
+    public event Action OnActivate;
+    
     public void Awake()
     {
         initColor = this.GetComponent<Image>().color;
@@ -34,7 +38,8 @@ public class HarpoonSkill : SkillBase
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
                 cooldownTime = 5f;
                 
-                ActivateEvent();
+                OnActivate?.Invoke();
+                // ActivateEvent();
             }
         }
         /*if (skillActive) return;

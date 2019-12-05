@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using FMODUnity;
 using UnityEngine;
@@ -17,6 +18,7 @@ public class ACSkill : SkillBase
     public float cooldownTime;
     public bool coolingDown = false;
 
+    public event Action OnActivate;
 
     public void Awake()
     {
@@ -44,8 +46,8 @@ public class ACSkill : SkillBase
                     yield return new WaitForSeconds(0.2f);
                     effect.SetActive(false);
                     RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
-                    ActivateEvent();
 
+                    OnActivate?.Invoke();
                     yield return new WaitForSeconds(2f);
                 }
 
