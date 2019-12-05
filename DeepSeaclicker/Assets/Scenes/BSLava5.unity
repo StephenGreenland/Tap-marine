@@ -2082,6 +2082,11 @@ PrefabInstance:
       propertyPath: reward
       value: 666
       objectReference: {fileID: 0}
+    - target: {fileID: 3717884746811605064, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: sceneToLoad
+      value: Credits
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a456207ef6b09440babaea2434ea9c8, type: 3}
 --- !u!1 &6610447250926036383 stripped
