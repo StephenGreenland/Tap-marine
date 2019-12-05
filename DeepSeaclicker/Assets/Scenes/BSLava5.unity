@@ -2012,12 +2012,12 @@ PrefabInstance:
     - target: {fileID: 6516567729075757946, guid: 5a456207ef6b09440babaea2434ea9c8,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.54413
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6516567729075757946, guid: 5a456207ef6b09440babaea2434ea9c8,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.54413
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6516567729075757946, guid: 5a456207ef6b09440babaea2434ea9c8,
         type: 3}
@@ -2033,6 +2033,36 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneToLoad
       value: Credits
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516567729075757947, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516567729075757947, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516567729075757947, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516567729075757947, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6516567729075757947, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2570104476178755710, guid: 5a456207ef6b09440babaea2434ea9c8,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a456207ef6b09440babaea2434ea9c8, type: 3}
