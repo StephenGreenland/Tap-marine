@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HarpoonSkill : MonoBehaviour
+public class HarpoonSkill : SkillBase
 {
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
