@@ -10,7 +10,12 @@ PrefabInstance:
     - target: {fileID: 7700498793304591749, guid: 730581e6e0bd1ce418d5e0f28f71240c,
         type: 3}
       propertyPath: m_Name
-      value: Enemy4 - WaterBear Variant
+      value: Enemy4 - WaterBear Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3787512880946215711, guid: 730581e6e0bd1ce418d5e0f28f71240c,
+        type: 3}
+      propertyPath: reward
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 8634549231975683110, guid: 730581e6e0bd1ce418d5e0f28f71240c,
         type: 3}

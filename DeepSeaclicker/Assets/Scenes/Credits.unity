@@ -191,7 +191,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "Project Manager\r\n\nLead Game Designer\r\n\nGame Designers\r\n\n\nLead
-    Programmer\r\n\n2D Artist\r\n\n\nGraphic Designers\r\n\n\n\n\n\nLead Audio Designer\r\n\nAudio\r\n\n\r\n"
+    Programmer\r\n\n2D Artist\r\n\n\nGraphic Designers\r\n\n\n\n\n\nLead Audio Designer\r\n\nMusic
+    Composers\n\n\r\n"
 --- !u!222 &479720198
 CanvasRenderer:
   m_ObjectHideFlags: 0

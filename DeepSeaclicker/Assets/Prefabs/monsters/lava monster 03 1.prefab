@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f846f3681e9815468307383f411344f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reward: 0
+  reward: 222
   health: {fileID: 7708815115293693717}
 --- !u!114 &7708815115293693717
 MonoBehaviour:

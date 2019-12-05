@@ -10,7 +10,17 @@ PrefabInstance:
     - target: {fileID: 203538757879633335, guid: 3b06d9b2eb91c8542b3100251ceda756,
         type: 3}
       propertyPath: m_Name
-      value: Enemy3 - VampSquid Variant Variant
+      value: Enemy3 - VampSquid Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438604356589376830, guid: 3b06d9b2eb91c8542b3100251ceda756,
+        type: 3}
+      propertyPath: reward
+      value: 133
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819515013543014333, guid: 3b06d9b2eb91c8542b3100251ceda756,
+        type: 3}
+      propertyPath: amount
+      value: 29000
       objectReference: {fileID: 0}
     - target: {fileID: 2182510691671427963, guid: 3b06d9b2eb91c8542b3100251ceda756,
         type: 3}
@@ -81,16 +91,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4438604356589376830, guid: 3b06d9b2eb91c8542b3100251ceda756,
-        type: 3}
-      propertyPath: reward
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 8819515013543014333, guid: 3b06d9b2eb91c8542b3100251ceda756,
-        type: 3}
-      propertyPath: amount
-      value: 29000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b06d9b2eb91c8542b3100251ceda756, type: 3}

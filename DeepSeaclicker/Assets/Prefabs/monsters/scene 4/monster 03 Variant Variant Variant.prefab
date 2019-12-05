@@ -10,7 +10,17 @@ PrefabInstance:
     - target: {fileID: 7381385773520778851, guid: 2359121144d5b2c42a96da38bb3d14ad,
         type: 3}
       propertyPath: m_Name
-      value: monster 03 Variant Variant
+      value: monster 03 Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8982955000746193429, guid: 2359121144d5b2c42a96da38bb3d14ad,
+        type: 3}
+      propertyPath: reward
+      value: 143
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004281893006797715, guid: 2359121144d5b2c42a96da38bb3d14ad,
+        type: 3}
+      propertyPath: amount
+      value: 34000
       objectReference: {fileID: 0}
     - target: {fileID: 7253631160309728800, guid: 2359121144d5b2c42a96da38bb3d14ad,
         type: 3}
@@ -81,16 +91,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.009433985
-      objectReference: {fileID: 0}
-    - target: {fileID: 8982955000746193429, guid: 2359121144d5b2c42a96da38bb3d14ad,
-        type: 3}
-      propertyPath: reward
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 1004281893006797715, guid: 2359121144d5b2c42a96da38bb3d14ad,
-        type: 3}
-      propertyPath: amount
-      value: 34000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2359121144d5b2c42a96da38bb3d14ad, type: 3}

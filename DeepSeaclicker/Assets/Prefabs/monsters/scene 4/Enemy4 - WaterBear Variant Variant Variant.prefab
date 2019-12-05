@@ -10,7 +10,17 @@ PrefabInstance:
     - target: {fileID: 8163518009023646387, guid: 48697a570bdca1147b81d47a55b8f66b,
         type: 3}
       propertyPath: m_Name
-      value: Enemy4 - WaterBear Variant Variant
+      value: Enemy4 - WaterBear Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393739808175471657, guid: 48697a570bdca1147b81d47a55b8f66b,
+        type: 3}
+      propertyPath: reward
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801108105100333840, guid: 48697a570bdca1147b81d47a55b8f66b,
+        type: 3}
+      propertyPath: amount
+      value: 33000
       objectReference: {fileID: 0}
     - target: {fileID: 2682443169614757610, guid: 48697a570bdca1147b81d47a55b8f66b,
         type: 3}
@@ -81,16 +91,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.18511924
-      objectReference: {fileID: 0}
-    - target: {fileID: 3393739808175471657, guid: 48697a570bdca1147b81d47a55b8f66b,
-        type: 3}
-      propertyPath: reward
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 7801108105100333840, guid: 48697a570bdca1147b81d47a55b8f66b,
-        type: 3}
-      propertyPath: amount
-      value: 33000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48697a570bdca1147b81d47a55b8f66b, type: 3}

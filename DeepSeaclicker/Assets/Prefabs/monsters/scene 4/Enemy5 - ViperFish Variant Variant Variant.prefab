@@ -10,7 +10,17 @@ PrefabInstance:
     - target: {fileID: 3313386723073698973, guid: 6bce2ce306f28de49b6fb6d5b5951839,
         type: 3}
       propertyPath: m_Name
-      value: Enemy5 - ViperFish Variant Variant
+      value: Enemy5 - ViperFish Variant Variant Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234666932666512025, guid: 6bce2ce306f28de49b6fb6d5b5951839,
+        type: 3}
+      propertyPath: reward
+      value: 133
+      objectReference: {fileID: 0}
+    - target: {fileID: 5220724867977026308, guid: 6bce2ce306f28de49b6fb6d5b5951839,
+        type: 3}
+      propertyPath: amount
+      value: 31000
       objectReference: {fileID: 0}
     - target: {fileID: 1312018049639767337, guid: 6bce2ce306f28de49b6fb6d5b5951839,
         type: 3}
@@ -81,16 +91,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1234666932666512025, guid: 6bce2ce306f28de49b6fb6d5b5951839,
-        type: 3}
-      propertyPath: reward
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 5220724867977026308, guid: 6bce2ce306f28de49b6fb6d5b5951839,
-        type: 3}
-      propertyPath: amount
-      value: 31000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bce2ce306f28de49b6fb6d5b5951839, type: 3}

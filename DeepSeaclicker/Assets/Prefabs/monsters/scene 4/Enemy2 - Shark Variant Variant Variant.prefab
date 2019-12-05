@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8127767167365413988, guid: bf04a29302ffb514da75985660addff7,
         type: 3}
       propertyPath: m_Name
-      value: Enemy2 - Shark Variant Variant
+      value: Enemy2 - Shark Variant Variant Variant
       objectReference: {fileID: 0}
     - target: {fileID: 5189355580489781441, guid: bf04a29302ffb514da75985660addff7,
         type: 3}
@@ -85,7 +85,7 @@ PrefabInstance:
     - target: {fileID: 8150999251494384491, guid: bf04a29302ffb514da75985660addff7,
         type: 3}
       propertyPath: reward
-      value: 15
+      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 201906282054914251, guid: bf04a29302ffb514da75985660addff7,
         type: 3}
