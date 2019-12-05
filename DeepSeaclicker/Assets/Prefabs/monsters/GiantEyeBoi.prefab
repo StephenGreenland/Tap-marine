@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f846f3681e9815468307383f411344f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reward: 0
+  reward: 333
   health: {fileID: 7708815115293693717}
 --- !u!114 &7708815115293693717
 MonoBehaviour:
@@ -150,11 +150,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7708815115293693719}
     m_Modifications:
-    - target: {fileID: 4089310671942868549, guid: 8723e33682aad61489a4bfdcd87c4e92,
-        type: 3}
-      propertyPath: m_Name
-      value: Crit
-      objectReference: {fileID: 0}
     - target: {fileID: 7337749674311327238, guid: 8723e33682aad61489a4bfdcd87c4e92,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -224,6 +219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089310671942868549, guid: 8723e33682aad61489a4bfdcd87c4e92,
+        type: 3}
+      propertyPath: m_Name
+      value: Crit
       objectReference: {fileID: 0}
     - target: {fileID: 2087697549453162287, guid: 8723e33682aad61489a4bfdcd87c4e92,
         type: 3}
