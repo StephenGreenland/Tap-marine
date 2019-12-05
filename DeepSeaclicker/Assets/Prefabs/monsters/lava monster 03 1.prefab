@@ -233,17 +233,17 @@ PrefabInstance:
     - target: {fileID: 2087697549453162287, guid: 8723e33682aad61489a4bfdcd87c4e92,
         type: 3}
       propertyPath: critPos.Array.data[0].y
-      value: -1.72
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2087697549453162287, guid: 8723e33682aad61489a4bfdcd87c4e92,
         type: 3}
       propertyPath: critPos.Array.data[1].x
-      value: -0.28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2087697549453162287, guid: 8723e33682aad61489a4bfdcd87c4e92,
         type: 3}
       propertyPath: critPos.Array.data[1].y
-      value: -4.43
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 2087697549453162287, guid: 8723e33682aad61489a4bfdcd87c4e92,
         type: 3}

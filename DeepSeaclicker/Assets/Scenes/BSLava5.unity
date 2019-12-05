@@ -1551,6 +1551,7 @@ MonoBehaviour:
   - {fileID: 7708815115293693722, guid: 7ea33f7b5d418d64e806780d057fc7ed, type: 3}
   - {fileID: 6723510659562881947, guid: cb9375efb13fa5c4c98529768243b3c6, type: 3}
   - {fileID: 1670101931804151138, guid: c6219352164f92f4f9c78472332f74d2, type: 3}
+  - {fileID: 7708815115293693722, guid: 5b5215736d4155b4b8903c2967b4ab35, type: 3}
   currentMonster: {fileID: 0}
   boss1: {fileID: 6610447250926036383}
   monsterLevel: 0
