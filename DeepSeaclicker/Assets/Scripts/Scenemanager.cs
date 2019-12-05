@@ -18,6 +18,8 @@ public class Scenemanager : MonoBehaviour
     {
     
         SceneManager.LoadScene("Overworld");
+        MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
     }
     public void Credits()
     {
