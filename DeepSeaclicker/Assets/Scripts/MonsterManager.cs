@@ -54,7 +54,7 @@ public class MonsterManager : MonoBehaviour
         
             currentMonster.GetComponent<MonsterBase>().Leave -= SpawnMonster;
             boss1.SetActive(true);
-            Debug.Log("boss1");
+            
         }
         else if (currentMonster != null && monsterLevel != 10)
         {

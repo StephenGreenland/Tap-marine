@@ -585,6 +585,12 @@ Transform:
   m_Father: {fileID: 367421489}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &658472011 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2330714091901118082, guid: 538096edb20aedc42a2ebdc69c7ddc5d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1201732575}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &731600646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1050,6 +1056,16 @@ PrefabInstance:
       propertyPath: reward
       value: 4000
       objectReference: {fileID: 0}
+    - target: {fileID: 239502723706806799, guid: 538096edb20aedc42a2ebdc69c7ddc5d,
+        type: 3}
+      propertyPath: scenemanager
+      value: 
+      objectReference: {fileID: 1722397211}
+    - target: {fileID: 239502723706806799, guid: 538096edb20aedc42a2ebdc69c7ddc5d,
+        type: 3}
+      propertyPath: fixenemy
+      value: 
+      objectReference: {fileID: 1623529229}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538096edb20aedc42a2ebdc69c7ddc5d, type: 3}
 --- !u!1 &1365209662
@@ -1519,7 +1535,7 @@ MonoBehaviour:
   - {fileID: 885295845185997341, guid: 6574ff557e60d4c469aeb27a5791ab7a, type: 3}
   - {fileID: 461403504659787233, guid: 5506be1ac1df82b4398f214cc75783e2, type: 3}
   currentMonster: {fileID: 0}
-  boss1: {fileID: 0}
+  boss1: {fileID: 658472011}
   monsterLevel: 0
 --- !u!4 &1623529230
 Transform:
@@ -1565,6 +1581,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722397211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1720626850504061330, guid: 5bdd1f22b0f33784bae39d8e24f34b04,
+    type: 3}
+  m_PrefabInstance: {fileID: 1011259999}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff759dc7b2a4e3f49ba521d76077741c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1767444436
 GameObject:
   m_ObjectHideFlags: 0

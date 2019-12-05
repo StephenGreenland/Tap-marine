@@ -5,16 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class lochscript : MonsterBase
 {
+    public MonsterManager fixenemy;
     FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
+    public Scenemanager scenemanager;
+   
+    
     private void OnEnable()
     {
-        health.OnChanged += OnHealthChanged;
-        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/Lockness", gameObject);
         MasterBus = FMODUnity.RuntimeManager.GetBus("Bus:/");
-    }
+        health.OnChanged += OnHealthChanged;
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Enemies/BossHydra", gameObject);
 
+    }
     private void OnDisable()
     {
         health.OnChanged -= OnHealthChanged;
@@ -25,10 +29,14 @@ public class lochscript : MonsterBase
 
         if (health.amount <= 0)
         {
+           
+
             OnLeave();
+            
+            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            fixenemy.monsterLevel = 0;
+            scenemanager.SaveGame();
             Destroy(gameObject);
-            SceneManager.LoadScene(sceneToLoad);
-            MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT); 
         }
     }
 }
