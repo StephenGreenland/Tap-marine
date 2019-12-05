@@ -120,6 +120,25 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &164419094 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4175206779072604338, guid: d99615eb7055cef4b99e74348ce16db9,
+    type: 3}
+  m_PrefabInstance: {fileID: 4175206780049476759}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &164419097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164419094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ca1cca73271fa4fa8cec70a71f7b4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cannonSkill: {fileID: 775941629}
 --- !u!4 &292402011 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 600068415579640572, guid: 246df0a0f66f8c9409c7f0ef4b1eb231,
@@ -156,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4df7bf42ee2b2f4c8597a552b83584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillBase: {fileID: 775941629}
+  harpoonSkill: {fileID: 690514740}
 --- !u!224 &359072908 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2978188295731455965, guid: 34968437e398fce4faa3e5f0a9202090,
@@ -336,6 +355,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &690514740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7976026710336973523, guid: a30558c563803cc43a0c95c72b4ef9fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 736687457}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8615ddbdbe07947b38925b8d410311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &731600646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1238,6 +1269,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: AutoCannon
       objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 1112257131}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: monsterManagerRef
+      value: 
+      objectReference: {fileID: 1623529229}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 1865077097}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: cooldownTime
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 700036087459934851, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1342,26 +1393,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: playerRef
-      value: 
-      objectReference: {fileID: 1112257131}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: monsterManagerRef
-      value: 
-      objectReference: {fileID: 1623529229}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: effect
-      value: 
-      objectReference: {fileID: 1865077097}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: cooldownTime
-      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 700036087459934853, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}

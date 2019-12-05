@@ -6,16 +6,16 @@ using DG.Tweening;
 public class HarpoonTween : MonoBehaviour
 {
 
-    public SkillBase skillBase;
+    public HarpoonSkill harpoonSkill;
 
     // Start is called before the first frame update
     void OnEnable()
     {
-        skillBase.OnActivate += HarpoonFX;
+        harpoonSkill.OnActivate += HarpoonFX;
     }
     private void OnDisable()
     {
-        skillBase.OnActivate -= HarpoonFX;
+        harpoonSkill.OnActivate -= HarpoonFX;
     }
 
     // Update is called once per frame
