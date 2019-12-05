@@ -7,23 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-<<<<<<< HEAD
-[LOG] AsyncManager::init                       : manager 00000214E486AA98 isAsync 0 updatePeriod 0.02
-=======
-<<<<<<< HEAD
-[LOG] AsyncManager::init                       : manager 0000023D18D08628 isAsync 0 updatePeriod 0.02
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-[LOG] AsyncManager::init                       : manager 0000026AB8D6A9B8 isAsync 0 updatePeriod 0.02
-=======
-[LOG] AsyncManager::init                       : manager 000002791E7FAEB8 isAsync 0 updatePeriod 0.02
->>>>>>> Stashed changes
-=======
-[LOG] AsyncManager::init                       : manager 000001A4EAC83128 isAsync 0 updatePeriod 0.02
->>>>>>> Stashed changes
->>>>>>> master
->>>>>>> master
+[LOG] AsyncManager::init                       : manager 0000014CD9F25738 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -32,15 +16,634 @@
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SoundI::release                          : GDS230.Title (0000014CDFAC49E8)
+[LOG] SoundI::release                          :     GDS230.Title (0000014CC2F94408)
+[LOG] SoundI::release                          :     GDS230.Title (0000014CDA1A5388)
+[LOG] SystemI::createSound                     : filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000014CE0282EB8 : node = 0000014C945DF890
+[LOG] SystemI::createSound                     : add node to async list : head = 0000014CE021C3B8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE0282EB8
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C945DF9A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE0282648 : node = 0000014C94353EF0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 0
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE0283728 : node = 0000014C94353DB0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 1
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE02838D8 : node = 0000014C943543F0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 2
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE0282138 : node = 0000014C943547B0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 3
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE02827F8 : node = 0000014C94353B30
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 4
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE02822E8 : node = 0000014C94354030
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 5
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE0282EB8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE0282648
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C94354000
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CE0282498 : node = 0000014C943539F0
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SoundI::getSubSound                      :     sound 0000014CE0282EB8.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE0282648
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE0283728
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C94353EC0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE0283728
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE02838D8
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C94354500
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE02838D8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE0282138
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C943548C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Lava', format=2, channels=2, frequency=48000, lengthbytes=420224, lengthpcm=1770000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.022156.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE0282138
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE02827F8
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C94353C40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE02827F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE02822E8
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C94354140
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 16040
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Sumbarine Engine Hum Nested Loop01', format=2, channels=2, frequency=48000, lengthbytes=406304, lengthpcm=2784000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.084352.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE02822E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE0282498
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014C94353B00
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='UnderwaterScore.test.1', format=2, channels=2, frequency=48000, lengthbytes=1684672, lengthpcm=8832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.316339.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE0282498
+[LOG] SoundI::getSubSound                      : sound 0000014CE0282648.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CE0283728.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CE02838D8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CE0282138.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CE02827F8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CE02822E8.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CE0282498.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDA1A5388
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDA1A5388
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDFAC49E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDFAC49E8
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
-[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-<<<<<<< Updated upstream
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632DF8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632DF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632FA8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632FA8
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632DF8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632DF8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632FA8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632FA8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CE0281F88
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CE0281F88
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF6339C8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF6339C8
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDA1A5388
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDA1A5388
+[LOG] SoundI::release                          : Sumbarine Engine Hum Nested Loop01 (0000014CE02822E8)
+[LOG] SoundI::release                          :     Sumbarine Engine Hum Nested Loop01 (0000014CDAAB9C78)
+[LOG] SoundI::release                          :     Sumbarine Engine Hum Nested Loop01 (0000014CDF633B78)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CE02838D8)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDAABA7D8)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF6339C8)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CE0283728)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDAAB9458)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDFAC49E8)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CE0282648)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDAABA498)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDA1A5388)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CE0282EB8)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDAABA158)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CE0281F88)
+[LOG] SystemI::createSound                     : filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000014CDF633158 : node = 0000014CAD991FE0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000014CE021C3B8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF633158
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD9920F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Tapmarine Battle Music 01 Full Length', format=2, channels=2, frequency=48000, lengthbytes=1257568, lengthpcm=4608000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.889528.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF633158
+[LOG] SoundI::getSubSound                      : sound 0000014CDF633158.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF633308
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF633308
+[LOG] SoundI::release                          : UnderwaterScore.test.1 (0000014CE0282498)
+[LOG] SoundI::release                          :     UnderwaterScore.test.1 (0000014CDAAB9E18)
+[LOG] SoundI::release                          :     UnderwaterScore.test.1 (0000014CDF633D28)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CE02827F8)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDAAB8A98)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF632FA8)
+[LOG] SoundI::release                          : Lava (0000014CE0282138)
+[LOG] SoundI::release                          :     Lava (0000014CDAAB95F8)
+[LOG] SoundI::release                          :     Lava (0000014CDF632DF8)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C1138
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Cannon_Arcade_2', format=2, channels=2, frequency=48000, lengthbytes=6848, lengthpcm=53995, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.315241.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Coin_02', format=2, channels=2, frequency=48000, lengthbytes=6816, lengthpcm=21872, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.087368.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='GameCoin', format=2, channels=2, frequency=48000, lengthbytes=18112, lengthpcm=74000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.017040.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MonsterSound10', format=2, channels=2, frequency=48000, lengthbytes=17312, lengthpcm=64354, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.281006.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Coin_04', format=2, channels=2, frequency=48000, lengthbytes=5632, lengthpcm=16272, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.064532.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MonsterSound9', format=2, channels=2, frequency=48000, lengthbytes=7520, lengthpcm=27563, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.174150.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='AFK_Tapper_Hit', format=2, channels=2, frequency=48000, lengthbytes=11840, lengthpcm=48536, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.170265.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Whip', format=2, channels=2, frequency=48000, lengthbytes=1088, lengthpcm=3520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.054087.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C5D88
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='MonsterSound8', format=2, channels=2, frequency=48000, lengthbytes=10944, lengthpcm=42837, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.174150.
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CADAD4928
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='HarpoonGun02', format=2, channels=2, frequency=48000, lengthbytes=21216, lengthpcm=141001, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193626.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CADAD4928
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='HarpoonGun01', format=2, channels=2, frequency=48000, lengthbytes=20896, lengthpcm=141001, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.200494.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CDA835B38
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Torpedo02', format=2, channels=2, frequency=48000, lengthbytes=24448, lengthpcm=187757, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.921651.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000132E3FF3AC
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB82C46E60
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB82C46E30
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB82C46F30
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB82C46FF0
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000014CAD9C1138
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Pump', format=2, channels=1, frequency=48000, lengthbytes=3328, lengthpcm=13246, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.921570.
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SoundI::release                          : Tapmarine Battle Music 01 Full Length (0000014CDF633158)
+[LOG] SoundI::release                          :     Tapmarine Battle Music 01 Full Length (0000014CDAC12108)
+[LOG] SoundI::release                          :     Tapmarine Battle Music 01 Full Length (0000014CDF633308)
+[LOG] SystemI::createSound                     : filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000014CDF633158 : node = 0000014CAD9905A0
+[LOG] SystemI::createSound                     : add node to async list : head = 0000014CE021C3B8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF633158
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD9906B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF632588 : node = 0000014CAD994060
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF633B78 : node = 0000014CAD9932A0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 1
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF633D28 : node = 0000014CAD9910E0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 2
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF632078 : node = 0000014CAD9928A0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 3
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF633158
+[LOG] SystemI::createSound                     : filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632588
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF632738 : node = 0000014CAD9942E0
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 3
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD994170
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF633308 : node = 0000014CAD994420
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 4
+[LOG] SystemI::createSound                     :     filename = C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     :     setdata soundi = 0000014CDF632DF8 : node = 0000014CAD991360
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000014CE021C3B8.  list count = 5
+[LOG] SoundI::getSubSound                      :     sound 0000014CDF633158.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632588
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF633B78
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD9933B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF633B78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF633D28
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD9911F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF633D28
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632078
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD9929B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Lava', format=2, channels=2, frequency=48000, lengthbytes=420224, lengthpcm=1770000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.022156.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632078
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632738
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD9943F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WhirlPool01', format=2, channels=2, frequency=48000, lengthbytes=182784, lengthpcm=1152000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.417158.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632738
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF633308
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD994530
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 16040
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Sumbarine Engine Hum Nested Loop01', format=2, channels=2, frequency=48000, lengthbytes=406304, lengthpcm=2784000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.084352.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF633308
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF632DF8
+[LOG] SystemI::createSoundInternal             :     Create name='C:\Game Projects\tapshooter\Tap-marine\DeepSeaclicker\Assets\Sound\FMOD\SeaClicker\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5636160
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38304
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000014CAD991470
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='UnderwaterScore.test.1', format=2, channels=2, frequency=48000, lengthbytes=1684672, lengthpcm=8832000, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.316339.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF632DF8
+[LOG] SoundI::getSubSound                      : sound 0000014CDF632588.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CDF633B78.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CDF633D28.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CDF632078.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CDF632738.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CDF633308.  Subsound index 0 / 1
+[LOG] SoundI::getSubSound                      : sound 0000014CDF632DF8.  Subsound index 0 / 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF6328E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF6328E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000014CDF6334B8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000014CDF6334B8
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CDF632588)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014C86CD3048)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF6328E8)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CDF633158)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014C86CD2D08)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF632A98)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CDF633D28)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014C86CD3A08)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF632FA8)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CDF633B78)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014C86CD31E8)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF6334B8)
+[LOG] SoundI::release                          : Sumbarine Engine Hum Nested Loop01 (0000014CDF633308)
+[LOG] SoundI::release                          :     Sumbarine Engine Hum Nested Loop01 (0000014CADF83708)
+[LOG] SoundI::release                          :     Sumbarine Engine Hum Nested Loop01 (0000014CDF633668)
+[LOG] SoundI::release                          : UnderwaterScore.test.1 (0000014CDF632DF8)
+[LOG] SoundI::release                          :     UnderwaterScore.test.1 (0000014CADF838A8)
+[LOG] SoundI::release                          :     UnderwaterScore.test.1 (0000014CDF6339C8)
+[LOG] SoundI::release                          : WhirlPool01 (0000014CDF632738)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014C86CD3868)
+[LOG] SoundI::release                          :     WhirlPool01 (0000014CDF632228)
+[LOG] SoundI::release                          : Lava (0000014CDF632078)
+[LOG] SoundI::release                          :     Lava (0000014C86CD3388)
+[LOG] SoundI::release                          :     Lava (0000014CDF633818)
+[LOG] SoundI::release                          :  (0000014C94311EB8)
+[LOG] SoundI::release                          :     HarpoonGun01 (0000014CDAC11C28)
+[LOG] SoundI::release                          :  (0000014C94313728)
+[LOG] SoundI::release                          :     HarpoonGun02 (0000014CDAC125E8)
+[LOG] SoundI::release                          :  (0000014C94312BA8)
+[LOG] SoundI::release                          :     Pump (0000014C86CD36C8)
+[LOG] SoundI::release                          :  (0000014C94312A38)
+[LOG] SoundI::release                          :     Torpedo02 (0000014CDAAB7A58)
+[LOG] SoundI::release                          :  (0000014C94316978)
+[LOG] SoundI::release                          :     AFK_Tapper_Hit (0000014CEBED2628)
+[LOG] SoundI::release                          :  (0000014C94311788)
+[LOG] SoundI::release                          :     MonsterSound10 (0000014CEBC0B298)
+[LOG] SoundI::release                          :  (0000014C943149D8)
+[LOG] SoundI::release                          :     MonsterSound8 (0000014C86CD3528)
+[LOG] SoundI::release                          :  (0000014C94314868)
+[LOG] SoundI::release                          :     MonsterSound9 (0000014CEBED2B08)
+[LOG] SoundI::release                          :  (0000014C94313FC8)
+[LOG] SoundI::release                          :     Whip (0000014C86CD2EA8)
+[LOG] SoundI::release                          :  (0000014C94312FF8)
+[LOG] SoundI::release                          :     Coin_02 (0000014CEBC0B438)
+[LOG] SoundI::release                          :  (0000014C94312198)
+[LOG] SoundI::release                          :     Coin_04 (0000014CEBC0AF58)
+[LOG] SoundI::release                          :  (0000014C94314CB8)
+[LOG] SoundI::release                          :     GameCoin (0000014CEBC0B778)
+[LOG] SoundI::release                          :  (0000014C943128C8)
+[LOG] SoundI::release                          :     Cannon_Arcade_2 (0000014CEBC0ADB8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] ProfileClient::markForDead               : Closing client connection
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] FMOD_OS_Net_Read                         : Interrupted.[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
+[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
+[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
 [LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
-=======
->>>>>>> Stashed changes

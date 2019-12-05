@@ -16,7 +16,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6496977971385377380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,6 +40,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 531
+--- !u!114 &-5492089371188732401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-4232482024026873230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,6 +103,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 112000
+--- !u!114 &-3841675471773042515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-3617409039761133422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +166,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1600
+--- !u!114 &-3158687266358117221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-2879044852297008769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,6 +206,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &-2211985633782355144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-1632963236247063871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
 --- !u!114 &-1454894627378572685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +263,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 17500
+--- !u!114 &-1311024321725704358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &-981587137495154893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +343,7 @@ MonoBehaviour:
   - {fileID: 3759058486518350804}
   StringsBanks:
   - {fileID: 8198262860349541359}
-  stringsBankWriteTime: 637110552333217035
+  stringsBankWriteTime: 637111561426792422
   cacheVersion: 3
 --- !u!114 &1530405483041558862
 MonoBehaviour:
@@ -312,6 +414,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 4000
+--- !u!114 &2256040839145371184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &3084645411637878517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
 --- !u!114 &3660299152019980361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:/Game Projects/tapshooter/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637110552333116447
+  lastModified: 637111561426692478
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -440,7 +576,24 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &6644826295843221905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &7069341014815947391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -461,11 +614,28 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 6245660482065478781}
-  - {fileID: -7303956762517887155}
+  - {fileID: 3084645411637878517}
+  - {fileID: -5492089371188732401}
   MinDistance: 0
   MaxDistance: 0
   Length: 41960
+--- !u!114 &7126765652060785916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
 --- !u!114 &7942358848393665851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -503,7 +673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:/Game Projects/tapshooter/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637110552333217035
+  lastModified: 637111561426792422
   LoadResult: 0
   FileSizes:
   - Name: Desktop

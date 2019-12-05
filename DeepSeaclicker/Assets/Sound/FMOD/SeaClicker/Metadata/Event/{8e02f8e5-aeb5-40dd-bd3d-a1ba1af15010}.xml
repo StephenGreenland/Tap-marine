@@ -100,9 +100,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{d692ab54-8ea9-4e8d-bc95-4b7ec7efc5be}">
-		<property name="volume">
-			<value>-3</value>
-		</property>
 		<property name="name">
 			<value>Main Cannon</value>
 		</property>
