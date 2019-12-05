@@ -29,14 +29,14 @@ public class Hydra : MonsterBase
 
         if (health.amount <= 0)
         {
-            Destroy(gameObject);
+           
 
             OnLeave();
-            scenemanager.SaveGame();
+            
             MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             fixenemy.monsterLevel = 0;
-            
-
+            scenemanager.SaveGame();
+            Destroy(gameObject);
         }
     }
 }
