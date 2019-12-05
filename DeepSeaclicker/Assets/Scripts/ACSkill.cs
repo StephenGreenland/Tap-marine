@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ACSkill : MonoBehaviour
+public class ACSkill : SkillBase
 {
     public PlayerStats playerRef;
     public MonsterManager monsterManagerRef;
