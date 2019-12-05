@@ -33,6 +33,8 @@ public class HarpoonSkill : SkillBase
                 coolingDown = true;
                 currentMonster.GetComponent<Health>().Change(playerRef.damage * 5);
                 cooldownTime = 5f;
+                
+                ActivateEvent();
             }
         }
         /*if (skillActive) return;

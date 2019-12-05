@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using FMODUnity;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,28 +36,21 @@ public class ACSkill : SkillBase
             {
                 coolingDown = true;
                 cooldownTime = 10f;
-                effect.SetActive(true);
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
-                yield return new WaitForSeconds(0.2f);
-                effect.SetActive(false);
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
-                yield return new WaitForSeconds(2f);
+                for (int i = 0; i < 3; i++)
+                {
+                    effect.SetActive(true);
+                    currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
+                    yield return new WaitForSeconds(0.2f);
+                    effect.SetActive(false);
+                    RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+                    ActivateEvent();
 
-                effect.SetActive(true);
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
-                yield return new WaitForSeconds(0.2f);
-                effect.SetActive(false);
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
+                    yield return new WaitForSeconds(2f);
+                }
 
-                yield return new WaitForSeconds(2f);
-                effect.SetActive(true);
-                currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
-                yield return new WaitForSeconds(0.2f);
-                FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
                 effect.SetActive(false);
-                
                 
             }
         }
