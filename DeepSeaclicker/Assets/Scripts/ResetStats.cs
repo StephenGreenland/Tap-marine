@@ -7,7 +7,7 @@ using System.IO;
 public class ResetStats : MonoBehaviour
 {
 
-    private string paths;
+    public string paths;
     string storeText;
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,7 @@ public class ResetStats : MonoBehaviour
     }
 
     [ContextMenu("Reset Stats")]
-    private void Reset()
+    public void Reset()
     {
         StreamWriter sw = new StreamWriter(paths);
         storeText = 10 + ","+ 0 + "," + -2;

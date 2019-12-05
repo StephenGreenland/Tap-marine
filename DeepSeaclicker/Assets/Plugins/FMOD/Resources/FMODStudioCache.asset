@@ -93,7 +93,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8568216298012926218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 1732
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6313351892273647795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,7 +604,19 @@ MonoBehaviour:
   Path: event:/Environment/Ambience
   guid: 0708a7628152734cada372ae2d1298cb
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -627,7 +639,19 @@ MonoBehaviour:
   Path: event:/Enemies/BossSharky
   guid: c35c71d16fbaea45b0f43192dcd8a062
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -754,7 +778,7 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 5674464
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5242605652484453628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -770,7 +794,19 @@ MonoBehaviour:
   Path: event:/Environment/WhirlPoolLava
   guid: 647bc76d1aca0745baf69a0da4efab67
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -828,6 +864,26 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 1
+--- !u!114 &-4432859988459188907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Game Projects/tapshooter/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637110552333116447
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 5674464
   Exists: 1
 --- !u!114 &-4322054118467653430
 MonoBehaviour:
@@ -1120,7 +1176,19 @@ MonoBehaviour:
   Path: event:/Enemies/BossHydra
   guid: 7957bdc2130f4d42b24d22bb3af8a74e
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1218,7 +1286,7 @@ MonoBehaviour:
   Min: 0
   Max: 4
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-1881002544722663469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1234,7 +1302,19 @@ MonoBehaviour:
   Path: event:/Enemies/MonsterDeath
   guid: 1f329c8f5ef65147a7ad602a540b0231
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1347,6 +1427,26 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-773737755155375878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Game Projects/tapshooter/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637110552333217035
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1732
+  Exists: 1
 --- !u!114 &-760843132783229865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,7 +1502,19 @@ MonoBehaviour:
   Path: event:/Player/Weapons/Cannon
   guid: e5f8028eb5aedd40bd3da1ba1af15010
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1486,8 +1598,23 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
+<<<<<<< HEAD
   - {fileID: -2757618975029628684}
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: -1365096434459411119}
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 8445082841615022271}
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -773737755155375878}
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   EditorEvents:
   - {fileID: -6213605918566112714}
   - {fileID: -1881002544722663469}
@@ -1507,13 +1634,37 @@ MonoBehaviour:
   - {fileID: 596538693174936195}
   - {fileID: 5068013432443700040}
   - {fileID: 4678012100672610703}
+<<<<<<< Updated upstream
   - {fileID: -3455270932800841401}
   EditorParameters: []
   MasterBanks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
   StringsBanks:
   - {fileID: -2757618975029628684}
   stringsBankWriteTime: 637106071881537983
+=======
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+  StringsBanks:
+  - {fileID: -1365096434459411119}
+  stringsBankWriteTime: 637106217910526784
+=======
+  - {fileID: 6258330113730945930}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 6468295061505199182}
+  StringsBanks:
+  - {fileID: 8445082841615022271}
+  stringsBankWriteTime: 637105392062969267
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+  StringsBanks:
+  - {fileID: -773737755155375878}
+  stringsBankWriteTime: 637110552333217035
+>>>>>>> Stashed changes
+>>>>>>> master
   cacheVersion: 3
 --- !u!114 &202414073866053921
 MonoBehaviour:
@@ -1587,7 +1738,19 @@ MonoBehaviour:
   Path: event:/Enemies/Lockness
   guid: f354084497e1df44a1d2e98ed0846b8e
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -1732,6 +1895,23 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 0
+--- !u!114 &1541493634024174251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
 --- !u!114 &1544370169798272098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,7 +1927,19 @@ MonoBehaviour:
   Path: event:/Music/BattleMusic
   guid: 47bd077e13f21f4b95d4b464d29c93d9
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1884,6 +2076,23 @@ MonoBehaviour:
   Name: PitchShift
   Min: 0
   Max: 4
+  Default: 0
+  Exists: 1
+--- !u!114 &2369179087177353995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 1
 --- !u!114 &2520578882128484353
@@ -2080,7 +2289,19 @@ MonoBehaviour:
   Path: event:/Player/Weapons/Harpoon
   guid: 74d51914c4309440861bbaa81426bf4b
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2200,7 +2421,7 @@ MonoBehaviour:
   Path: event:/Ui/Upgrade
   guid: 8fb8abf68831964980b02fab6a2876a0
   Banks:
-  - {fileID: -5313803363698621417}
+  - {fileID: -4432859988459188907}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2223,7 +2444,19 @@ MonoBehaviour:
   Path: event:/Environment/Submarine Engine
   guid: 3c0ec8a725be5c4bbcc41a804e7bbcbd
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2360,13 +2593,40 @@ MonoBehaviour:
   Path: event:/Player/Movement/OverworldMovement
   guid: f77cb22f88b71f41a85a89a93d03c99b
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
+<<<<<<< HEAD
   - {fileID: 1986633463092449951}
   - {fileID: -2049920481369631909}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 3872918352868675503}
+  - {fileID: 7702947133506871140}
+=======
+  - {fileID: 1541493634024174251}
+  - {fileID: 9045535560188836956}
+>>>>>>> Stashed changes
+=======
+  - {fileID: 6456416336463407169}
+  - {fileID: 2369179087177353995}
+>>>>>>> Stashed changes
+>>>>>>> master
   MinDistance: 0
   MaxDistance: 0
   Length: 41960
@@ -2425,7 +2685,19 @@ MonoBehaviour:
   Path: event:/Enemies/MonsterSpawn
   guid: f57d33bbb018824aa8d7f437965a6aa5
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2448,7 +2720,19 @@ MonoBehaviour:
   Path: event:/Music/Overworld
   guid: 83dd80709b605544b9466c98e0d06d68
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -2528,7 +2812,19 @@ MonoBehaviour:
   Path: event:/Environment/WhirlPool
   guid: 5ba2bbc94d16354f9220233ffff3bab5
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2591,7 +2887,19 @@ MonoBehaviour:
   Path: event:/Enemies/BossJelly
   guid: e684313ad7988843aee7582dff81b19d
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2639,6 +2947,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2125
+--- !u!114 &6258330113730945930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Movement/Sonar
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Movement/Sonar
+  guid: 8fb8abf68831964980b02fab6a2876a0
+  Banks:
+  - {fileID: 6468295061505199182}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3187
 --- !u!114 &6263878144577632621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2736,6 +3067,40 @@ MonoBehaviour:
   MinDistance: 9.6
   MaxDistance: 65
   Length: 24000
+<<<<<<< Updated upstream
+--- !u!114 &6468295061505199182
+=======
+--- !u!114 &6456416336463407169
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< Updated upstream
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/sgreenland/Downloads/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637105392062869426
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 5670208
+=======
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/PitchShift
+  m_EditorClassIdentifier: 
+  Name: PitchShift
+  Min: 0
+  Max: 4
+  Default: 0
+>>>>>>> Stashed changes
+  Exists: 1
 --- !u!114 &6725804213554442846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2916,7 +3281,19 @@ MonoBehaviour:
   Path: event:/Player/Weapons/Torpedo
   guid: 6a5c59383f3a30408e71a16f4c67b0f6
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3110,7 +3487,19 @@ MonoBehaviour:
   Path: event:/Music/MenuMusic
   guid: b65a17580c97ec4ebd11f0f832a785e4
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -3195,6 +3584,26 @@ MonoBehaviour:
   MinDistance: 9.6
   MaxDistance: 65
   Length: 24000
+--- !u!114 &8445082841615022271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/sgreenland/Downloads/Tap-marine/DeepSeaclicker/Assets/Sound/FMOD/SeaClicker/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637105392062969267
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1730
+  Exists: 1
 --- !u!114 &8702176197390399781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3287,7 +3696,19 @@ MonoBehaviour:
   Path: event:/Ui/PlayButton
   guid: 41de3003ee18864aa1aa4c9cac2987da
   Banks:
+<<<<<<< HEAD
   - {fileID: -7882697757875438658}
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+  - {fileID: 7733833445982469814}
+=======
+  - {fileID: 6468295061505199182}
+>>>>>>> Stashed changes
+=======
+  - {fileID: -4432859988459188907}
+>>>>>>> Stashed changes
+>>>>>>> master
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3295,6 +3716,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 3187
+--- !u!114 &9045535560188836956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/OverworldMovement/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &9122203913400282448
 MonoBehaviour:
   m_ObjectHideFlags: 0
