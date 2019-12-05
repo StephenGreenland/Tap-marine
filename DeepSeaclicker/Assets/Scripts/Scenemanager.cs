@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Scenemanager : MonoBehaviour
 {
     FMOD.Studio.Bus MasterBus;
+    public ResetStats resetStats;
 
     public PlayerStats playerStats;
     // Start is called before the first frame update
@@ -18,8 +19,12 @@ public class Scenemanager : MonoBehaviour
     {
     
         SceneManager.LoadScene("Overworld");
-        MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
 
+        if (resetStats.paths == null)
+        {
+
+            resetStats.Reset();
+        }
     }
     public void Credits()
     {
