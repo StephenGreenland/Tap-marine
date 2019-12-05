@@ -9,7 +9,7 @@ public class skills : MonoBehaviour
     public float recoverytime = 25f;
     public float multiplyer = 1f;
     bool isSkillonActive = false;
-    public GoldDisplay goldscript;
+    private GoldDisplay goldscript;
     public PlayerStats yeet;
     public UnityEngine.UI.Text iteminfo;
     public string itemName;
@@ -31,33 +31,7 @@ public class skills : MonoBehaviour
         }
        
     }
-    public void GoldSkill()
-    {
-        //if (skillon == true & )
-        //{
-          //  isSkillonActive = true;
-            
-            //this.gameObject.SetActive(false); // change to button
-            
-            
-            //timeLeft -= Time.deltaTime;
-            //if (timeLeft < 0)
-            //{
-            //    skillon = false;
-            //}
-            //if (skillon == false)
-            //{
-            //    recoverytime -= Time.deltaTime;
-            //    if (recoverytime < 0)
-            //    {
-            //        skillon = true;
-            //    }
-
-           // }
-       // }
-
-        goldscript.GoldGain = Mathf.Round(goldscript.GoldGain) * multiplyer;
-    }
+   
 
     public void SetSkillonActive()
     {
