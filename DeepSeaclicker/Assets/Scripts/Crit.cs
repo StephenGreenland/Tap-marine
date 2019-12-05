@@ -24,6 +24,11 @@ public class Crit : MonoBehaviour
 
     public int ChoosePos()
     {
+        currentPlace++;
+        if (currentPlace > critPos.Length-1)
+        {
+            currentPlace = 0;
+        }
         return currentPlace;
         
     }
@@ -33,4 +38,5 @@ public class Crit : MonoBehaviour
         
         transform.position = new Vector3(monster.transform.position.x + critPos[NewPos].x,monster.transform.position.y +critPos[NewPos].y,-0.4f);
     }
+    
 }
