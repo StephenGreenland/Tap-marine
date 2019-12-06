@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6380665936790571998}
   - component: {fileID: 2853991596009106170}
   - component: {fileID: 3717884746811605064}
+  - component: {fileID: -8305103599011952435}
   m_Layer: 0
   m_Name: Final boss 1
   m_TagString: Enemy
@@ -138,6 +139,21 @@ MonoBehaviour:
   reward: 0
   health: {fileID: 2853991596009106170}
   sceneToLoad: 
+--- !u!114 &-8305103599011952435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6516567729075757940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 2853991596009106170}
+  clickManager: {fileID: 0}
+  rend: {fileID: 6516567729075757947}
 --- !u!1001 &9061365973391358475
 PrefabInstance:
   m_ObjectHideFlags: 0

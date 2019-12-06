@@ -446,6 +446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4175206779688240209}
   - component: {fileID: 4175206779688240208}
+  - component: {fileID: 6539253240349546306}
   m_Layer: 0
   m_Name: Main Cannon
   m_TagString: Untagged
@@ -517,3 +518,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6539253240349546306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4175206779688240210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2069de35206cb2843a65ad8dd588d6d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCannon: {fileID: 4175206779688240208}
+  clickManager: {fileID: 600068415579640571, guid: 246df0a0f66f8c9409c7f0ef4b1eb231,
+    type: 3}

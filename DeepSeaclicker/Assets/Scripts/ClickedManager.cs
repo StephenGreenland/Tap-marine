@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class ClickedManager : MonoBehaviour
 {
@@ -13,17 +14,23 @@ public class ClickedManager : MonoBehaviour
 
 	public event Action onCrit;
 
-    // Start is called before the first frame update
-    void Start()
+	public Renderer mainCannon;
+	public MainCannonTween mainCannonScript;
+
+	// Start is called before the first frame update
+	void Start()
     {
         damage = player.damage;
 
-    }
+		mainCannonScript = FindObjectOfType<MainCannonTween>();
+		mainCannon = mainCannonScript.GetComponent<Renderer>();
 
-    // Update is called once per frame
+	}
 
-    // Update is called once per frame
-    void Update()
+	// Update is called once per frame
+
+	// Update is called once per frame
+	void Update()
     {
 
         if (Input.GetMouseButtonDown(0))
@@ -31,11 +38,12 @@ public class ClickedManager : MonoBehaviour
             damage = player.damage;
             
             Vector3 mousePosWorld = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,10f));
-           
 
             RaycastHit2D hit = Physics2D.Raycast(mousePosWorld, Vector2.zero);
-           
-             if (hit.collider != null)
+
+			mainCannon.transform.DOPunchScale(new Vector3(0.1f, 0.1f, 0.1f), 0.1f, 10, 2f);
+
+			if (hit.collider != null)
               {
                   if (hit.collider.gameObject.GetComponent<Crit>())
                   {
