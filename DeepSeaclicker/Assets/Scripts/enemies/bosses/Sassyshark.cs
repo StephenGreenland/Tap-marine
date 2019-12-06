@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class Sassyshark : MonsterBase
 {
+    public MonsterManager fixenemy;
     FMOD.Studio.Bus MasterBus;
     public Health health;
     public string sceneToLoad;
+    public Scenemanager scenemanager;
+
     private void OnEnable()
     {
         health.OnChanged += OnHealthChanged;
@@ -25,10 +28,12 @@ public class Sassyshark : MonsterBase
 
         if (health.amount <= 0)
         {
-            OnLeave();
             Destroy(gameObject);
-            SceneManager.LoadScene(sceneToLoad);
+            OnLeave();
+            scenemanager.SaveGame();
+         
             MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            fixenemy.monsterLevel = 0;
         }
     }
 }
