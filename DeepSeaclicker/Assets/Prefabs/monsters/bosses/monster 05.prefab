@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6517415237714910531}
   - component: {fileID: 6517415237714910524}
   - component: {fileID: 719566336806912127}
+  - component: {fileID: 8712512695823603865}
   - component: {fileID: 637229097518673678}
   m_Layer: 0
   m_Name: monster 05
@@ -111,7 +112,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reward: 0
   health: {fileID: 0}
-  sceneToLoad: 
+--- !u!114 &8712512695823603865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6517415237714910526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 6517415237714910524}
+  clickManager: {fileID: 0}
+  rend: {fileID: 6517415237714910531}
 --- !u!61 &637229097518673678
 BoxCollider2D:
   m_ObjectHideFlags: 0
