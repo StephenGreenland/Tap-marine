@@ -132,6 +132,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: AutoCannon
       objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 1112257131}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: monsterManagerRef
+      value: 
+      objectReference: {fileID: 1623529229}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 296096179}
     - target: {fileID: 700036087459934851, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -237,21 +252,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: playerRef
-      value: 
-      objectReference: {fileID: 1112257131}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: monsterManagerRef
-      value: 
-      objectReference: {fileID: 1623529229}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: effect
-      value: 
-      objectReference: {fileID: 296096179}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec1951ae2b1b6dd46a46edd4c39df3a9, type: 3}
 --- !u!224 &282006071 stripped
@@ -1109,6 +1109,13 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2978188295264679384, guid: 34968437e398fce4faa3e5f0a9202090,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Cost:0
+
+        Damage:0'
+      objectReference: {fileID: 0}
     - target: {fileID: 2978188295731455967, guid: 34968437e398fce4faa3e5f0a9202090,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1118,13 +1125,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: upgradestats
-      objectReference: {fileID: 0}
-    - target: {fileID: 2978188295264679384, guid: 34968437e398fce4faa3e5f0a9202090,
-        type: 3}
-      propertyPath: m_Text
-      value: 'Cost:0
-
-        Damage:0'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34968437e398fce4faa3e5f0a9202090, type: 3}
@@ -2040,11 +2040,6 @@ PrefabInstance:
       propertyPath: Ggold
       value: 
       objectReference: {fileID: 1112257131}
-    - target: {fileID: 5630866784729450562, guid: 8768deb5379cecb41b04f34efa35203e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -17.800003
-      objectReference: {fileID: 0}
     - target: {fileID: 5630866784729450563, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_Text
@@ -2072,11 +2067,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Back
       objectReference: {fileID: 0}
-    - target: {fileID: 1720626850504061330, guid: 5bdd1f22b0f33784bae39d8e24f34b04,
-        type: 3}
-      propertyPath: playerStats
-      value: 
-      objectReference: {fileID: 1112257131}
     - target: {fileID: 1720626850504061331, guid: 5bdd1f22b0f33784bae39d8e24f34b04,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2182,6 +2172,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1720626850504061330, guid: 5bdd1f22b0f33784bae39d8e24f34b04,
+        type: 3}
+      propertyPath: playerStats
+      value: 
+      objectReference: {fileID: 1112257131}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bdd1f22b0f33784bae39d8e24f34b04, type: 3}
 --- !u!224 &2127802910 stripped

@@ -40,5 +40,9 @@ public class Scenemanager : MonoBehaviour
         playerStats.SaveStats();
         SceneManager.LoadScene("Overworld");
         MasterBus.stopAllEvents(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-    }  
+    }
+    public void MainMenuLoad()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }

@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1115,6 +1115,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: AutoCannon
       objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 1112257131}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: monsterManagerRef
+      value: 
+      objectReference: {fileID: 1623529229}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 619770863}
     - target: {fileID: 700036087459934851, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1220,21 +1235,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: playerRef
-      value: 
-      objectReference: {fileID: 1112257131}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: monsterManagerRef
-      value: 
-      objectReference: {fileID: 1623529229}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: effect
-      value: 
-      objectReference: {fileID: 619770863}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec1951ae2b1b6dd46a46edd4c39df3a9, type: 3}
 --- !u!224 &996904803 stripped
@@ -1449,11 +1449,6 @@ PrefabInstance:
       propertyPath: Ggold
       value: 
       objectReference: {fileID: 1112257131}
-    - target: {fileID: 5630866784729450562, guid: 8768deb5379cecb41b04f34efa35203e,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -17.800003
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8768deb5379cecb41b04f34efa35203e, type: 3}
 --- !u!224 &1218972835 stripped
