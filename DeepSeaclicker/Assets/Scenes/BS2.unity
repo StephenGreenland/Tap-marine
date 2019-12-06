@@ -295,6 +295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1112257131}
+  mainCannon: {fileID: 0}
+  mainCannonScript: {fileID: 0}
 --- !u!1 &367421487
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +825,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 749687871}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &749687873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 749687871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60e5eb85d457dd4aa430c1a59e5f4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &764939471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
@@ -1822,6 +1836,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1665521557}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1665521559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7976026710336973523, guid: a30558c563803cc43a0c95c72b4ef9fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1665521557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8615ddbdbe07947b38925b8d410311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1703090446
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,6 +2363,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannons (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4175206778153390895, guid: d99615eb7055cef4b99e74348ce16db9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2392,15 +2423,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4175206778151958618, guid: d99615eb7055cef4b99e74348ce16db9,
         type: 3}
       propertyPath: m_SortingOrder
       value: -2
       objectReference: {fileID: 0}
+    - target: {fileID: 4825875126007826370, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: cannonSkill
+      value: 
+      objectReference: {fileID: 749687873}
+    - target: {fileID: 1382810707335838132, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: harpoonSkill
+      value: 
+      objectReference: {fileID: 1665521559}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d99615eb7055cef4b99e74348ce16db9, type: 3}

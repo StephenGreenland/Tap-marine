@@ -289,6 +289,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1112257131}
+  mainCannon: {fileID: 0}
+  mainCannonScript: {fileID: 0}
 --- !u!1 &367421487
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +769,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4825875126007826370, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: cannonSkill
+      value: 
+      objectReference: {fileID: 996904804}
+    - target: {fileID: 1382810707335838132, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: harpoonSkill
+      value: 
+      objectReference: {fileID: 1951443906}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d99615eb7055cef4b99e74348ce16db9, type: 3}
 --- !u!1 &619770862 stripped
@@ -1231,6 +1243,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 996904802}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &996904804 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 996904802}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60e5eb85d457dd4aa430c1a59e5f4d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1112257130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,12 +1397,12 @@ PrefabInstance:
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -425
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 305
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
@@ -1393,38 +1417,43 @@ PrefabInstance:
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134235, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5630866784701134232, guid: 8768deb5379cecb41b04f34efa35203e,
         type: 3}
       propertyPath: Ggold
       value: 
       objectReference: {fileID: 1112257131}
+    - target: {fileID: 5630866784729450562, guid: 8768deb5379cecb41b04f34efa35203e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17.800003
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8768deb5379cecb41b04f34efa35203e, type: 3}
 --- !u!224 &1218972835 stripped
@@ -2126,6 +2155,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1951443904}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1951443906 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7976026710336973523, guid: a30558c563803cc43a0c95c72b4ef9fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1951443904}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8615ddbdbe07947b38925b8d410311, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1957721111
 GameObject:
   m_ObjectHideFlags: 0

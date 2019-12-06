@@ -27,8 +27,8 @@ public class skills : MonoBehaviour
     void Update()
     {
         iteminfo.text = itemName + "\nCost: " + yeet.cost + "\nDamage: " + (yeet.damage * -1);
-        skill1damage.text = "\nDamage: " + yeet.damage * -5 ;
-        skill1damage2.text = "\nDamage: " + yeet.damage * -3;
+        //skill1damage.text = "\nDamage: " + yeet.damage * -5 ;
+        //skill1damage2.text = "\nDamage: " + yeet.damage * -3;
         if (Input.GetKey(KeyCode.Space))
         {
             SetSkillonActive();
