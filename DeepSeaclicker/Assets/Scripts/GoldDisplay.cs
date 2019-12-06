@@ -27,7 +27,7 @@ public class GoldDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        goldDisplay.text = "Gold:" + Ggold.goldAmount;
+        goldDisplay.text = "$" + Ggold.goldAmount;
         //GoldGain = Mathf.RoundToInt(MonsterManager.monsterLevel + Mathf.Round(GoldGain * 1.1f));
        // GoldGain = Mathf.Round((monstermanager.monsterLevel + (2f)) * 1.8f);
 

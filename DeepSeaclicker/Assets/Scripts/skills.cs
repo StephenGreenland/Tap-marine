@@ -12,7 +12,10 @@ public class skills : MonoBehaviour
     private GoldDisplay goldscript;
     public PlayerStats yeet;
     public UnityEngine.UI.Text iteminfo;
+    public UnityEngine.UI.Text skill1damage;
+    public UnityEngine.UI.Text skill1damage2;
     public string itemName;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +26,9 @@ public class skills : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        iteminfo.text = itemName + "\nCost: " + yeet.cost + "\nPower: " + (yeet.damage * -1);
-
+        iteminfo.text = itemName + "\nCost: " + yeet.cost + "\nDamage: " + (yeet.damage * -1);
+        skill1damage.text = "\nDamage: " + yeet.damage * -5 ;
+        skill1damage2.text = "\nDamage: " + yeet.damage * -3;
         if (Input.GetKey(KeyCode.Space))
         {
             SetSkillonActive();
