@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 518993536254734738}
   - component: {fileID: 518993536254734737}
   - component: {fileID: 8533035240896510867}
+  - component: {fileID: 1480685420869062994}
   m_Layer: 0
   m_Name: monster 01
   m_TagString: Untagged
@@ -110,8 +111,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reward: 2000
+  fixenemy: {fileID: 0}
   health: {fileID: 0}
   sceneToLoad: 
+  scenemanager: {fileID: 0}
 --- !u!61 &8533035240896510867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -138,6 +141,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.88364, y: 12.273628}
   m_EdgeRadius: 0
+--- !u!114 &1480685420869062994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518993536254734740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 518993536254734738}
+  clickManager: {fileID: 0}
+  rend: {fileID: 518993536254734739}
 --- !u!1001 &5654512473321548449
 PrefabInstance:
   m_ObjectHideFlags: 0

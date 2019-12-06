@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2330714091901118108}
   - component: {fileID: 2330714091901118109}
   - component: {fileID: 239502723706806799}
+  - component: {fileID: 4236814179370092818}
   m_Layer: 0
   m_Name: LochNessMON4
   m_TagString: Untagged
@@ -126,8 +127,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reward: 0
+  fixenemy: {fileID: 0}
   health: {fileID: 2330714091901118108}
   sceneToLoad: 
+  scenemanager: {fileID: 0}
+--- !u!114 &4236814179370092818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2330714091901118082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6abf3dcb82f63347893702b53a0ed0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 2330714091901118108}
+  clickManager: {fileID: 0}
+  rend: {fileID: 2330714091901118111}
 --- !u!1001 &4634215838924509616
 PrefabInstance:
   m_ObjectHideFlags: 0
