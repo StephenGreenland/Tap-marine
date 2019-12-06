@@ -44,3 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  mainCannon: {fileID: 0}
+  mainCannonScript: {fileID: 6507776996215817275, guid: d99615eb7055cef4b99e74348ce16db9,
+    type: 3}
