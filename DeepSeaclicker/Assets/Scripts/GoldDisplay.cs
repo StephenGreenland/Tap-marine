@@ -8,16 +8,8 @@ public class GoldDisplay : MonoBehaviour
 {
     public UnityEngine.UI.Text goldDisplay;
     public float GoldGain;
-    public GameObject effectPos;
-    public ParticleSystem goldParticle;
     public PlayerStats Ggold;
-    public MonsterManager monstermanager;
-  
 
-
-    // private bool leavechanger;
-
-    // Start is called before the first frame update
     void Start()
     { 
         GoldGain = 1; //yay = GetComponent<MonsterManager>();
@@ -37,7 +29,7 @@ public class GoldDisplay : MonoBehaviour
 
     public void GG(MonsterBase m)
     {
-       // Gold += GoldGain;
+       //Gold += GoldGain;
         //Instantiate(goldParticle, effectPos.transform.position, Quaternion.identity);
         
     }

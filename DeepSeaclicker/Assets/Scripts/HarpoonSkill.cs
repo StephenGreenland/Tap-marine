@@ -14,14 +14,10 @@ public class HarpoonSkill : MonoBehaviour
     public float cooldownTime;
     public bool coolingDown = true;
 
-    private Color initColor;
-
-    
     public event Action OnActivate;
     
     public void Awake()
     {
-        initColor = this.GetComponent<Image>().color;
         monsterManagerRef.OnNew += MonsterIdentity;
         currentMonster = monsterManagerRef.currentMonster;
         
@@ -83,13 +79,13 @@ public class HarpoonSkill : MonoBehaviour
         {
          
             coolingDown = true;
-            this.GetComponent<Image>().color = Color.gray;
+            this.GetComponent<Image>().color = Color.red;
             harpoon.SetActive(false);
         }
         if (cooldownTime <= 0)
         {
             coolingDown = false;
-            this.GetComponent<Image>().color = initColor;
+            this.GetComponent<Image>().color = Color.white;
             harpoon.SetActive(true);
         }
     }

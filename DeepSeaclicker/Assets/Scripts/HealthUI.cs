@@ -20,7 +20,7 @@ public class HealthUI : MonoBehaviour
         if (enemyRef != null)
         {
             amountRef = enemyRef.GetComponent<Health>().amount;
-            textRef.text = "Health: " + amountRef;
+            textRef.text = "Monster HP: " + amountRef;
 
         }
     }

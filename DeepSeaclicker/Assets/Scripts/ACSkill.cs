@@ -13,9 +13,6 @@ public class ACSkill : SkillBase
     public GameObject effect;
     public MonsterBase Boss;
 
-    
-    private Color initColor;
-
     public float cooldownTime;
     public bool coolingDown = false;
 
@@ -23,7 +20,6 @@ public class ACSkill : SkillBase
 
     public void Awake()
     {
-        initColor = this.GetComponent<Image>().color;
         monsterManagerRef.OnNew += MonsterIdentity;
         currentMonster = monsterManagerRef.currentMonster;
     }
@@ -92,12 +88,12 @@ public class ACSkill : SkillBase
         if (cooldownTime >= 0)
         {
             coolingDown = true;
-            this.GetComponent<Image>().color = Color.gray;
+            this.GetComponent<Image>().color = Color.red;
         }
         if (cooldownTime <= 0)
         {
             coolingDown = false;
-            this.GetComponent<Image>().color = initColor;
+            this.GetComponent<Image>().color = Color.white;
         }
     }
 

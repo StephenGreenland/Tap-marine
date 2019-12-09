@@ -48,6 +48,8 @@ MonoBehaviour:
   damage: -2
   cost: 10
   goldMuiltiplayer: 0
+  goldEffect: {fileID: 8905562313943260160, guid: 0c2961a06ec6d064abffbce55c389830,
+    type: 3}
   monsterManger: {fileID: 0}
 --- !u!114 &1059983425494501109
 MonoBehaviour:
@@ -61,11 +63,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8c762eacf72396499444b9ec5a1f1de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillon: 0
-  timeLeft: 15
-  recoverytime: 25
-  multiplyer: 1
-  goldscript: {fileID: 0}
   yeet: {fileID: 1059983425494501107}
   iteminfo: {fileID: 0}
-  itemName: 
+  harpoon: {fileID: 0}
+  autoCannon: {fileID: 0}
+  currentDMG: {fileID: 0}
