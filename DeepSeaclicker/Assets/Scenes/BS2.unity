@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -588,11 +588,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 8843367941722630535, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
-        type: 3}
-      propertyPath: m_Name
-      value: Monster HP UI
-      objectReference: {fileID: 0}
     - target: {fileID: 8843367941722630528, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -698,6 +693,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8843367941722630535, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
+        type: 3}
+      propertyPath: m_Name
+      value: Monster HP UI
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5abe1ccd45d7e2e489cc9d5f773c9708, type: 3}
 --- !u!1001 &694279886
@@ -707,11 +707,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 4134443830910637766, guid: 9e647ca4401f5d845ab28b5504bd1c32,
-        type: 3}
-      propertyPath: m_Name
-      value: Upgrade
-      objectReference: {fileID: 0}
     - target: {fileID: 4134443830910637761, guid: 9e647ca4401f5d845ab28b5504bd1c32,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -817,6 +812,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4134443830910637766, guid: 9e647ca4401f5d845ab28b5504bd1c32,
+        type: 3}
+      propertyPath: m_Name
+      value: Upgrade
+      objectReference: {fileID: 0}
     - target: {fileID: 4134443830910637763, guid: 9e647ca4401f5d845ab28b5504bd1c32,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -874,7 +874,7 @@ Camera:
   m_GameObject: {fileID: 731600646}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0, g: 0.52470756, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -930,26 +930,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 700036087459934850, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: m_Name
-      value: AutoCannon
-      objectReference: {fileID: 0}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: playerRef
-      value: 
-      objectReference: {fileID: 1112257131}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: monsterManagerRef
-      value: 
-      objectReference: {fileID: 1623529229}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: effect
-      value: 
-      objectReference: {fileID: 622472288}
     - target: {fileID: 700036087459934851, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1055,6 +1035,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934850, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: m_Name
+      value: AutoCannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 1112257131}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: monsterManagerRef
+      value: 
+      objectReference: {fileID: 1623529229}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 622472288}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec1951ae2b1b6dd46a46edd4c39df3a9, type: 3}
 --- !u!224 &749687872 stripped
@@ -1908,11 +1908,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 7976026710336973526, guid: a30558c563803cc43a0c95c72b4ef9fd,
-        type: 3}
-      propertyPath: m_Name
-      value: HArpoon
-      objectReference: {fileID: 0}
     - target: {fileID: 7976026710336973527, guid: a30558c563803cc43a0c95c72b4ef9fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2017,6 +2012,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976026710336973526, guid: a30558c563803cc43a0c95c72b4ef9fd,
+        type: 3}
+      propertyPath: m_Name
+      value: HArpoon
       objectReference: {fileID: 0}
     - target: {fileID: 7976026710336973523, guid: a30558c563803cc43a0c95c72b4ef9fd,
         type: 3}
