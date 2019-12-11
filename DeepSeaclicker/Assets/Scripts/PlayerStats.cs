@@ -70,7 +70,10 @@ public class PlayerStats : MonoBehaviour
             _newCost = Mathf.Pow(cost, _newCost = cost);
            // Debug.Log(damage);
         }
-   
+        else
+        {
+            FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Ui/NoMoney", gameObject);
+        }
     }
 
     private float CalcGold(float reward)
