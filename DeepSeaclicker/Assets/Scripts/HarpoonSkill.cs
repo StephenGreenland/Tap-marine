@@ -79,13 +79,13 @@ public class HarpoonSkill : MonoBehaviour
         {
          
             coolingDown = true;
-            this.GetComponent<Image>().color = Color.red;
+            // this.GetComponent<Image>().color = Color.red;
             harpoon.SetActive(false);
         }
         if (cooldownTime <= 0)
         {
             coolingDown = false;
-            this.GetComponent<Image>().color = Color.white;
+            // this.GetComponent<Image>().color = Color.white;
             harpoon.SetActive(true);
         }
     }
