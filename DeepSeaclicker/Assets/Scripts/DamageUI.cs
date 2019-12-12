@@ -20,7 +20,7 @@ public class DamageUI : MonoBehaviour
     void Update()
     {
         currentDMG.text = "Current DMG: " + (yeet.damage *-1);
-        upgradeText.text = "Cost: " + yeet.cost + "\nDMG: " + (Mathf.Round(yeet.damage * -1.19f));
+        upgradeText.text = "Cost: " + yeet.cost + "\nDMG: " + (Mathf.Round(yeet.damage * 1.19f * (-1)));
         harpoon.text = "DMG: " + yeet.damage * -5;
         autoCannon.text = "DMG: " + yeet.damage * -4 + " x 3";
         //if (Input.GetKey(KeyCode.Space))

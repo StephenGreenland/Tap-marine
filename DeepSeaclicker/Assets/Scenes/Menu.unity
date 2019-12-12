@@ -179,7 +179,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: -1990477728515857297, guid: 5244ff72df1ae314ba904c66a1b5224f,
     type: 3}
-  m_Type: 1
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorInitial: {r: 0, g: 1, b: 0.9139128, a: 1}
   color2: {r: 1, g: 0, b: 0.870769, a: 1}
-  spriteRef: {fileID: 794787464}
+  textRef: {fileID: 0}
   timeBet: 0.5
 --- !u!114 &794787464
 MonoBehaviour:
