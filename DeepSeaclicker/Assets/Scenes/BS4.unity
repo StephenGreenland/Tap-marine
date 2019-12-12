@@ -244,6 +244,18 @@ PrefabInstance:
       objectReference: {fileID: 1112257131}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9abfc55240ffb4f8949e4317520ed7, type: 3}
+--- !u!114 &97099967 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8568319737938875188, guid: de9abfc55240ffb4f8949e4317520ed7,
+    type: 3}
+  m_PrefabInstance: {fileID: 97099966}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff759dc7b2a4e3f49ba521d76077741c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &104345468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -251,11 +263,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 4134443830910637766, guid: 9e647ca4401f5d845ab28b5504bd1c32,
-        type: 3}
-      propertyPath: m_Name
-      value: Upgrade
-      objectReference: {fileID: 0}
     - target: {fileID: 4134443830910637761, guid: 9e647ca4401f5d845ab28b5504bd1c32,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -361,6 +368,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4134443830910637766, guid: 9e647ca4401f5d845ab28b5504bd1c32,
+        type: 3}
+      propertyPath: m_Name
+      value: Upgrade
+      objectReference: {fileID: 0}
     - target: {fileID: 4134443830910637763, guid: 9e647ca4401f5d845ab28b5504bd1c32,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -386,11 +398,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 8843367941722630535, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
-        type: 3}
-      propertyPath: m_Name
-      value: Monster HP UI
-      objectReference: {fileID: 0}
     - target: {fileID: 8843367941722630528, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -495,6 +502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843367941722630535, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
+        type: 3}
+      propertyPath: m_Name
+      value: Monster HP UI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5abe1ccd45d7e2e489cc9d5f773c9708, type: 3}
@@ -1512,7 +1524,7 @@ PrefabInstance:
         type: 3}
       propertyPath: scenemanager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 97099967}
     - target: {fileID: 239502723706806799, guid: 538096edb20aedc42a2ebdc69c7ddc5d,
         type: 3}
       propertyPath: fixenemy
@@ -1574,7 +1586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MonsterManager: {fileID: 1623529229}
-  clickedManager: {fileID: 0}
+  clickedManager: {fileID: 292402012}
 --- !u!4 &1365209664
 Transform:
   m_ObjectHideFlags: 0
@@ -2183,26 +2195,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 700036087459934850, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: m_Name
-      value: AutoCannon
-      objectReference: {fileID: 0}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: playerRef
-      value: 
-      objectReference: {fileID: 1112257131}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: monsterManagerRef
-      value: 
-      objectReference: {fileID: 1623529229}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: effect
-      value: 
-      objectReference: {fileID: 1489483993}
     - target: {fileID: 700036087459934851, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2308,6 +2300,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934850, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: m_Name
+      value: AutoCannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 1112257131}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: monsterManagerRef
+      value: 
+      objectReference: {fileID: 1623529229}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 1489483993}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec1951ae2b1b6dd46a46edd4c39df3a9, type: 3}
 --- !u!114 &700036087123986545 stripped
@@ -2329,11 +2341,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 7976026710336973526, guid: a30558c563803cc43a0c95c72b4ef9fd,
-        type: 3}
-      propertyPath: m_Name
-      value: HArpoon
-      objectReference: {fileID: 0}
     - target: {fileID: 7976026710336973527, guid: a30558c563803cc43a0c95c72b4ef9fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2438,6 +2445,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976026710336973526, guid: a30558c563803cc43a0c95c72b4ef9fd,
+        type: 3}
+      propertyPath: m_Name
+      value: HArpoon
       objectReference: {fileID: 0}
     - target: {fileID: 7976026710336973523, guid: a30558c563803cc43a0c95c72b4ef9fd,
         type: 3}

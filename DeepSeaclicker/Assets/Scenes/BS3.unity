@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -246,26 +246,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 700036087459934850, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: m_Name
-      value: AutoCannon
-      objectReference: {fileID: 0}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: playerRef
-      value: 
-      objectReference: {fileID: 1112257131}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: monsterManagerRef
-      value: 
-      objectReference: {fileID: 1623529229}
-    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
-        type: 3}
-      propertyPath: effect
-      value: 
-      objectReference: {fileID: 296096179}
     - target: {fileID: 700036087459934851, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -371,6 +351,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934850, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: m_Name
+      value: AutoCannon
+      objectReference: {fileID: 0}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: playerRef
+      value: 
+      objectReference: {fileID: 1112257131}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: monsterManagerRef
+      value: 
+      objectReference: {fileID: 1623529229}
+    - target: {fileID: 700036087459934852, guid: ec1951ae2b1b6dd46a46edd4c39df3a9,
+        type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 296096179}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec1951ae2b1b6dd46a46edd4c39df3a9, type: 3}
 --- !u!224 &282006071 stripped
@@ -821,11 +821,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 7976026710336973526, guid: a30558c563803cc43a0c95c72b4ef9fd,
-        type: 3}
-      propertyPath: m_Name
-      value: HArpoon
-      objectReference: {fileID: 0}
     - target: {fileID: 7976026710336973527, guid: a30558c563803cc43a0c95c72b4ef9fd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -930,6 +925,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7976026710336973526, guid: a30558c563803cc43a0c95c72b4ef9fd,
+        type: 3}
+      propertyPath: m_Name
+      value: HArpoon
       objectReference: {fileID: 0}
     - target: {fileID: 7976026710336973523, guid: a30558c563803cc43a0c95c72b4ef9fd,
         type: 3}
@@ -1174,6 +1174,18 @@ PrefabInstance:
       objectReference: {fileID: 1112257131}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9abfc55240ffb4f8949e4317520ed7, type: 3}
+--- !u!114 &764130459 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8568319737938875188, guid: de9abfc55240ffb4f8949e4317520ed7,
+    type: 3}
+  m_PrefabInstance: {fileID: 764130458}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff759dc7b2a4e3f49ba521d76077741c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &802609012 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8568319737938875189, guid: de9abfc55240ffb4f8949e4317520ed7,
@@ -1399,10 +1411,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reward: 0
-  fixenemy: {fileID: 0}
+  fixenemy: {fileID: 1623529229}
   health: {fileID: 1072520002}
   sceneToLoad: Overworld
-  scenemanager: {fileID: 0}
+  scenemanager: {fileID: 764130459}
 --- !u!114 &1072520002 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8452950276781073970, guid: 061d130e2c67b6d4fa0492165dff2466,
@@ -1490,11 +1502,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 4134443830910637766, guid: 9e647ca4401f5d845ab28b5504bd1c32,
-        type: 3}
-      propertyPath: m_Name
-      value: Upgrade
-      objectReference: {fileID: 0}
     - target: {fileID: 4134443830910637761, guid: 9e647ca4401f5d845ab28b5504bd1c32,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1599,6 +1606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134443830910637766, guid: 9e647ca4401f5d845ab28b5504bd1c32,
+        type: 3}
+      propertyPath: m_Name
+      value: Upgrade
       objectReference: {fileID: 0}
     - target: {fileID: 4134443830910637763, guid: 9e647ca4401f5d845ab28b5504bd1c32,
         type: 3}
@@ -2163,11 +2175,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1557142203}
     m_Modifications:
-    - target: {fileID: 8843367941722630535, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
-        type: 3}
-      propertyPath: m_Name
-      value: Monster HP UI
-      objectReference: {fileID: 0}
     - target: {fileID: 8843367941722630528, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2272,6 +2279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8843367941722630535, guid: 5abe1ccd45d7e2e489cc9d5f773c9708,
+        type: 3}
+      propertyPath: m_Name
+      value: Monster HP UI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5abe1ccd45d7e2e489cc9d5f773c9708, type: 3}
