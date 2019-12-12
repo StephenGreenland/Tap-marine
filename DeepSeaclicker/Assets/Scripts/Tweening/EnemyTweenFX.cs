@@ -28,7 +28,7 @@ public class EnemyTweenFX : MonoBehaviour
 
 	private void OnHealthChanged(float amount)
 	{
-		transform.DOPunchScale(new Vector3 (0.05f * (amount / 3f),0.05f* (amount / 3f),0.05f* (amount / 3f)), 0.1f, 10, 2f);
+		transform.DOPunchScale(new Vector3 (0.05f,0.05f,0.05f), 0.1f, 10, 2f);
 	}
 
 	public void OnCritical()
