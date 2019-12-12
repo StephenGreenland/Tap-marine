@@ -40,8 +40,8 @@ public class ACSkill : SkillBase
                     for (int i = 0; i < 3; i++)
                     {
                         effect.SetActive(true);
-                        currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
                         yield return new WaitForSeconds(0.2f);
+                        currentMonster.GetComponent<Health>().Change(playerRef.damage * 4);
                         effect.SetActive(false);
                         RuntimeManager.PlayOneShotAttached("event:/Player/Weapons/Torpedo", gameObject);
 
@@ -88,12 +88,12 @@ public class ACSkill : SkillBase
         if (cooldownTime >= 0)
         {
             coolingDown = true;
-            this.GetComponent<Image>().color = Color.red;
+            // this.GetComponent<Image>().color = Color.red;
         }
         if (cooldownTime <= 0)
         {
             coolingDown = false;
-            this.GetComponent<Image>().color = Color.white;
+            // this.GetComponent<Image>().color = Color.white;
         }
     }
 

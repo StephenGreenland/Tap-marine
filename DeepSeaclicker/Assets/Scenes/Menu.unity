@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -50,7 +50,7 @@ LightmapSettings:
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
-    m_EnvironmentLightingMode: 0
+    m_EnvironmentLightingMode: 1
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
@@ -864,7 +864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorInitial: {r: 0, g: 1, b: 0.9139128, a: 1}
   color2: {r: 1, g: 0, b: 0.870769, a: 1}
-  spriteRef: {fileID: 794787464}
+  textRef: {fileID: 0}
   timeBet: 0.5
 --- !u!114 &794787464
 MonoBehaviour:
