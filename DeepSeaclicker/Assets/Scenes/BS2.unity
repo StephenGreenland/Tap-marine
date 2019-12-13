@@ -1485,6 +1485,18 @@ PrefabInstance:
       objectReference: {fileID: 1112257131}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9abfc55240ffb4f8949e4317520ed7, type: 3}
+--- !u!114 &1408772060 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8568319737938875188, guid: de9abfc55240ffb4f8949e4317520ed7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1408772059}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff759dc7b2a4e3f49ba521d76077741c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1551428407
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,7 +2161,12 @@ PrefabInstance:
         type: 3}
       propertyPath: scenemanager
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1408772060}
+    - target: {fileID: 518993536254734737, guid: 688a4f761de30cc4885f2ab94fc83932,
+        type: 3}
+      propertyPath: fixenemy
+      value: 
+      objectReference: {fileID: 1623529229}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 688a4f761de30cc4885f2ab94fc83932, type: 3}
 --- !u!1 &1874177838 stripped
@@ -2327,11 +2344,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cannons (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4175206778153390895, guid: d99615eb7055cef4b99e74348ce16db9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2397,6 +2409,11 @@ PrefabInstance:
       propertyPath: harpoonSkill
       value: 
       objectReference: {fileID: 1665521559}
+    - target: {fileID: 4175206778151958620, guid: d99615eb7055cef4b99e74348ce16db9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4175206778151958618, guid: d99615eb7055cef4b99e74348ce16db9,
         type: 3}
       propertyPath: m_SortingOrder
